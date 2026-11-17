@@ -1,0 +1,238 @@
+{
+  "environment": {
+    "python": "3.14.7",
+    "torch": "2.15.0+cpu",
+    "opencv": "5.0.0",
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "threads": 4
+  },
+  "repeats": 1,
+  "timing_scope": "warm recognize only, no load/I/O/render",
+  "splits": {
+    "valid/gray_scaled": {
+      "images": 10,
+      "runs": 10,
+      "mean_ms": 72.29799000779167,
+      "median_ms": 54.3741500005126,
+      "p95_ms": 161.04993497719977,
+      "exact_accuracy": 0.9,
+      "cer": 0.03614457831325301,
+      "predictions": [
+        {
+          "file": "data\\valid\\gray_scaled\\b666yt05.jpg",
+          "expected": "B666YT05",
+          "text": "B666YT05",
+          "correct": true
+        },
+        {
+          "file": "data\\valid\\gray_scaled\\e830ot98.jpg",
+          "expected": "E830OT98",
+          "text": "E830OT98",
+          "correct": true
+        },
+        {
+          "file": "data\\valid\\gray_scaled\\e888ba82.jpg",
+          "expected": "E888BA82",
+          "text": "E888BA82",
+          "correct": true
+        },
+        {
+          "file": "data\\valid\\gray_scaled\\h004bp777.jpg",
+          "expected": "H004BP777",
+          "text": "H004BP777",
+          "correct": true
+        },
+        {
+          "file": "data\\valid\\gray_scaled\\k050oe163.jpg",
+          "expected": "K050OE163",
+          "text": "K050OE163",
+          "correct": true
+        },
+        {
+          "file": "data\\valid\\gray_scaled\\k750mt177.jpg",
+          "expected": "K750MT177",
+          "text": "O760OT177",
+          "correct": false
+        },
+        {
+          "file": "data\\valid\\gray_scaled\\m666mm90.jpg",
+          "expected": "M666MM90",
+          "text": "M666MM90",
+          "correct": true
+        },
+        {
+          "file": "data\\valid\\gray_scaled\\m999mm05.jpg",
+          "expected": "M999MM05",
+          "text": "M999MM05",
+          "correct": true
+        },
+        {
+          "file": "data\\valid\\gray_scaled\\o888op64.jpg",
+          "expected": "O888OP64",
+          "text": "O888OP64",
+          "correct": true
+        },
+        {
+          "file": "data\\valid\\gray_scaled\\y777mp77.jpg",
+          "expected": "Y777MP77",
+          "text": "Y777MP77",
+          "correct": true
+        }
+      ]
+    },
+    "test/gray_scaled": {
+      "images": 10,
+      "runs": 10,
+      "mean_ms": 66.51063999161124,
+      "median_ms": 59.36950002796948,
+      "p95_ms": 98.7754799542017,
+      "exact_accuracy": 1.0,
+      "cer": 0.0,
+      "predictions": [
+        {
+          "file": "data\\test\\gray_scaled\\a350aa150.jpg",
+          "expected": "A350AA150",
+          "text": "A350AA150",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\gray_scaled\\b555kp196.jpg",
+          "expected": "B555KP196",
+          "text": "B555KP196",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\gray_scaled\\b777op77.jpg",
+          "expected": "B777OP77",
+          "text": "B777OP77",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\gray_scaled\\b777ta34.jpg",
+          "expected": "B777TA34",
+          "text": "B777TA34",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\gray_scaled\\c666cc61.jpg",
+          "expected": "C666CC61",
+          "text": "C666CC61",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\gray_scaled\\e111oh198.jpg",
+          "expected": "E111OH198",
+          "text": "E111OH198",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\gray_scaled\\e777kx64.jpg",
+          "expected": "E777KX64",
+          "text": "E777KX64",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\gray_scaled\\m007ok163.jpg",
+          "expected": "M007OK163",
+          "text": "M007OK163",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\gray_scaled\\p054at70.jpg",
+          "expected": "P054AT70",
+          "text": "P054AT70",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\gray_scaled\\p777ca02.jpg",
+          "expected": "P777CA02",
+          "text": "P777CA02",
+          "correct": true
+        }
+      ]
+    },
+    "test/colored": {
+      "images": 10,
+      "runs": 10,
+      "mean_ms": 79.19059002306312,
+      "median_ms": 71.89420005306602,
+      "p95_ms": 126.07867501792494,
+      "exact_accuracy": 1.0,
+      "cer": 0.0,
+      "predictions": [
+        {
+          "file": "data\\test\\colored\\a350aa150.jpg",
+          "expected": "A350AA150",
+          "text": "A350AA150",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\colored\\b555kp196.jpg",
+          "expected": "B555KP196",
+          "text": "B555KP196",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\colored\\b777op77.jpg",
+          "expected": "B777OP77",
+          "text": "B777OP77",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\colored\\b777ta34.jpg",
+          "expected": "B777TA34",
+          "text": "B777TA34",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\colored\\c666cc61.jpg",
+          "expected": "C666CC61",
+          "text": "C666CC61",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\colored\\e111oh198.jpg",
+          "expected": "E111OH198",
+          "text": "E111OH198",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\colored\\e777kx64.jpg",
+          "expected": "E777KX64",
+          "text": "E777KX64",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\colored\\m007ok163.jpg",
+          "expected": "M007OK163",
+          "text": "M007OK163",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\colored\\p054at70.jpg",
+          "expected": "P054AT70",
+          "text": "P054AT70",
+          "correct": true
+        },
+        {
+          "file": "data\\test\\colored\\p777ca02.jpg",
+          "expected": "P777CA02",
+          "text": "P777CA02",
+          "correct": true
+        }
+      ]
+    }
+  },
+  "model_sha256": {
+    "detector.pt": "85336d8ac54f4411ee708cf42692f1e1558852386de3c690a9349867b2989f2b",
+    "sequence.pt": "e1adfb2027ef6787773c14edd7b08b23d076a888ccd54ea6dd4c384136e101e9",
+    "characters.pt": "17407401d4b1ce1e0480d9d9dc756d59baaca2e0d6c46e79584f9427789e405f",
+    "characters_aux.pt": "2d0637297126a3c5b6fa727c711e7dfb669d8365b6569110d24e8a7b8b3884a0",
+    "sequence_aux.pt": "ee09205d916802db8b2e9027555d9f9f7ee851e74bd7efa8cd18299ac6556f08",
+    "pipeline.json": "03f80b87bfea966b3fb9fbbb6a6612142a0cd0524c4c79b8989996bc150e1d93"
+  },
+  "source_sha256": {
+    "plates.py": "d1664d5adc89f7cdb97c4232a01e753de60fc5cea00e37c6bad4c1cc6a899047",
+    "characters.py": "d384c8ad60c829b33a38d6746c618ef6d24f5fd3d0641e11834716c70ff140b5"
+  }
+}

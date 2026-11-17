@@ -1,0 +1,1950 @@
+{
+  "created_at_utc": "2026-11-17T11:44:27.691952+00:00",
+  "sources": {
+    "scenes": {
+      "repo": "AY000554/Car_plate_detecting_dataset",
+      "revision": "f1a57c262cad86e3541bc0a3d951fc021527743c",
+      "url": "https://huggingface.co/datasets/AY000554/Car_plate_detecting_dataset",
+      "archive_bytes": 566170665
+    },
+    "ocr": {
+      "repo": "adasdaadadad/Car_plate_OCR_dataset",
+      "revision": "d620cadf26ec824194c3aeeb7a94bef42101d8e0",
+      "url": "https://huggingface.co/datasets/adasdaadadad/Car_plate_OCR_dataset",
+      "archive_bytes": 72436786
+    }
+  },
+  "items": [
+    {
+      "id": "ocr_001",
+      "file": "artifacts\\independent_test\\ocr\\images\\001.png",
+      "source_entry": "test/img/T493EY31.png",
+      "sha256": "4fc68deaf181786c3b8b8c1ecccdcea9c458b5324c49ea065c556f87545e15dd",
+      "width": 110,
+      "height": 24,
+      "expected": "T493EY31",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_002",
+      "file": "artifacts\\independent_test\\ocr\\images\\002.png",
+      "source_entry": "test/img/H120HH39.png",
+      "sha256": "4fdcfdb98c744acb82f159760150e51436435e4a2eaeae945c5c75681aea33c6",
+      "width": 134,
+      "height": 29,
+      "expected": "H120HH39",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_003",
+      "file": "artifacts\\independent_test\\ocr\\images\\003.png",
+      "source_entry": "test/img/P666PO98.png",
+      "sha256": "c78312e33177ba0cd9adaa5bfac258472548669ba5d6d1c04bd8f89ead2ca815",
+      "width": 143,
+      "height": 31,
+      "expected": "P666PO98",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_004",
+      "file": "artifacts\\independent_test\\ocr\\images\\004.png",
+      "source_entry": "test/img/O616OO62.png",
+      "sha256": "f3a67b3f1360162b8bc2ce466c310459deb27b9a54b5e3011bbf8e7270b05d7c",
+      "width": 200,
+      "height": 43,
+      "expected": "O616OO62",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_005",
+      "file": "artifacts\\independent_test\\ocr\\images\\005.png",
+      "source_entry": "test/img/A305BX122.png",
+      "sha256": "d8e5e653d74da00e340e377b48f1a913b3f1e8c43ad344d4f85e90db872dc20b",
+      "width": 401,
+      "height": 87,
+      "expected": "A305BX122",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_006",
+      "file": "artifacts\\independent_test\\ocr\\images\\006.png",
+      "source_entry": "test/img/H555OX54.png",
+      "sha256": "e5c4cfffb1c4a05d7b06c2b7c4dd6cecbdd7a41bee652e448874fdcdab5cce5a",
+      "width": 193,
+      "height": 42,
+      "expected": "H555OX54",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_007",
+      "file": "artifacts\\independent_test\\ocr\\images\\007.png",
+      "source_entry": "test/img/C480CT154.png",
+      "sha256": "df95c78487f8eed693279860171c5984c2d7932c9b64050a60bd70492ed34f07",
+      "width": 149,
+      "height": 32,
+      "expected": "C480CT154",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_008",
+      "file": "artifacts\\independent_test\\ocr\\images\\008.png",
+      "source_entry": "test/img/O843XM74.png",
+      "sha256": "f680a5671f2679c8a043e35fbd0b8524893fc912c69d5f19830186e85304bcc3",
+      "width": 166,
+      "height": 36,
+      "expected": "O843XM74",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_009",
+      "file": "artifacts\\independent_test\\ocr\\images\\009.png",
+      "source_entry": "test/img/A227YA186.png",
+      "sha256": "edcca3aeff06fc79967ed50a09a8ee80e010f628535fb7e294947e2eafffd414",
+      "width": 138,
+      "height": 30,
+      "expected": "A227YA186",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_010",
+      "file": "artifacts\\independent_test\\ocr\\images\\010.png",
+      "source_entry": "test/img/O015PT33.png",
+      "sha256": "abd2d61dd8d20206cd5a4809d0cbb41c6adb6ef0ab1983b3b9d3bacdddf2625d",
+      "width": 186,
+      "height": 40,
+      "expected": "O015PT33",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_011",
+      "file": "artifacts\\independent_test\\ocr\\images\\011.png",
+      "source_entry": "test/img/E215PC77.png",
+      "sha256": "3a5f4aa2349e838e7d188878422dadf6399e35170194145bb2dd345fc49889ff",
+      "width": 222,
+      "height": 48,
+      "expected": "E215PC77",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_012",
+      "file": "artifacts\\independent_test\\ocr\\images\\012.png",
+      "source_entry": "test/img/A489KE14.png",
+      "sha256": "6baea7540ad71f8b644a20e2430114cdb4cbe40e4c49f296c25cba22c51d3051",
+      "width": 132,
+      "height": 28,
+      "expected": "A489KE14",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_013",
+      "file": "artifacts\\independent_test\\ocr\\images\\013.png",
+      "source_entry": "test/img/A658HB156.png",
+      "sha256": "d92888b6c07c5fc2f9e41bffde47a2cd3bbddf99f31dd851416a8bae568b1ffd",
+      "width": 328,
+      "height": 71,
+      "expected": "A658HB156",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_014",
+      "file": "artifacts\\independent_test\\ocr\\images\\014.png",
+      "source_entry": "test/img/B553OK28.png",
+      "sha256": "a0711dcdad510281617b8b91ae30394a4577bca683b299df81f8b22e1064e32a",
+      "width": 117,
+      "height": 25,
+      "expected": "B553OK28",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_015",
+      "file": "artifacts\\independent_test\\ocr\\images\\015.png",
+      "source_entry": "test/img/M813KK31.png",
+      "sha256": "4c5a5591b9c206836078fd76cd806170a3cfd5108a0a7dabefd098d8396416e3",
+      "width": 169,
+      "height": 36,
+      "expected": "M813KK31",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_016",
+      "file": "artifacts\\independent_test\\ocr\\images\\016.png",
+      "source_entry": "test/img/O111OO18.png",
+      "sha256": "51a962f2aecded2acc9e8492c7c6d068eb32c7763b06dfdb088e71f07607935b",
+      "width": 128,
+      "height": 28,
+      "expected": "O111OO18",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_017",
+      "file": "artifacts\\independent_test\\ocr\\images\\017.png",
+      "source_entry": "test/img/X723YA52.png",
+      "sha256": "dc3e87e7fbcbb7d3163ba489156576e88f442429cca4de0b7cee24fe336cd8ba",
+      "width": 226,
+      "height": 49,
+      "expected": "X723YA52",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_018",
+      "file": "artifacts\\independent_test\\ocr\\images\\018.png",
+      "source_entry": "test/img/K931OP116.png",
+      "sha256": "e9ec3e0b8a27976358b4c9dd1415cd1c669fcb86ea0730d0f813c30eb2a847d6",
+      "width": 210,
+      "height": 45,
+      "expected": "K931OP116",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_019",
+      "file": "artifacts\\independent_test\\ocr\\images\\019.png",
+      "source_entry": "test/img/A455EC702.png",
+      "sha256": "aac9e70def5e8695905f778cc215ea0858621e46ad386061d158713713c0474f",
+      "width": 165,
+      "height": 35,
+      "expected": "A455EC702",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_020",
+      "file": "artifacts\\independent_test\\ocr\\images\\020.png",
+      "source_entry": "test/img/B088CC26.png",
+      "sha256": "2a83aa9d3e3fe5050b05a2bdcb753ccc90c42e68681b583b7932712e255646c8",
+      "width": 266,
+      "height": 57,
+      "expected": "B088CC26",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_021",
+      "file": "artifacts\\independent_test\\ocr\\images\\021.png",
+      "source_entry": "test/img/P938TY54.png",
+      "sha256": "fe9ba4bded8e8d77f792ca224bfe334f55727a9f75023c95d0e123063eb29b0c",
+      "width": 156,
+      "height": 34,
+      "expected": "P938TY54",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_022",
+      "file": "artifacts\\independent_test\\ocr\\images\\022.png",
+      "source_entry": "test/img/A505AA178.png",
+      "sha256": "cad6f631e8c596e2ad4182cd653e3080baa53ca61b8b4fee3f83097b624555dd",
+      "width": 230,
+      "height": 50,
+      "expected": "A505AA178",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_023",
+      "file": "artifacts\\independent_test\\ocr\\images\\023.png",
+      "source_entry": "test/img/K604XA197.png",
+      "sha256": "4ef7de7b65bb5d093cc5d54ad67b833c3cf553594af9ba5d93fe27264ac7d50d",
+      "width": 369,
+      "height": 80,
+      "expected": "K604XA197",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_024",
+      "file": "artifacts\\independent_test\\ocr\\images\\024.png",
+      "source_entry": "test/img/K008PE196.png",
+      "sha256": "f6ef0ae4b3d7e93e64da8dd9428d6ed9a26baad82970c590078228f1b720e0e7",
+      "width": 290,
+      "height": 63,
+      "expected": "K008PE196",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_025",
+      "file": "artifacts\\independent_test\\ocr\\images\\025.png",
+      "source_entry": "test/img/E313HP29.png",
+      "sha256": "a4d4d93e74147872d01077485d7e712f72b2899af25c137cd4047de17e38e9a4",
+      "width": 158,
+      "height": 34,
+      "expected": "E313HP29",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_026",
+      "file": "artifacts\\independent_test\\ocr\\images\\026.png",
+      "source_entry": "test/img/E142BA96.png",
+      "sha256": "59e35728f423a5504c03b7a61325028ea39d9274343b70c159904ebd13e2d889",
+      "width": 412,
+      "height": 89,
+      "expected": "E142BA96",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_027",
+      "file": "artifacts\\independent_test\\ocr\\images\\027.png",
+      "source_entry": "test/img/P998AO70.png",
+      "sha256": "e3632607f2ca8c2394cba63e8788dec107b260f19088c2715c4dd33ad422d7da",
+      "width": 153,
+      "height": 33,
+      "expected": "P998AO70",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_028",
+      "file": "artifacts\\independent_test\\ocr\\images\\028.png",
+      "source_entry": "test/img/C222PE38.png",
+      "sha256": "2e44f7b742d4f1dc94df72024f9907e00143ebd025ed651ebbe0b3e128a6ac35",
+      "width": 222,
+      "height": 48,
+      "expected": "C222PE38",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_029",
+      "file": "artifacts\\independent_test\\ocr\\images\\029.png",
+      "source_entry": "test/img/C706AC777.png",
+      "sha256": "6101afeb4ff112d15a1d6257ad6496a56af0c274ebe5d64eb42e6c3d535ab893",
+      "width": 294,
+      "height": 63,
+      "expected": "C706AC777",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_030",
+      "file": "artifacts\\independent_test\\ocr\\images\\030.png",
+      "source_entry": "test/img/A132KH21.png",
+      "sha256": "8e684cf40bb957a6fa2fde30719ec041732b3f50abba648ce35a13ce7fd989fc",
+      "width": 171,
+      "height": 37,
+      "expected": "A132KH21",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_031",
+      "file": "artifacts\\independent_test\\ocr\\images\\031.png",
+      "source_entry": "test/img/M681OO31.png",
+      "sha256": "fbd3ecdab1d1837c1f6195870170ed890b3cbc37059552d811d19a55562acaf4",
+      "width": 196,
+      "height": 42,
+      "expected": "M681OO31",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_032",
+      "file": "artifacts\\independent_test\\ocr\\images\\032.png",
+      "source_entry": "test/img/X606BO36.png",
+      "sha256": "a370b99e89cc6a49eb9dea8505e25ed0032efd524a580ba046ae3b6ad34e25ce",
+      "width": 201,
+      "height": 43,
+      "expected": "X606BO36",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_033",
+      "file": "artifacts\\independent_test\\ocr\\images\\033.png",
+      "source_entry": "test/img/O648KX799.png",
+      "sha256": "7cfd94588ca50873721422dee31b17e69d6605c9c702a9468f42bb6b5e4d610f",
+      "width": 323,
+      "height": 70,
+      "expected": "O648KX799",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_034",
+      "file": "artifacts\\independent_test\\ocr\\images\\034.png",
+      "source_entry": "test/img/C670AX96.png",
+      "sha256": "c016c3b9fa96af2c04e1c494a89229c3a0ce15bc928cc477dd9b307776cd3bf4",
+      "width": 317,
+      "height": 69,
+      "expected": "C670AX96",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_035",
+      "file": "artifacts\\independent_test\\ocr\\images\\035.png",
+      "source_entry": "test/img/B190EB64.png",
+      "sha256": "8062fd6841a621e6f1c341d9679112b151a65d8a03b25f964bfcbad4811f8996",
+      "width": 217,
+      "height": 47,
+      "expected": "B190EB64",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_036",
+      "file": "artifacts\\independent_test\\ocr\\images\\036.png",
+      "source_entry": "test/img/A447PO76.png",
+      "sha256": "14520be3ff897bfee91777f53c35f428f02089ba8a3b6fead448c46de4dacb3a",
+      "width": 434,
+      "height": 94,
+      "expected": "A447PO76",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_037",
+      "file": "artifacts\\independent_test\\ocr\\images\\037.png",
+      "source_entry": "test/img/B567BB164.png",
+      "sha256": "490eaeaa0181fe3b641ae438413bbe69756a6ec7d1412dc6c0c2385c5f315334",
+      "width": 441,
+      "height": 95,
+      "expected": "B567BB164",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_038",
+      "file": "artifacts\\independent_test\\ocr\\images\\038.png",
+      "source_entry": "test/img/K682AA152.png",
+      "sha256": "0327571582ea9d698ebcfb3d0e62b19eb26fdb5270c6ed3deba62994df8dc3b8",
+      "width": 308,
+      "height": 67,
+      "expected": "K682AA152",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_039",
+      "file": "artifacts\\independent_test\\ocr\\images\\039.png",
+      "source_entry": "test/img/K429KP159.png",
+      "sha256": "4de405ddfa219b4b9dd23f4236f992c3774e19d5bba28a00ff8f366e91184541",
+      "width": 367,
+      "height": 79,
+      "expected": "K429KP159",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_040",
+      "file": "artifacts\\independent_test\\ocr\\images\\040.png",
+      "source_entry": "test/img/A886BP92.png",
+      "sha256": "d836d875dbafcc76379c9276d3c604b82572b0a2caebe07ca2b9fc92e7603f19",
+      "width": 318,
+      "height": 69,
+      "expected": "A886BP92",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_041",
+      "file": "artifacts\\independent_test\\ocr\\images\\041.png",
+      "source_entry": "test/img/O035OO36.png",
+      "sha256": "608a4972adac16f0416738d8f6453dbe8f7dac740db8f2a6d0745d7ff50399e0",
+      "width": 206,
+      "height": 44,
+      "expected": "O035OO36",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_042",
+      "file": "artifacts\\independent_test\\ocr\\images\\042.png",
+      "source_entry": "test/img/C795OK72.png",
+      "sha256": "6c69c564ed9c536d0f630eecea71e77a0fd898d3c18686ab0116197d35a8f1b0",
+      "width": 185,
+      "height": 40,
+      "expected": "C795OK72",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_043",
+      "file": "artifacts\\independent_test\\ocr\\images\\043.png",
+      "source_entry": "test/img/E050OX799.png",
+      "sha256": "cbf7dd2ad04cecb51315c87051e1a6e2d156aadcc3ddaf2793d745aed521815a",
+      "width": 198,
+      "height": 43,
+      "expected": "E050OX799",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_044",
+      "file": "artifacts\\independent_test\\ocr\\images\\044.png",
+      "source_entry": "test/img/P804AX152.png",
+      "sha256": "483e98e2cc839103a5469baf05007c6629d5d9141ebd31afde3fbe7c719839f2",
+      "width": 274,
+      "height": 59,
+      "expected": "P804AX152",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_045",
+      "file": "artifacts\\independent_test\\ocr\\images\\045.png",
+      "source_entry": "test/img/K444KC35.png",
+      "sha256": "ea82fe2db2c46a5d89039abee8728150a175ea7b006fdc838e503d168837996c",
+      "width": 280,
+      "height": 60,
+      "expected": "K444KC35",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_046",
+      "file": "artifacts\\independent_test\\ocr\\images\\046.png",
+      "source_entry": "test/img/H342BC89.png",
+      "sha256": "9b74b76c2e647571e558bf0f7372c2b9e9c56aefa73fecacd781abbd6bfa5b83",
+      "width": 332,
+      "height": 72,
+      "expected": "H342BC89",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_047",
+      "file": "artifacts\\independent_test\\ocr\\images\\047.png",
+      "source_entry": "test/img/A888EH198.png",
+      "sha256": "edf606a14a00eb8e7794d5436c70c8df3333bfb1913ff6573399fa1a3fec20de",
+      "width": 253,
+      "height": 55,
+      "expected": "A888EH198",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_048",
+      "file": "artifacts\\independent_test\\ocr\\images\\048.png",
+      "source_entry": "test/img/X263PP54.png",
+      "sha256": "f54c940a422fadc243b8fc1fb9048c54cb7f253295aff89549fa063a3184f346",
+      "width": 159,
+      "height": 34,
+      "expected": "X263PP54",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_049",
+      "file": "artifacts\\independent_test\\ocr\\images\\049.png",
+      "source_entry": "test/img/B099TC799.png",
+      "sha256": "028463e8e8e20f210474e878651bdc913cfae11a0cd3495fc458217d7cff200e",
+      "width": 258,
+      "height": 56,
+      "expected": "B099TC799",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_050",
+      "file": "artifacts\\independent_test\\ocr\\images\\050.png",
+      "source_entry": "test/img/Y966AK50.png",
+      "sha256": "b1e28e95ce07590fb14ac14cac1df1bb64fdb62b4db2a689e47540824e0f41ea",
+      "width": 424,
+      "height": 92,
+      "expected": "Y966AK50",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_051",
+      "file": "artifacts\\independent_test\\ocr\\images\\051.png",
+      "source_entry": "test/img/T012EC161.png",
+      "sha256": "094dca13726f34b005e3e647cc53a01f307af346cdee373c0e7e0be22f6ff486",
+      "width": 265,
+      "height": 57,
+      "expected": "T012EC161",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_052",
+      "file": "artifacts\\independent_test\\ocr\\images\\052.png",
+      "source_entry": "test/img/X753AT174.png",
+      "sha256": "2af6be5c92602a0914333914f57da633eae7eb6be30ad301e0ab2c8d69dd10bf",
+      "width": 128,
+      "height": 28,
+      "expected": "X753AT174",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_053",
+      "file": "artifacts\\independent_test\\ocr\\images\\053.png",
+      "source_entry": "test/img/P172KC72.png",
+      "sha256": "7ee4db76c8dbca28a6f66f553536d38d27996536a020e05e99ead2c38d21f91f",
+      "width": 427,
+      "height": 92,
+      "expected": "P172KC72",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_054",
+      "file": "artifacts\\independent_test\\ocr\\images\\054.png",
+      "source_entry": "test/img/X209YP123.png",
+      "sha256": "715400712059a2770ed16d4c3018da5849842821d8ef8037fbe20939db416d67",
+      "width": 471,
+      "height": 102,
+      "expected": "X209YP123",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_055",
+      "file": "artifacts\\independent_test\\ocr\\images\\055.png",
+      "source_entry": "test/img/X139HK199.png",
+      "sha256": "ddf477469e8093aadc7f8adc61812d4355f9fa97a72243d42dc79cf0d85e6c7d",
+      "width": 181,
+      "height": 39,
+      "expected": "X139HK199",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_056",
+      "file": "artifacts\\independent_test\\ocr\\images\\056.png",
+      "source_entry": "test/img/M009PT34.png",
+      "sha256": "84c216f12477fbf4b1f6f6d1e8b80fdc64f350324e5d23b4f3683cbddf9dafa8",
+      "width": 164,
+      "height": 35,
+      "expected": "M009PT34",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_057",
+      "file": "artifacts\\independent_test\\ocr\\images\\057.png",
+      "source_entry": "test/img/A293YO199.png",
+      "sha256": "d45dea659232dc2e80cac4b77b248efd8df0ed79db6b0ef674937f89cd209e67",
+      "width": 201,
+      "height": 43,
+      "expected": "A293YO199",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_058",
+      "file": "artifacts\\independent_test\\ocr\\images\\058.png",
+      "source_entry": "test/img/T015PH77.png",
+      "sha256": "ff8d2e2bb1e759352f95898e7693af7308150a284475c7d7840f6f7ccda904e8",
+      "width": 344,
+      "height": 74,
+      "expected": "T015PH77",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_059",
+      "file": "artifacts\\independent_test\\ocr\\images\\059.png",
+      "source_entry": "test/img/A020AA06.png",
+      "sha256": "e3bd1041f4eb89cb56cfd3d3051ae3ef5a997f0862cbc784bf56e0561444a9e0",
+      "width": 243,
+      "height": 52,
+      "expected": "A020AA06",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_060",
+      "file": "artifacts\\independent_test\\ocr\\images\\060.png",
+      "source_entry": "test/img/A537YB152.png",
+      "sha256": "9c18bb528126d7540b67e9905c5cc1f8c1ed9b493159cfad93ad5d4a354540a3",
+      "width": 164,
+      "height": 35,
+      "expected": "A537YB152",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_061",
+      "file": "artifacts\\independent_test\\ocr\\images\\061.png",
+      "source_entry": "test/img/B504OP93.png",
+      "sha256": "404698674a3c4e87bc5650aa961cfa58909698621d10f0b0da7be8b16a584727",
+      "width": 196,
+      "height": 42,
+      "expected": "B504OP93",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_062",
+      "file": "artifacts\\independent_test\\ocr\\images\\062.png",
+      "source_entry": "test/img/T417AA136.png",
+      "sha256": "eef258d129dfe4f7a86349d94df8ee414369f31fde21dd8bd1604bc4f15b1235",
+      "width": 180,
+      "height": 39,
+      "expected": "T417AA136",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_063",
+      "file": "artifacts\\independent_test\\ocr\\images\\063.png",
+      "source_entry": "test/img/Y403BH14.png",
+      "sha256": "eae06df8c59d92d219ba21efa82720facfccb9b41f5956ac5fc2a51c6afb9c58",
+      "width": 131,
+      "height": 28,
+      "expected": "Y403BH14",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_064",
+      "file": "artifacts\\independent_test\\ocr\\images\\064.png",
+      "source_entry": "test/img/O500HO70.png",
+      "sha256": "e130a883e800d5ef45608c99d12604bf3e3a007333bb2c35c6a43b919d134bfb",
+      "width": 165,
+      "height": 36,
+      "expected": "O500HO70",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_065",
+      "file": "artifacts\\independent_test\\ocr\\images\\065.png",
+      "source_entry": "test/img/A783HB122.png",
+      "sha256": "76ad649a3c39c513f098d7c223533a5b85b48e462bd05235939753f78398f74e",
+      "width": 396,
+      "height": 86,
+      "expected": "A783HB122",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_066",
+      "file": "artifacts\\independent_test\\ocr\\images\\066.png",
+      "source_entry": "test/img/H349YT154.png",
+      "sha256": "496a4d83a0820b2ff9761835294a3415d91e241a2f62008214083f1e30faa73f",
+      "width": 291,
+      "height": 63,
+      "expected": "H349YT154",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_067",
+      "file": "artifacts\\independent_test\\ocr\\images\\067.png",
+      "source_entry": "test/img/H652BC32.png",
+      "sha256": "b6fab8451a6432ef673b5374c5c37af8bf5095a229946cdab2d731ec7ca320b5",
+      "width": 198,
+      "height": 43,
+      "expected": "H652BC32",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_068",
+      "file": "artifacts\\independent_test\\ocr\\images\\068.png",
+      "source_entry": "test/img/H959ET102.png",
+      "sha256": "3c94bad9f1a3681517a71c8328a3f51220714c20e07bdb3f3ec95d4c40b9d191",
+      "width": 153,
+      "height": 33,
+      "expected": "H959ET102",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_069",
+      "file": "artifacts\\independent_test\\ocr\\images\\069.png",
+      "source_entry": "test/img/M305MO39.png",
+      "sha256": "6f0afe6597828f3ebbe7419d6a16e004b4fcf18be27f8ebd11a52f1d5d831fd3",
+      "width": 180,
+      "height": 39,
+      "expected": "M305MO39",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_070",
+      "file": "artifacts\\independent_test\\ocr\\images\\070.png",
+      "source_entry": "test/img/E001TH82.png",
+      "sha256": "bef14e0ca2e99a061ca018c19b4e1005a88c46e42a08a4d146a30e5805146160",
+      "width": 260,
+      "height": 56,
+      "expected": "E001TH82",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_071",
+      "file": "artifacts\\independent_test\\ocr\\images\\071.png",
+      "source_entry": "test/img/O768HC05.png",
+      "sha256": "6f43c28489a7479feffcc8338dccf929c113682d002f014a7931cd244093d7d7",
+      "width": 220,
+      "height": 48,
+      "expected": "O768HC05",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_072",
+      "file": "artifacts\\independent_test\\ocr\\images\\072.png",
+      "source_entry": "test/img/T663CC42.png",
+      "sha256": "712c28d61ff434049ea79e4fae9f4089f58c6edc9f001ae962779742bf66a3ad",
+      "width": 186,
+      "height": 40,
+      "expected": "T663CC42",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_073",
+      "file": "artifacts\\independent_test\\ocr\\images\\073.png",
+      "source_entry": "test/img/K898YO97.png",
+      "sha256": "da030c46213707188d0ff982b7aaef40859debdae06820b4aedb992d71855986",
+      "width": 317,
+      "height": 69,
+      "expected": "K898YO97",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_074",
+      "file": "artifacts\\independent_test\\ocr\\images\\074.png",
+      "source_entry": "test/img/C944YE47.png",
+      "sha256": "f403146ec2175ebbc7627059d86818a8c7514afb7cc0d9b8cf31301a0bd8f2c0",
+      "width": 274,
+      "height": 59,
+      "expected": "C944YE47",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_075",
+      "file": "artifacts\\independent_test\\ocr\\images\\075.png",
+      "source_entry": "test/img/B284OX763.png",
+      "sha256": "e6d710420236dce5911228b5035c8b025b4a331313f70810154b0434908cfdec",
+      "width": 162,
+      "height": 35,
+      "expected": "B284OX763",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_076",
+      "file": "artifacts\\independent_test\\ocr\\images\\076.png",
+      "source_entry": "test/img/O762YH98.png",
+      "sha256": "11e5534c99a7c98103d0d7508945403ae9b5fd59d48187788b07be06da5bc451",
+      "width": 133,
+      "height": 29,
+      "expected": "O762YH98",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_077",
+      "file": "artifacts\\independent_test\\ocr\\images\\077.png",
+      "source_entry": "test/img/A579HX35.png",
+      "sha256": "e41be857c0cfda9838355b8573463d6188d77d1043f7e31374f0db557587f96b",
+      "width": 323,
+      "height": 70,
+      "expected": "A579HX35",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_078",
+      "file": "artifacts\\independent_test\\ocr\\images\\078.png",
+      "source_entry": "test/img/C695BA142.png",
+      "sha256": "a7a364404dfb201da268835cadc1dcc907599324afc8a2061d693d8ccb0a74ee",
+      "width": 378,
+      "height": 82,
+      "expected": "C695BA142",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_079",
+      "file": "artifacts\\independent_test\\ocr\\images\\079.png",
+      "source_entry": "test/img/Y042OB799.png",
+      "sha256": "cf5d30a902c4829586ef3aea1e0cab7e105851fe42ed9fed560d73926537f2da",
+      "width": 418,
+      "height": 91,
+      "expected": "Y042OB799",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_080",
+      "file": "artifacts\\independent_test\\ocr\\images\\080.png",
+      "source_entry": "test/img/P889HE39.png",
+      "sha256": "368022a981de48cc9c4a0fa1c6ffd10e70ad0732c3c56f458a4104b6724233c9",
+      "width": 161,
+      "height": 35,
+      "expected": "P889HE39",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_081",
+      "file": "artifacts\\independent_test\\ocr\\images\\081.png",
+      "source_entry": "test/img/H154XM54.png",
+      "sha256": "92501a832937b37782d81e39a6d894221d720550ff474992d60329d8b101d340",
+      "width": 151,
+      "height": 33,
+      "expected": "H154XM54",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_082",
+      "file": "artifacts\\independent_test\\ocr\\images\\082.png",
+      "source_entry": "test/img/E732XT71.png",
+      "sha256": "7c43284b726cf5ba5164f354318b1c54265bb6f0023c25d59bdeef0bd1c429be",
+      "width": 219,
+      "height": 47,
+      "expected": "E732XT71",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_083",
+      "file": "artifacts\\independent_test\\ocr\\images\\083.png",
+      "source_entry": "test/img/K700OX46.png",
+      "sha256": "67bfcb2e6343bec9567700e68ad49a6f371b629d15d138ab3030077d773c293f",
+      "width": 181,
+      "height": 39,
+      "expected": "K700OX46",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_084",
+      "file": "artifacts\\independent_test\\ocr\\images\\084.png",
+      "source_entry": "test/img/P963PK62.png",
+      "sha256": "c85704949b77af292c3294d58dec2f187fff31dc04e635b3a876f4fe0bf2e4ed",
+      "width": 261,
+      "height": 56,
+      "expected": "P963PK62",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_085",
+      "file": "artifacts\\independent_test\\ocr\\images\\085.png",
+      "source_entry": "test/img/X293PM34.png",
+      "sha256": "6535ad9d2e4b79767d370519c80f9664573a1124b3ea91adeb3f1e29eb5e080d",
+      "width": 175,
+      "height": 38,
+      "expected": "X293PM34",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_086",
+      "file": "artifacts\\independent_test\\ocr\\images\\086.png",
+      "source_entry": "test/img/A582TM13.png",
+      "sha256": "114cb29a15c4b1b26dbfc4f52ab7924c0510eef02d41fe35ca2d77cbbb9cac44",
+      "width": 110,
+      "height": 24,
+      "expected": "A582TM13",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_087",
+      "file": "artifacts\\independent_test\\ocr\\images\\087.png",
+      "source_entry": "test/img/H577YC68.png",
+      "sha256": "b25edf67f385ddb0eba2d54ae06ffa797619a90fca7750ccbb55284e8c565248",
+      "width": 392,
+      "height": 85,
+      "expected": "H577YC68",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_088",
+      "file": "artifacts\\independent_test\\ocr\\images\\088.png",
+      "source_entry": "test/img/P916CK71.png",
+      "sha256": "74a25faef273df15dbbc2e1046256f63d79629ba116e5388b4dcaf7a0ae15537",
+      "width": 106,
+      "height": 23,
+      "expected": "P916CK71",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_089",
+      "file": "artifacts\\independent_test\\ocr\\images\\089.png",
+      "source_entry": "test/img/E488AK164.png",
+      "sha256": "e15df058cd6a0d49885751f5ecd26872b76b16e0d1b188ace207851ba0a96581",
+      "width": 154,
+      "height": 33,
+      "expected": "E488AK164",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_090",
+      "file": "artifacts\\independent_test\\ocr\\images\\090.png",
+      "source_entry": "test/img/E354YB161.png",
+      "sha256": "4a6d29abd155c91eb7668e7da66f4d15d5f6c2a5a5c37a9593827d1b0ef03cad",
+      "width": 147,
+      "height": 32,
+      "expected": "E354YB161",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_091",
+      "file": "artifacts\\independent_test\\ocr\\images\\091.png",
+      "source_entry": "test/img/B819CH198.png",
+      "sha256": "b449f6b36cee5c7d33ed9b761938a9168dca421db76663fa0dd68d56953a6dff",
+      "width": 294,
+      "height": 64,
+      "expected": "B819CH198",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_092",
+      "file": "artifacts\\independent_test\\ocr\\images\\092.png",
+      "source_entry": "test/img/B552PH05.png",
+      "sha256": "3ea3059369ad34a110e0d3e3636518bee8ed3b5a64489980ff96191a72643db6",
+      "width": 301,
+      "height": 65,
+      "expected": "B552PH05",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_093",
+      "file": "artifacts\\independent_test\\ocr\\images\\093.png",
+      "source_entry": "test/img/A298MP97.png",
+      "sha256": "af43891dea70c6073b81412c593c6a53c0d1d5a58fcebc92f3759ea424202cb6",
+      "width": 147,
+      "height": 32,
+      "expected": "A298MP97",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_094",
+      "file": "artifacts\\independent_test\\ocr\\images\\094.png",
+      "source_entry": "test/img/E707EE777.png",
+      "sha256": "a8ebc41572d83a433a272d2293911ecff83ff1e234202db758ea02cb2240d840",
+      "width": 151,
+      "height": 32,
+      "expected": "E707EE777",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_095",
+      "file": "artifacts\\independent_test\\ocr\\images\\095.png",
+      "source_entry": "test/img/C499KA39.png",
+      "sha256": "2b39941975736a6654b0d9f2e116b3b66282917f386b45158293c09c3c4e6da9",
+      "width": 117,
+      "height": 25,
+      "expected": "C499KA39",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_096",
+      "file": "artifacts\\independent_test\\ocr\\images\\096.png",
+      "source_entry": "test/img/E434BH82.png",
+      "sha256": "37982fede6707108f27dc7d84604d3472d86bab1ec3e3c162f6edc9841b9548e",
+      "width": 368,
+      "height": 80,
+      "expected": "E434BH82",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_097",
+      "file": "artifacts\\independent_test\\ocr\\images\\097.png",
+      "source_entry": "test/img/C478BC163.png",
+      "sha256": "b617c80648a5f64393d32feeab829354edfb27758ff0e630f454aeed410d976a",
+      "width": 234,
+      "height": 50,
+      "expected": "C478BC163",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_098",
+      "file": "artifacts\\independent_test\\ocr\\images\\098.png",
+      "source_entry": "test/img/K080TA31.png",
+      "sha256": "927e8ec193e29a078f4a1fbedadbcc870fbb7020d3bf5dd22d8d5100aa87711d",
+      "width": 139,
+      "height": 30,
+      "expected": "K080TA31",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_099",
+      "file": "artifacts\\independent_test\\ocr\\images\\099.png",
+      "source_entry": "test/img/A787AA61.png",
+      "sha256": "88316ede3471e3af2d6e3b484c911362ba0a84f75685484442565823fd620f93",
+      "width": 129,
+      "height": 28,
+      "expected": "A787AA61",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "ocr_100",
+      "file": "artifacts\\independent_test\\ocr\\images\\100.png",
+      "source_entry": "test/img/O333OB199.png",
+      "sha256": "e136b7937a7e0b8a7712804a073cbeecdede17af61111566e05bc1f81b20aba6",
+      "width": 154,
+      "height": 33,
+      "expected": "O333OB199",
+      "included": true,
+      "label_origin": "source dataset filename"
+    },
+    {
+      "id": "scenes_001",
+      "file": "artifacts\\independent_test\\scenes\\images\\001.jpg",
+      "source_entry": "test/images/5382.jpg",
+      "sha256": "1abbd384ee18b8712759bfc5bf9ed053c0757e290fe2a961177107c16c6dddeb",
+      "width": 1100,
+      "height": 865,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.510455,
+          0.539306,
+          0.23,
+          0.05896
+        ]
+      ],
+      "expected": "H113YX163",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_002",
+      "file": "artifacts\\independent_test\\scenes\\images\\002.jpg",
+      "source_entry": "test/images/23520.jpg",
+      "sha256": "bcdadec1c50c076b3a95e7d25965b65abc9f609324426e2f3030dde22f0fb5db",
+      "width": 1024,
+      "height": 768,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.169434,
+          0.565104,
+          0.143555,
+          0.078125
+        ]
+      ],
+      "expected": "H888CK37",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_003",
+      "file": "artifacts\\independent_test\\scenes\\images\\003.jpg",
+      "source_entry": "test/images/10959.jpg",
+      "sha256": "c15af925f99cc4603ed1e868d224b15f3f0f6bdd0e41bbf7f5516ff9a9d0c284",
+      "width": 1600,
+      "height": 1200,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.326875,
+          0.707917,
+          0.21875,
+          0.0825
+        ]
+      ],
+      "expected": "O993KT96",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_004",
+      "file": "artifacts\\independent_test\\scenes\\images\\004.jpg",
+      "source_entry": "test/images/14559.jpg",
+      "sha256": "8df53c092cc73754f2f0f32dbe14cdc7f8860e31d2bd5edf02852f7dc3d3819b",
+      "width": 1600,
+      "height": 1200,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.719688,
+          0.605,
+          0.154375,
+          0.06
+        ]
+      ],
+      "expected": "X387KH66",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_005",
+      "file": "artifacts\\independent_test\\scenes\\images\\005.jpg",
+      "source_entry": "test/images/25068.jpg",
+      "sha256": "7f190eb4994f3c4e6997b15af471f084a052a1da35a61c3388cdee16ce4b6cd1",
+      "width": 1389,
+      "height": 912,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.568395,
+          0.675987,
+          0.174946,
+          0.055921
+        ]
+      ],
+      "expected": "B777CY97",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_006",
+      "file": "artifacts\\independent_test\\scenes\\images\\006.jpg",
+      "source_entry": "test/images/24637.jpg",
+      "sha256": "1d270bf9b46f0221b2d51ca62ebdc5f4e1b2e53ca33c86db3e281ddbef6ad534",
+      "width": 1332,
+      "height": 1036,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.763889,
+          0.395753,
+          0.177928,
+          0.057915
+        ]
+      ],
+      "expected": "A152KT51",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_007",
+      "file": "artifacts\\independent_test\\scenes\\images\\007.jpg",
+      "source_entry": "test/images/7292.jpg",
+      "sha256": "860fd476eece4ea1d445d4aaf1254537e7b353153e8216b3f5880cd1d4a0f8e7",
+      "width": 904,
+      "height": 525,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.107301,
+          0.605714,
+          0.115044,
+          0.057143
+        ],
+        [
+          0.0,
+          0.834624,
+          0.621905,
+          0.085177,
+          0.055238
+        ]
+      ],
+      "expected": null,
+      "included": false,
+      "exclusion_reason": "Multiple source-annotated plates; target is a single main plate"
+    },
+    {
+      "id": "scenes_008",
+      "file": "artifacts\\independent_test\\scenes\\images\\008.jpg",
+      "source_entry": "test/images/13384.jpg",
+      "sha256": "dcc770576526f84a0e4e0f561e9b562f2608a17daed608dd53631f2aed79aa91",
+      "width": 1701,
+      "height": 1276,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.439447,
+          0.519984,
+          0.174603,
+          0.06348
+        ]
+      ],
+      "expected": "P921BP197",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_009",
+      "file": "artifacts\\independent_test\\scenes\\images\\009.jpg",
+      "source_entry": "test/images/8391.jpg",
+      "sha256": "71df5e36847e8d2ac67002c2d3d940e17f2a3231c7e44716e118a66e3b2d2300",
+      "width": 1944,
+      "height": 1304,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.115741,
+          0.672163,
+          0.059671,
+          0.049847
+        ]
+      ],
+      "expected": "C835MP29",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_010",
+      "file": "artifacts\\independent_test\\scenes\\images\\010.jpg",
+      "source_entry": "test/images/522.jpg",
+      "sha256": "684bde01ac267bdcbba73e7c37e3697291449bda21909e63d30b8ae35b865b4f",
+      "width": 1687,
+      "height": 1115,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.713693,
+          0.853812,
+          0.176645,
+          0.059193
+        ]
+      ],
+      "expected": null,
+      "included": false,
+      "exclusion_reason": "Third digit visually ambiguous (6/8); damaged plate; no reliable transcript"
+    },
+    {
+      "id": "scenes_011",
+      "file": "artifacts\\independent_test\\scenes\\images\\011.jpg",
+      "source_entry": "test/images/20880.jpg",
+      "sha256": "cd3ea9763f6517de5a32a7a2f365d6d2b907e59ad9a062ccabea868510a4c738",
+      "width": 1901,
+      "height": 1267,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.236981,
+          0.654301,
+          0.084692,
+          0.037885
+        ]
+      ],
+      "expected": "T496YY54",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_012",
+      "file": "artifacts\\independent_test\\scenes\\images\\012.jpg",
+      "source_entry": "test/images/20743.jpg",
+      "sha256": "8a48eaccceac4ac28fdd48696f3b1408c917272f0d7ceb4791ee86ccea4ac545",
+      "width": 1060,
+      "height": 761,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.423585,
+          0.673456,
+          0.062264,
+          0.019711
+        ]
+      ],
+      "expected": "P553KB125",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_013",
+      "file": "artifacts\\independent_test\\scenes\\images\\013.jpg",
+      "source_entry": "test/images/5507.jpg",
+      "sha256": "e36f4d4d0b49a59511b0dc7b3c5117224835a4b488ef2f884af7ccadb8aec2d4",
+      "width": 1400,
+      "height": 1050,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.8075,
+          0.702857,
+          0.123571,
+          0.08381
+        ]
+      ],
+      "expected": "A024KH54",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_014",
+      "file": "artifacts\\independent_test\\scenes\\images\\014.jpg",
+      "source_entry": "test/images/15949.jpg",
+      "sha256": "89f4d5233ff25d648eef61f86611703a333b9064b85e2eeca41816b1a516cdbf",
+      "width": 1600,
+      "height": 1200,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.270625,
+          0.944167,
+          0.10875,
+          0.046667
+        ]
+      ],
+      "expected": "E743XM75",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_015",
+      "file": "artifacts\\independent_test\\scenes\\images\\015.jpg",
+      "source_entry": "test/images/2704.jpg",
+      "sha256": "34b5475063df823a00b4821b126a6b4cf0e1895f77494710e044808887b4c737",
+      "width": 1500,
+      "height": 1125,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.220667,
+          0.730667,
+          0.121333,
+          0.055111
+        ]
+      ],
+      "expected": "Y777OX62",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_016",
+      "file": "artifacts\\independent_test\\scenes\\images\\016.jpg",
+      "source_entry": "test/images/21858.jpg",
+      "sha256": "e3ec6d9fd29819f30f1fa25525b13759f7b65626fec54ba8e00dd1a81a07c6ee",
+      "width": 1295,
+      "height": 886,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.353282,
+          0.798533,
+          0.169112,
+          0.046275
+        ]
+      ],
+      "expected": "B777HA46",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_017",
+      "file": "artifacts\\independent_test\\scenes\\images\\017.jpg",
+      "source_entry": "test/images/8407.jpg",
+      "sha256": "8104736957c5cd7c27c30f5128f54e4c9442ba4b402a74ee611b5541df82f940",
+      "width": 1440,
+      "height": 900,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.772222,
+          0.625,
+          0.1875,
+          0.103333
+        ]
+      ],
+      "expected": "Y024KA161",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_018",
+      "file": "artifacts\\independent_test\\scenes\\images\\018.jpg",
+      "source_entry": "test/images/7465.jpg",
+      "sha256": "f6cfb608becadf2c5434700f86127cc152751bff7c3c4631ae05630a153ab64d",
+      "width": 1552,
+      "height": 1255,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.470361,
+          0.546215,
+          0.229381,
+          0.075697
+        ]
+      ],
+      "expected": "B073OO25",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_019",
+      "file": "artifacts\\independent_test\\scenes\\images\\019.jpg",
+      "source_entry": "test/images/10895.jpg",
+      "sha256": "1d6b8b92da06868ed2f052dfda86a4465d93cdd45296d6c5dda8ffbc3998dd96",
+      "width": 1850,
+      "height": 1387,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.381351,
+          0.692862,
+          0.163784,
+          0.047585
+        ]
+      ],
+      "expected": "A019TO69",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_020",
+      "file": "artifacts\\independent_test\\scenes\\images\\020.jpg",
+      "source_entry": "test/images/19385.jpg",
+      "sha256": "431b02ca05fca95b08f8eb4d70047bdf74d5496bd51f720372a784433c6266b7",
+      "width": 962,
+      "height": 571,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.820166,
+          0.569177,
+          0.085239,
+          0.049037
+        ]
+      ],
+      "expected": "O021AO98",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_021",
+      "file": "artifacts\\independent_test\\scenes\\images\\021.jpg",
+      "source_entry": "test/images/15746.jpg",
+      "sha256": "0905bd9dea1b1f00051356dda4de58938c29faece50b7ef9f1814dbc6e8fe511",
+      "width": 1793,
+      "height": 1099,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.334077,
+          0.44859,
+          0.200781,
+          0.067334
+        ]
+      ],
+      "expected": "T152EO54",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_022",
+      "file": "artifacts\\independent_test\\scenes\\images\\022.jpg",
+      "source_entry": "test/images/5468.jpg",
+      "sha256": "7897da8d5f3b59268196a0a5acdb1e2a94e010e63d8e74f50c464bc17bba50e1",
+      "width": 1060,
+      "height": 837,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.526887,
+          0.700717,
+          0.093396,
+          0.032258
+        ]
+      ],
+      "expected": "E048YB125",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_023",
+      "file": "artifacts\\independent_test\\scenes\\images\\023.jpg",
+      "source_entry": "test/images/12424.jpg",
+      "sha256": "5415ce982cf496b27f23af60253fbfdf3e1d7580b87e6818d2dc083e086c317d",
+      "width": 1545,
+      "height": 1132,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.331715,
+          0.72129,
+          0.154693,
+          0.055654
+        ]
+      ],
+      "expected": "X799MX90",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_024",
+      "file": "artifacts\\independent_test\\scenes\\images\\024.jpg",
+      "source_entry": "test/images/1630.jpg",
+      "sha256": "82db5f1ad3aaf1825eeb98d1f04a2afc901c691cc11f7842b27dc856de7bd7fd",
+      "width": 800,
+      "height": 616,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.71375,
+          0.566558,
+          0.0825,
+          0.035714
+        ]
+      ],
+      "expected": "P542OB199",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_025",
+      "file": "artifacts\\independent_test\\scenes\\images\\025.jpg",
+      "source_entry": "test/images/2834.jpg",
+      "sha256": "b921ccd745890c8fc1aa3b6aee9043dc25919e1fbc17331cfafe85d3f0a7fbbd",
+      "width": 1300,
+      "height": 962,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.471538,
+          0.764553,
+          0.195385,
+          0.073805
+        ]
+      ],
+      "expected": "M678MP37",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_026",
+      "file": "artifacts\\independent_test\\scenes\\images\\026.jpg",
+      "source_entry": "test/images/8771.jpg",
+      "sha256": "b78a227ba4f7cc2cecbb8a132a86227976c6507c86ff1385f43223b5e808d896",
+      "width": 1298,
+      "height": 957,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.635593,
+          0.502612,
+          0.218798,
+          0.083595
+        ]
+      ],
+      "expected": "O904BY190",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_027",
+      "file": "artifacts\\independent_test\\scenes\\images\\027.jpg",
+      "source_entry": "test/images/21987.jpg",
+      "sha256": "4224288b6aae447e761ce24a5168b4a453890df95c7d19d2c5ce46e20ca93df0",
+      "width": 1604,
+      "height": 1174,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.247195,
+          0.63075,
+          0.171446,
+          0.120102
+        ]
+      ],
+      "expected": "E815OY29",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_028",
+      "file": "artifacts\\independent_test\\scenes\\images\\028.jpg",
+      "source_entry": "test/images/2081.jpg",
+      "sha256": "c7c97a013e05d864218a1649134dc3d58160e412ff0ac55bdd9d88c8fc4c301b",
+      "width": 1400,
+      "height": 1050,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.823929,
+          0.57381,
+          0.115,
+          0.042857
+        ]
+      ],
+      "expected": "B171HH32",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_029",
+      "file": "artifacts\\independent_test\\scenes\\images\\029.jpg",
+      "source_entry": "test/images/1947.jpg",
+      "sha256": "c72cdf5fa5a4c260bebc03b60355d47d53913ac2b148697dab8f204ae27c8dfc",
+      "width": 1200,
+      "height": 877,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.918333,
+          0.702965,
+          0.091667,
+          0.083238
+        ]
+      ],
+      "expected": "T555MA190",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_030",
+      "file": "artifacts\\independent_test\\scenes\\images\\030.jpg",
+      "source_entry": "test/images/19799.jpg",
+      "sha256": "8e42f825f6610438b2f258b4e29f4731aa0b7330cb0a6764ac6b74ffe28b656c",
+      "width": 1600,
+      "height": 1200,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.498437,
+          0.735417,
+          0.074375,
+          0.0275
+        ]
+      ],
+      "expected": "M392OP72",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_031",
+      "file": "artifacts\\independent_test\\scenes\\images\\031.jpg",
+      "source_entry": "test/images/22689.jpg",
+      "sha256": "143c8963ac0ffdd6e1e80e25900f4c051556b1a8afa62a367ec34e82170bb243",
+      "width": 2592,
+      "height": 1552,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.308256,
+          0.663015,
+          0.091821,
+          0.036082
+        ],
+        [
+          0.0,
+          0.610147,
+          0.44491,
+          0.020448,
+          0.008376
+        ]
+      ],
+      "expected": null,
+      "included": false,
+      "exclusion_reason": "Multiple source-annotated plates; target is a single main plate"
+    },
+    {
+      "id": "scenes_032",
+      "file": "artifacts\\independent_test\\scenes\\images\\032.jpg",
+      "source_entry": "test/images/21667.jpg",
+      "sha256": "bcffe82677e1b580a901a6f7993697a3d24e1055b6a7a9e50d13881b3a0625cc",
+      "width": 2000,
+      "height": 1540,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.215,
+          0.741883,
+          0.177,
+          0.081169
+        ]
+      ],
+      "expected": "E401EE178",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_033",
+      "file": "artifacts\\independent_test\\scenes\\images\\033.jpg",
+      "source_entry": "test/images/12896.jpg",
+      "sha256": "be7767b0f670755e72a6c4d52ada11fd047ae1b31c7c2b1869e68e3013fbf650",
+      "width": 1400,
+      "height": 1060,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.792143,
+          0.781604,
+          0.137143,
+          0.066981
+        ]
+      ],
+      "expected": "O792MA163",
+      "label_origin": "visual transcription before inference; single annotator",
+      "included": true
+    },
+    {
+      "id": "scenes_034",
+      "file": "artifacts\\independent_test\\scenes\\images\\034.jpg",
+      "source_entry": "test/images/5556.jpg",
+      "sha256": "62c62ad403a9a390e6cf4394df7b77a6c2e1b160533e91f6f469c00790606352",
+      "width": 1000,
+      "height": 724,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.9275,
+          0.691989,
+          0.085,
+          0.030387
+        ],
+        [
+          0.0,
+          0.4515,
+          0.819751,
+          0.147,
+          0.04558
+        ]
+      ],
+      "expected": null,
+      "included": false,
+      "exclusion_reason": "Multiple source-annotated plates; target is a single main plate"
+    },
+    {
+      "id": "scenes_035",
+      "file": "artifacts\\independent_test\\scenes\\images\\035.jpg",
+      "source_entry": "test/images/24721.jpg",
+      "sha256": "72f026ca9f9e575466e9ad673c69dab3b7c9990c22ce2390dfdf0469ae18e011",
+      "width": 1188,
+      "height": 990,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.309764,
+          0.60303,
+          0.119529,
+          0.044444
+        ]
+      ],
+      "expected": null,
+      "included": false,
+      "exclusion_reason": "Beyond the first 30 eligible images in the frozen shuffled order"
+    },
+    {
+      "id": "scenes_036",
+      "file": "artifacts\\independent_test\\scenes\\images\\036.jpg",
+      "source_entry": "test/images/18685.jpg",
+      "sha256": "aeda66c1022c5480c1bdca21f51c6a76fffedc3ef685d05062db371e56d63e73",
+      "width": 1652,
+      "height": 1101,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.758172,
+          0.673933,
+          0.091404,
+          0.065395
+        ]
+      ],
+      "expected": null,
+      "included": false,
+      "exclusion_reason": "Beyond the first 30 eligible images in the frozen shuffled order"
+    },
+    {
+      "id": "scenes_037",
+      "file": "artifacts\\independent_test\\scenes\\images\\037.jpg",
+      "source_entry": "test/images/12988.jpg",
+      "sha256": "be459158246c3f88c25cadfe325b519ab451c96e8913db7b94cb6d2675e98133",
+      "width": 640,
+      "height": 480,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.457031,
+          0.564583,
+          0.173437,
+          0.058333
+        ]
+      ],
+      "expected": null,
+      "included": false,
+      "exclusion_reason": "Beyond the first 30 eligible images in the frozen shuffled order"
+    },
+    {
+      "id": "scenes_038",
+      "file": "artifacts\\independent_test\\scenes\\images\\038.jpg",
+      "source_entry": "test/images/11585.jpg",
+      "sha256": "03a35d345bb3c808914ed99cfda817276e79d547a0342d7d6d45ab4d195bb364",
+      "width": 1200,
+      "height": 719,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.334583,
+          0.461057,
+          0.1625,
+          0.059805
+        ]
+      ],
+      "expected": null,
+      "included": false,
+      "exclusion_reason": "Beyond the first 30 eligible images in the frozen shuffled order"
+    },
+    {
+      "id": "scenes_039",
+      "file": "artifacts\\independent_test\\scenes\\images\\039.jpg",
+      "source_entry": "test/images/8073.jpg",
+      "sha256": "f876d8e3afce9b35a1687c27c019f937020b2cdf90a47ffb5d651db935509aef",
+      "width": 1024,
+      "height": 683,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.630859,
+          0.719619,
+          0.091797,
+          0.033675
+        ]
+      ],
+      "expected": null,
+      "included": false,
+      "exclusion_reason": "Beyond the first 30 eligible images in the frozen shuffled order"
+    },
+    {
+      "id": "scenes_040",
+      "file": "artifacts\\independent_test\\scenes\\images\\040.jpg",
+      "source_entry": "test/images/11485.jpg",
+      "sha256": "0d07e7b206a2295efe6319ed1e4ac0ef6b3d0c930372e3d6d4fcfb927eecd9d0",
+      "width": 804,
+      "height": 592,
+      "source_boxes_yolo": [
+        [
+          0.0,
+          0.460199,
+          0.755912,
+          0.251244,
+          0.086149
+        ]
+      ],
+      "expected": null,
+      "included": false,
+      "exclusion_reason": "Beyond the first 30 eligible images in the frozen shuffled order"
+    }
+  ],
+  "exclusions": [],
+  "scene_transcriptions_frozen": true,
+  "labeling_notes": [
+    "No plate-model predictions used for transcription.",
+    "Scene source boxes used for transcription only, not full-image inference.",
+    "Labels transcribed by one annotator; no independent second annotation.",
+    "OCR expected strings copied from source archive names, not inferred.",
+    "SHA-256 excludes exact local duplicates; normalized labels have no local overlaps.",
+    "No scene dHash distance <=20/256 against original local photos; not a proof against every near-duplicate."
+  ]
+}

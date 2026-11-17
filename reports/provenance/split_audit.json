@@ -1,0 +1,258 @@
+{
+  "scene_exact_sha_overlaps": 0,
+  "ocr_text_overlaps": 0,
+  "scene_near_duplicate_flags_threshold_20": [],
+  "nearest": [
+    {
+      "holdout_id": 1,
+      "train_source_entry": "train/images/10660.jpg",
+      "dhash_distance_256": 81
+    },
+    {
+      "holdout_id": 2,
+      "train_source_entry": "train/images/2950.jpg",
+      "dhash_distance_256": 100
+    },
+    {
+      "holdout_id": 3,
+      "train_source_entry": "train/images/16522.jpg",
+      "dhash_distance_256": 95
+    },
+    {
+      "holdout_id": 4,
+      "train_source_entry": "train/images/2369.jpg",
+      "dhash_distance_256": 90
+    },
+    {
+      "holdout_id": 5,
+      "train_source_entry": "train/images/7705.jpg",
+      "dhash_distance_256": 87
+    },
+    {
+      "holdout_id": 6,
+      "train_source_entry": "train/images/2995.jpg",
+      "dhash_distance_256": 91
+    },
+    {
+      "holdout_id": 7,
+      "train_source_entry": "train/images/11939.jpg",
+      "dhash_distance_256": 89
+    },
+    {
+      "holdout_id": 8,
+      "train_source_entry": "train/images/4304.jpg",
+      "dhash_distance_256": 84
+    },
+    {
+      "holdout_id": 10,
+      "train_source_entry": "train/images/7846.jpg",
+      "dhash_distance_256": 93
+    },
+    {
+      "holdout_id": 11,
+      "train_source_entry": "train/images/18825.jpg",
+      "dhash_distance_256": 96
+    },
+    {
+      "holdout_id": 12,
+      "train_source_entry": "train/images/24031.jpg",
+      "dhash_distance_256": 90
+    },
+    {
+      "holdout_id": 13,
+      "train_source_entry": "train/images/10989.jpg",
+      "dhash_distance_256": 87
+    },
+    {
+      "holdout_id": 14,
+      "train_source_entry": "train/images/11413.jpg",
+      "dhash_distance_256": 91
+    },
+    {
+      "holdout_id": 15,
+      "train_source_entry": "train/images/4571.jpg",
+      "dhash_distance_256": 87
+    },
+    {
+      "holdout_id": 16,
+      "train_source_entry": "train/images/19547.jpg",
+      "dhash_distance_256": 86
+    },
+    {
+      "holdout_id": 17,
+      "train_source_entry": "train/images/9924.jpg",
+      "dhash_distance_256": 83
+    },
+    {
+      "holdout_id": 18,
+      "train_source_entry": "train/images/2769.jpg",
+      "dhash_distance_256": 89
+    },
+    {
+      "holdout_id": 19,
+      "train_source_entry": "train/images/6983.jpg",
+      "dhash_distance_256": 93
+    },
+    {
+      "holdout_id": 20,
+      "train_source_entry": "train/images/17496.jpg",
+      "dhash_distance_256": 91
+    },
+    {
+      "holdout_id": 21,
+      "train_source_entry": "train/images/17398.jpg",
+      "dhash_distance_256": 98
+    },
+    {
+      "holdout_id": 22,
+      "train_source_entry": "train/images/11785.jpg",
+      "dhash_distance_256": 77
+    },
+    {
+      "holdout_id": 23,
+      "train_source_entry": "train/images/4485.jpg",
+      "dhash_distance_256": 97
+    },
+    {
+      "holdout_id": 24,
+      "train_source_entry": "train/images/10862.jpg",
+      "dhash_distance_256": 93
+    },
+    {
+      "holdout_id": 25,
+      "train_source_entry": "train/images/21277.jpg",
+      "dhash_distance_256": 102
+    },
+    {
+      "holdout_id": 26,
+      "train_source_entry": "train/images/15615.jpg",
+      "dhash_distance_256": 92
+    },
+    {
+      "holdout_id": 27,
+      "train_source_entry": "train/images/3034.jpg",
+      "dhash_distance_256": 88
+    },
+    {
+      "holdout_id": 28,
+      "train_source_entry": "train/images/23624.jpg",
+      "dhash_distance_256": 89
+    },
+    {
+      "holdout_id": 29,
+      "train_source_entry": "train/images/10444.jpg",
+      "dhash_distance_256": 91
+    },
+    {
+      "holdout_id": 30,
+      "train_source_entry": "train/images/4853.jpg",
+      "dhash_distance_256": 96
+    },
+    {
+      "holdout_id": 31,
+      "train_source_entry": "train/images/9602.jpg",
+      "dhash_distance_256": 93
+    },
+    {
+      "holdout_id": 33,
+      "train_source_entry": "train/images/16479.jpg",
+      "dhash_distance_256": 91
+    },
+    {
+      "holdout_id": 34,
+      "train_source_entry": "train/images/2112.jpg",
+      "dhash_distance_256": 93
+    },
+    {
+      "holdout_id": 35,
+      "train_source_entry": "train/images/20835.jpg",
+      "dhash_distance_256": 87
+    },
+    {
+      "holdout_id": 36,
+      "train_source_entry": "train/images/4706.jpg",
+      "dhash_distance_256": 89
+    },
+    {
+      "holdout_id": 37,
+      "train_source_entry": "train/images/5153.jpg",
+      "dhash_distance_256": 89
+    },
+    {
+      "holdout_id": 38,
+      "train_source_entry": "train/images/15217.jpg",
+      "dhash_distance_256": 93
+    },
+    {
+      "holdout_id": 39,
+      "train_source_entry": "train/images/10765.jpg",
+      "dhash_distance_256": 93
+    },
+    {
+      "holdout_id": 40,
+      "train_source_entry": "train/images/19959.jpg",
+      "dhash_distance_256": 82
+    },
+    {
+      "holdout_id": 42,
+      "train_source_entry": "train/images/17368.jpg",
+      "dhash_distance_256": 98
+    },
+    {
+      "holdout_id": 43,
+      "train_source_entry": "train/images/7358.jpg",
+      "dhash_distance_256": 100
+    },
+    {
+      "holdout_id": 44,
+      "train_source_entry": "train/images/19418.jpg",
+      "dhash_distance_256": 92
+    },
+    {
+      "holdout_id": 45,
+      "train_source_entry": "train/images/17496.jpg",
+      "dhash_distance_256": 94
+    },
+    {
+      "holdout_id": 46,
+      "train_source_entry": "train/images/6002.jpg",
+      "dhash_distance_256": 95
+    },
+    {
+      "holdout_id": 47,
+      "train_source_entry": "train/images/5496.jpg",
+      "dhash_distance_256": 83
+    },
+    {
+      "holdout_id": 48,
+      "train_source_entry": "train/images/15018.jpg",
+      "dhash_distance_256": 99
+    },
+    {
+      "holdout_id": 49,
+      "train_source_entry": "train/images/2112.jpg",
+      "dhash_distance_256": 94
+    },
+    {
+      "holdout_id": 50,
+      "train_source_entry": "train/images/3809.jpg",
+      "dhash_distance_256": 93
+    },
+    {
+      "holdout_id": 51,
+      "train_source_entry": "train/images/23541.jpg",
+      "dhash_distance_256": 96
+    },
+    {
+      "holdout_id": 52,
+      "train_source_entry": "train/images/15732.jpg",
+      "dhash_distance_256": 94
+    },
+    {
+      "holdout_id": 53,
+      "train_source_entry": "train/images/7164.jpg",
+      "dhash_distance_256": 91
+    }
+  ],
+  "note": "Near-duplicate diagnostic after evaluation; does not remove examples or change accuracy."
+}

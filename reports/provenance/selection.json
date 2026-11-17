@@ -1,0 +1,71 @@
+{
+  "criterion": "Choose on old external development full exact accuracy, then CER; calibrate only on 600 OCR validation samples.",
+  "selected": "calibrated two attention models with conservative glyph fusion",
+  "development_full_correct": 28,
+  "development_full_images": 30,
+  "development_ocr_correct": 95,
+  "development_ocr_images": 100,
+  "new_holdout_inference_performed": false,
+  "candidates": {
+    "ab_fusion": {
+      "scenes": {
+        "correct": 28,
+        "images": 30,
+        "cer": 0.008
+      },
+      "ocr": {
+        "correct": 95,
+        "images": 100,
+        "cer": 0.011947431302270013
+      }
+    },
+    "a_fusion": {
+      "scenes": {
+        "correct": 28,
+        "images": 30,
+        "cer": 0.016
+      },
+      "ocr": {
+        "correct": 96,
+        "images": 100,
+        "cer": 0.010752688172043012
+      }
+    },
+    "b_fusion": {
+      "scenes": {
+        "correct": 27,
+        "images": 30,
+        "cer": 0.012
+      },
+      "ocr": {
+        "correct": 97,
+        "images": 100,
+        "cer": 0.009557945041816009
+      }
+    },
+    "b_plain": {
+      "scenes": {
+        "correct": 25,
+        "images": 30,
+        "cer": 0.02
+      },
+      "ocr": {
+        "correct": 95,
+        "images": 100,
+        "cer": 0.011947431302270013
+      }
+    },
+    "calibrated": {
+      "scenes": {
+        "correct": 28,
+        "images": 30,
+        "cer": 0.008
+      },
+      "ocr": {
+        "correct": 95,
+        "images": 100,
+        "cer": 0.011947431302270013
+      }
+    }
+  }
+}

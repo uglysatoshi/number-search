@@ -1,0 +1,2603 @@
+{
+  "started_at_utc": "2026-11-17T11:47:20.032012+00:00",
+  "model_and_pipeline_frozen": {
+    "frozen_at_utc": "2026-11-17T11:42:03.431292+00:00",
+    "sha256": {
+      "plates.py": "d92783f5e2a5649167b94b3da88bb2fe9dcfe9ea4755c2c98724e06ae533b35d",
+      "characters.py": "25bd5ebe491dd4bd12890f6ba5a61f81fcb10482a60c47c64e6403c863961e71",
+      "artifacts/plates/detector.pt": "49a0fbca957035e206ea3dcb532f7baf401b243347ae0cf9974ccd19bc5e9d48",
+      "artifacts/plates/characters.pt": "17407401d4b1ce1e0480d9d9dc756d59baaca2e0d6c46e79584f9427789e405f",
+      "artifacts/plates/characters_aux.pt": "2d0637297126a3c5b6fa727c711e7dfb669d8365b6569110d24e8a7b8b3884a0"
+    },
+    "inference_started": false
+  },
+  "manifest_lock": {
+    "frozen_at_utc": "2026-11-17T11:47:18.585707+00:00",
+    "sha256": "201b16589f7c94c20d34bff89af882213cd6054539991547807d4f7251046c7b",
+    "selected_scenes": 30,
+    "selected_ocr": 100
+  },
+  "source_datasets": {
+    "scenes": {
+      "repo": "AY000554/Car_plate_detecting_dataset",
+      "revision": "f1a57c262cad86e3541bc0a3d951fc021527743c",
+      "url": "https://huggingface.co/datasets/AY000554/Car_plate_detecting_dataset",
+      "archive_bytes": 566170665
+    },
+    "ocr": {
+      "repo": "adasdaadadad/Car_plate_OCR_dataset",
+      "revision": "d620cadf26ec824194c3aeeb7a94bef42101d8e0",
+      "url": "https://huggingface.co/datasets/adasdaadadad/Car_plate_OCR_dataset",
+      "archive_bytes": 72436786
+    }
+  },
+  "suites": {
+    "scenes": {
+      "task": "full-image detection and reading",
+      "images": 30,
+      "correct": 14,
+      "exact_accuracy": 0.4666666666666667,
+      "wilson_95_interval": [
+        0.30232127224128236,
+        0.6385798671847496
+      ],
+      "character_error_rate": 0.416,
+      "empty_predictions": 10,
+      "mean_inference_ms": 31.96711332614844,
+      "annotation_used_for_inference": false,
+      "predictions": [
+        {
+          "text": "H113YX163",
+          "detected": true,
+          "detection_score": 0.9620111584663391,
+          "recognition_score": -0.046473238804739796,
+          "polygon": [
+            [
+              403.9100036621094,
+              432.5
+            ],
+            [
+              713.280029296875,
+              432.5
+            ],
+            [
+              713.280029296875,
+              500.0799865722656
+            ],
+            [
+              403.9100036621094,
+              500.0799865722656
+            ]
+          ],
+          "crop_margin": 1.22,
+          "selection_score": -0.0580890648678888,
+          "supporting_views": 3,
+          "id": "scenes_001",
+          "file": "artifacts\\independent_test\\scenes\\images\\001.jpg",
+          "source_entry": "test/images/5382.jpg",
+          "expected": "H113YX163",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 39.91439996752888,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\001.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\001.jpg.crop.png"
+          }
+        },
+        {
+          "text": "H888CK37",
+          "detected": true,
+          "detection_score": 0.9524676203727722,
+          "recognition_score": -0.02318957774195951,
+          "polygon": [
+            [
+              92.5999984741211,
+              404.6600036621094
+            ],
+            [
+              250.47999572753906,
+              412.9700012207031
+            ],
+            [
+              247.25999450683594,
+              474.07000732421875
+            ],
+            [
+              89.37999725341797,
+              465.760009765625
+            ]
+          ],
+          "crop_margin": 1.0,
+          "selection_score": -0.0269861439327157,
+          "supporting_views": 3,
+          "id": "scenes_002",
+          "file": "artifacts\\independent_test\\scenes\\images\\002.jpg",
+          "source_entry": "test/images/23520.jpg",
+          "expected": "H888CK37",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 32.358799944631755,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\002.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\002.jpg.crop.png"
+          }
+        },
+        {
+          "text": "O993KT96",
+          "detected": true,
+          "detection_score": 0.9315878748893738,
+          "recognition_score": -0.029702062136493623,
+          "polygon": [
+            [
+              337.5,
+              793.75
+            ],
+            [
+              687.5,
+              793.75
+            ],
+            [
+              687.5,
+              900.0
+            ],
+            [
+              337.5,
+              900.0
+            ]
+          ],
+          "crop_margin": 1.0,
+          "selection_score": -0.04933461600235123,
+          "supporting_views": 3,
+          "id": "scenes_003",
+          "file": "artifacts\\independent_test\\scenes\\images\\003.jpg",
+          "source_entry": "test/images/10959.jpg",
+          "expected": "O993KT96",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 34.00930005591363,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\003.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\003.jpg.crop.png"
+          }
+        },
+        {
+          "text": "",
+          "detected": false,
+          "detection_score": 0.0,
+          "polygon": null,
+          "id": "scenes_004",
+          "file": "artifacts\\independent_test\\scenes\\images\\004.jpg",
+          "source_entry": "test/images/14559.jpg",
+          "expected": "X387KH66",
+          "correct": false,
+          "edit_distance": 8,
+          "inference_ms": 5.7076000375673175,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\004.jpg.result.jpg"
+          }
+        },
+        {
+          "text": "B777CY97",
+          "detected": true,
+          "detection_score": 0.9562193751335144,
+          "recognition_score": -0.00037445076611675177,
+          "polygon": [
+            [
+              661.9500122070312,
+              584.25
+            ],
+            [
+              916.9600219726562,
+              584.25
+            ],
+            [
+              916.9600219726562,
+              655.5
+            ],
+            [
+              661.9500122070312,
+              655.5
+            ]
+          ],
+          "crop_margin": 1.0,
+          "selection_score": -0.0004807514925255496,
+          "supporting_views": 3,
+          "id": "scenes_005",
+          "file": "artifacts\\independent_test\\scenes\\images\\005.jpg",
+          "source_entry": "test/images/25068.jpg",
+          "expected": "B777CY97",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 49.23580004833639,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\005.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\005.jpg.crop.png"
+          }
+        },
+        {
+          "text": "A152KT51",
+          "detected": true,
+          "detection_score": 0.9459298849105835,
+          "recognition_score": -0.0006141271960586892,
+          "polygon": [
+            [
+              894.9400024414062,
+              383.1000061035156
+            ],
+            [
+              1139.47998046875,
+              383.1000061035156
+            ],
+            [
+              1139.47998046875,
+              453.25
+            ],
+            [
+              894.9400024414062,
+              453.25
+            ]
+          ],
+          "crop_margin": 1.0,
+          "selection_score": -0.001652619101979863,
+          "supporting_views": 3,
+          "id": "scenes_006",
+          "file": "artifacts\\independent_test\\scenes\\images\\006.jpg",
+          "source_entry": "test/images/24637.jpg",
+          "expected": "A152KT51",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 48.82670007646084,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\006.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\006.jpg.crop.png"
+          }
+        },
+        {
+          "text": "P921BP197",
+          "detected": true,
+          "detection_score": 0.9558870196342468,
+          "recognition_score": -0.0025745946119665555,
+          "polygon": [
+            [
+              580.4199829101562,
+              605.5900268554688
+            ],
+            [
+              909.9199829101562,
+              635.5499877929688
+            ],
+            [
+              901.2100219726562,
+              731.4199829101562
+            ],
+            [
+              571.7000122070312,
+              701.4600219726562
+            ]
+          ],
+          "crop_margin": 1.0,
+          "selection_score": -0.0034241313171991094,
+          "supporting_views": 3,
+          "id": "scenes_008",
+          "file": "artifacts\\independent_test\\scenes\\images\\008.jpg",
+          "source_entry": "test/images/13384.jpg",
+          "expected": "P921BP197",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 54.86839998047799,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\008.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\008.jpg.crop.png"
+          }
+        },
+        {
+          "text": "",
+          "detected": false,
+          "detection_score": 0.0,
+          "polygon": null,
+          "id": "scenes_009",
+          "file": "artifacts\\independent_test\\scenes\\images\\009.jpg",
+          "source_entry": "test/images/8391.jpg",
+          "expected": "C835MP29",
+          "correct": false,
+          "edit_distance": 8,
+          "inference_ms": 5.817000055685639,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\009.jpg.result.jpg"
+          }
+        },
+        {
+          "text": "",
+          "detected": false,
+          "detection_score": 0.0,
+          "polygon": null,
+          "id": "scenes_011",
+          "file": "artifacts\\independent_test\\scenes\\images\\011.jpg",
+          "source_entry": "test/images/20880.jpg",
+          "expected": "T496YY54",
+          "correct": false,
+          "edit_distance": 8,
+          "inference_ms": 27.619599946774542,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\011.jpg.result.jpg"
+          }
+        },
+        {
+          "text": "O777OO00",
+          "detected": true,
+          "detection_score": 0.8863400220870972,
+          "recognition_score": -1.0491098836064339,
+          "polygon": [
+            [
+              752.6300048828125,
+              294.42999267578125
+            ],
+            [
+              931.3300170898438,
+              288.5299987792969
+            ],
+            [
+              937.25,
+              452.8900146484375
+            ],
+            [
+              758.5599975585938,
+              458.7900085449219
+            ]
+          ],
+          "crop_margin": 1.22,
+          "selection_score": -1.1864364196899475,
+          "supporting_views": 1,
+          "id": "scenes_012",
+          "file": "artifacts\\independent_test\\scenes\\images\\012.jpg",
+          "source_entry": "test/images/20743.jpg",
+          "expected": "P553KB125",
+          "correct": false,
+          "edit_distance": 9,
+          "inference_ms": 16.704699955880642,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\012.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\012.jpg.crop.png"
+          }
+        },
+        {
+          "text": "A074KH57",
+          "detected": true,
+          "detection_score": 0.9494138956069946,
+          "recognition_score": -0.40084962390828877,
+          "polygon": [
+            [
+              1025.739990234375,
+              713.25
+            ],
+            [
+              1227.300048828125,
+              694.0499877929688
+            ],
+            [
+              1234.75,
+              772.25
+            ],
+            [
+              1033.18994140625,
+              791.4400024414062
+            ]
+          ],
+          "crop_margin": 1.1,
+          "selection_score": -0.5381761599918025,
+          "supporting_views": 1,
+          "id": "scenes_013",
+          "file": "artifacts\\independent_test\\scenes\\images\\013.jpg",
+          "source_entry": "test/images/5507.jpg",
+          "expected": "A024KH54",
+          "correct": false,
+          "edit_distance": 2,
+          "inference_ms": 16.369899967685342,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\013.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\013.jpg.crop.png"
+          }
+        },
+        {
+          "text": "",
+          "detected": false,
+          "detection_score": 0.0,
+          "polygon": null,
+          "id": "scenes_014",
+          "file": "artifacts\\independent_test\\scenes\\images\\014.jpg",
+          "source_entry": "test/images/15949.jpg",
+          "expected": "E743XM75",
+          "correct": false,
+          "edit_distance": 8,
+          "inference_ms": 5.586199928075075,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\014.jpg.result.jpg"
+          }
+        },
+        {
+          "text": "Y777OX62",
+          "detected": true,
+          "detection_score": 0.9634678959846497,
+          "recognition_score": -0.002625004396549002,
+          "polygon": [
+            [
+              240.0,
+              794.0
+            ],
+            [
+              422.0,
+              804.0
+            ],
+            [
+              422.0,
+              849.0
+            ],
+            [
+              241.0,
+              838.0
+            ]
+          ],
+          "crop_margin": 1.1,
+          "selection_score": -0.003202383558988886,
+          "supporting_views": 3,
+          "recovery": "roi_redetection",
+          "id": "scenes_015",
+          "file": "artifacts\\independent_test\\scenes\\images\\015.jpg",
+          "source_entry": "test/images/2704.jpg",
+          "expected": "Y777OX62",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 69.67329990584403,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\015.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\015.jpg.crop.png"
+          }
+        },
+        {
+          "text": "B777MA46",
+          "detected": true,
+          "detection_score": 0.9592503309249878,
+          "recognition_score": -0.03666440283086558,
+          "polygon": [
+            [
+              342.69000244140625,
+              683.260009765625
+            ],
+            [
+              571.1500244140625,
+              677.2999877929688
+            ],
+            [
+              573.1300048828125,
+              740.27001953125
+            ],
+            [
+              344.6700134277344,
+              746.22998046875
+            ]
+          ],
+          "crop_margin": 1.0,
+          "selection_score": -0.1739909389143793,
+          "supporting_views": 1,
+          "id": "scenes_016",
+          "file": "artifacts\\independent_test\\scenes\\images\\016.jpg",
+          "source_entry": "test/images/21858.jpg",
+          "expected": "B777HA46",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 40.447100065648556,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\016.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\016.jpg.crop.png"
+          }
+        },
+        {
+          "text": "Y024KA161",
+          "detected": true,
+          "detection_score": 0.9536309838294983,
+          "recognition_score": -0.009731819602519762,
+          "polygon": [
+            [
+              939.3800048828125,
+              501.55999755859375
+            ],
+            [
+              1265.6199951171875,
+              501.55999755859375
+            ],
+            [
+              1265.6199951171875,
+              614.0599975585938
+            ],
+            [
+              939.3800048828125,
+              614.0599975585938
+            ]
+          ],
+          "crop_margin": 1.1,
+          "selection_score": -0.07403095427747974,
+          "supporting_views": 3,
+          "id": "scenes_017",
+          "file": "artifacts\\independent_test\\scenes\\images\\017.jpg",
+          "source_entry": "test/images/8407.jpg",
+          "expected": "Y024KA161",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 31.419900013133883,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\017.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\017.jpg.crop.png"
+          }
+        },
+        {
+          "text": "B073OO25",
+          "detected": true,
+          "detection_score": 0.9607443809509277,
+          "recognition_score": -0.002011524325098435,
+          "polygon": [
+            [
+              553.1599731445312,
+              644.6199951171875
+            ],
+            [
+              911.4500122070312,
+              624.2899780273438
+            ],
+            [
+              916.6799926757812,
+              731.3200073242188
+            ],
+            [
+              558.3900146484375,
+              751.6599731445312
+            ]
+          ],
+          "crop_margin": 1.0,
+          "selection_score": -0.03663977021605051,
+          "supporting_views": 3,
+          "id": "scenes_018",
+          "file": "artifacts\\independent_test\\scenes\\images\\018.jpg",
+          "source_entry": "test/images/7465.jpg",
+          "expected": "B073OO25",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 36.46500001195818,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\018.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\018.jpg.crop.png"
+          }
+        },
+        {
+          "text": "A019TO69",
+          "detected": true,
+          "detection_score": 0.9640243053436279,
+          "recognition_score": -0.0033420061668039125,
+          "polygon": [
+            [
+              527.5399780273438,
+              910.219970703125
+            ],
+            [
+              874.4099731445312,
+              910.219970703125
+            ],
+            [
+              874.4099731445312,
+              1018.5800170898438
+            ],
+            [
+              527.5399780273438,
+              1018.5800170898438
+            ]
+          ],
+          "crop_margin": 1.22,
+          "selection_score": -0.007562372477288026,
+          "supporting_views": 3,
+          "id": "scenes_019",
+          "file": "artifacts\\independent_test\\scenes\\images\\019.jpg",
+          "source_entry": "test/images/10895.jpg",
+          "expected": "A019TO69",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 51.403400022536516,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\019.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\019.jpg.crop.png"
+          }
+        },
+        {
+          "text": "O021AO08",
+          "detected": true,
+          "detection_score": 0.8933238387107849,
+          "recognition_score": -0.3205297910317313,
+          "polygon": [
+            [
+              750.530029296875,
+              315.5199890136719
+            ],
+            [
+              829.5900268554688,
+              313.1600036621094
+            ],
+            [
+              827.22998046875,
+              334.989990234375
+            ],
+            [
+              749.3499755859375,
+              337.94000244140625
+            ]
+          ],
+          "crop_margin": 1.1,
+          "selection_score": -0.4087853336029721,
+          "supporting_views": 2,
+          "id": "scenes_020",
+          "file": "artifacts\\independent_test\\scenes\\images\\020.jpg",
+          "source_entry": "test/images/19385.jpg",
+          "expected": "O021AO98",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 33.97970006335527,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\020.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\020.jpg.crop.png"
+          }
+        },
+        {
+          "text": "T152EO54",
+          "detected": true,
+          "detection_score": 0.9467665553092957,
+          "recognition_score": -0.041224475629860535,
+          "polygon": [
+            [
+              441.25,
+              452.19000244140625
+            ],
+            [
+              791.4400024414062,
+              452.19000244140625
+            ],
+            [
+              791.4400024414062,
+              543.780029296875
+            ],
+            [
+              441.25,
+              543.780029296875
+            ]
+          ],
+          "crop_margin": 1.1,
+          "selection_score": -0.045168333080159356,
+          "supporting_views": 3,
+          "id": "scenes_021",
+          "file": "artifacts\\independent_test\\scenes\\images\\021.jpg",
+          "source_entry": "test/images/15746.jpg",
+          "expected": "T152EO54",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 60.34249998629093,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\021.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\021.jpg.crop.png"
+          }
+        },
+        {
+          "text": "",
+          "detected": false,
+          "detection_score": 0.0,
+          "polygon": null,
+          "id": "scenes_022",
+          "file": "artifacts\\independent_test\\scenes\\images\\022.jpg",
+          "source_entry": "test/images/5468.jpg",
+          "expected": "E048YB125",
+          "correct": false,
+          "edit_distance": 9,
+          "inference_ms": 29.15499999653548,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\022.jpg.result.jpg"
+          }
+        },
+        {
+          "text": "O777OM700",
+          "detected": true,
+          "detection_score": 0.8601130843162537,
+          "recognition_score": -0.6380613744258881,
+          "polygon": [
+            [
+              401.0,
+              789.0
+            ],
+            [
+              625.0,
+              795.0
+            ],
+            [
+              628.0,
+              839.0
+            ],
+            [
+              403.0,
+              835.0
+            ]
+          ],
+          "crop_margin": 1.22,
+          "selection_score": -0.7601294065001225,
+          "supporting_views": 1,
+          "id": "scenes_023",
+          "file": "artifacts\\independent_test\\scenes\\images\\023.jpg",
+          "source_entry": "test/images/12424.jpg",
+          "expected": "X799MX90",
+          "correct": false,
+          "edit_distance": 6,
+          "inference_ms": 35.298299975693226,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\023.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\023.jpg.crop.png"
+          }
+        },
+        {
+          "text": "",
+          "detected": false,
+          "detection_score": 0.0,
+          "polygon": null,
+          "id": "scenes_024",
+          "file": "artifacts\\independent_test\\scenes\\images\\024.jpg",
+          "source_entry": "test/images/1630.jpg",
+          "expected": "P542OB199",
+          "correct": false,
+          "edit_distance": 9,
+          "inference_ms": 4.63450001552701,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\024.jpg.result.jpg"
+          }
+        },
+        {
+          "text": "M678MP77",
+          "detected": true,
+          "detection_score": 0.9645870327949524,
+          "recognition_score": -0.01364686274777327,
+          "polygon": [
+            [
+              483.17999267578125,
+              692.27001953125
+            ],
+            [
+              749.97998046875,
+              706.1199951171875
+            ],
+            [
+              745.72998046875,
+              785.7999877929688
+            ],
+            [
+              478.92999267578125,
+              771.9500122070312
+            ]
+          ],
+          "crop_margin": 1.0,
+          "selection_score": -0.07277209120623823,
+          "supporting_views": 2,
+          "id": "scenes_025",
+          "file": "artifacts\\independent_test\\scenes\\images\\025.jpg",
+          "source_entry": "test/images/2834.jpg",
+          "expected": "M678MP37",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 22.784899920225143,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\025.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\025.jpg.crop.png"
+          }
+        },
+        {
+          "text": "O904BY190",
+          "detected": true,
+          "detection_score": 0.9582610726356506,
+          "recognition_score": -0.00445035027809758,
+          "polygon": [
+            [
+              685.0,
+              459.0
+            ],
+            [
+              955.0,
+              445.0
+            ],
+            [
+              961.0,
+              497.0
+            ],
+            [
+              691.0,
+              519.0
+            ]
+          ],
+          "crop_margin": 1.1,
+          "selection_score": -0.04449739694063843,
+          "supporting_views": 3,
+          "id": "scenes_026",
+          "file": "artifacts\\independent_test\\scenes\\images\\026.jpg",
+          "source_entry": "test/images/8771.jpg",
+          "expected": "O904BY190",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 52.58570006117225,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\026.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\026.jpg.crop.png"
+          }
+        },
+        {
+          "text": "E815OY29",
+          "detected": true,
+          "detection_score": 0.9657062292098999,
+          "recognition_score": -0.00033331045619799937,
+          "polygon": [
+            [
+              256.0,
+              674.0
+            ],
+            [
+              529.0,
+              735.0
+            ],
+            [
+              534.0,
+              802.0
+            ],
+            [
+              262.0,
+              741.0
+            ]
+          ],
+          "crop_margin": 1.22,
+          "selection_score": -0.03366633474468306,
+          "supporting_views": 3,
+          "id": "scenes_027",
+          "file": "artifacts\\independent_test\\scenes\\images\\027.jpg",
+          "source_entry": "test/images/21987.jpg",
+          "expected": "E815OY29",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 77.54669990390539,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\027.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\027.jpg.crop.png"
+          }
+        },
+        {
+          "text": "",
+          "detected": false,
+          "detection_score": 0.0,
+          "polygon": null,
+          "id": "scenes_028",
+          "file": "artifacts\\independent_test\\scenes\\images\\028.jpg",
+          "source_entry": "test/images/2081.jpg",
+          "expected": "B171HH32",
+          "correct": false,
+          "edit_distance": 8,
+          "inference_ms": 5.714899976737797,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\028.jpg.result.jpg"
+          }
+        },
+        {
+          "text": "",
+          "detected": false,
+          "detection_score": 0.0,
+          "polygon": null,
+          "id": "scenes_029",
+          "file": "artifacts\\independent_test\\scenes\\images\\029.jpg",
+          "source_entry": "test/images/1947.jpg",
+          "expected": "T555MA190",
+          "correct": false,
+          "edit_distance": 9,
+          "inference_ms": 5.56189997587353,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\029.jpg.result.jpg"
+          }
+        },
+        {
+          "text": "",
+          "detected": false,
+          "detection_score": 0.0,
+          "polygon": null,
+          "id": "scenes_030",
+          "file": "artifacts\\independent_test\\scenes\\images\\030.jpg",
+          "source_entry": "test/images/19799.jpg",
+          "expected": "M392OP72",
+          "correct": false,
+          "edit_distance": 8,
+          "inference_ms": 5.912699969485402,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\030.jpg.result.jpg"
+          }
+        },
+        {
+          "text": "E401EE178",
+          "detected": true,
+          "detection_score": 0.9587883949279785,
+          "recognition_score": -0.00021677702948055512,
+          "polygon": [
+            [
+              252.0,
+              1082.0
+            ],
+            [
+              600.0,
+              1123.0
+            ],
+            [
+              610.0,
+              1206.0
+            ],
+            [
+              264.0,
+              1160.0
+            ]
+          ],
+          "crop_margin": 1.0,
+          "selection_score": -0.00042879843207003593,
+          "supporting_views": 3,
+          "id": "scenes_032",
+          "file": "artifacts\\independent_test\\scenes\\images\\032.jpg",
+          "source_entry": "test/images/21667.jpg",
+          "expected": "E401EE178",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 53.43809991609305,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\032.jpg.result.jpg",
+            "crop": "artifacts\\independent_test\\visualizations\\scenes\\032.jpg.crop.png"
+          }
+        },
+        {
+          "text": "",
+          "detected": false,
+          "detection_score": 0.0,
+          "polygon": null,
+          "id": "scenes_033",
+          "file": "artifacts\\independent_test\\scenes\\images\\033.jpg",
+          "source_entry": "test/images/12896.jpg",
+          "expected": "O792MA163",
+          "correct": false,
+          "edit_distance": 9,
+          "inference_ms": 5.631400039419532,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\scenes\\033.jpg.result.jpg"
+          }
+        }
+      ],
+      "visualizations": {
+        "directory": "artifacts\\independent_test\\visualizations\\scenes",
+        "gallery": "artifacts\\independent_test\\visualizations\\scenes\\index.html",
+        "summary": "artifacts\\independent_test\\visualizations\\scenes\\summary.jpg"
+      }
+    },
+    "ocr": {
+      "task": "OCR-only on source-provided crops",
+      "images": 100,
+      "correct": 69,
+      "exact_accuracy": 0.69,
+      "wilson_95_interval": [
+        0.5937376052204429,
+        0.7722043679386762
+      ],
+      "character_error_rate": 0.13500597371565112,
+      "empty_predictions": 5,
+      "mean_inference_ms": 6.918055990245193,
+      "annotation_used_for_inference": false,
+      "predictions": [
+        {
+          "text": "K140AE01",
+          "recognition_score": -1.1516716883546905,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_001",
+          "file": "artifacts\\independent_test\\ocr\\images\\001.png",
+          "source_entry": "test/img/T493EY31.png",
+          "expected": "T493EY31",
+          "correct": false,
+          "edit_distance": 6,
+          "inference_ms": 8.824599906802177,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\001.png.result.jpg"
+          }
+        },
+        {
+          "text": "H120MH39",
+          "recognition_score": -0.15212978477211436,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_002",
+          "file": "artifacts\\independent_test\\ocr\\images\\002.png",
+          "source_entry": "test/img/H120HH39.png",
+          "expected": "H120HH39",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 9.9458999466151,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\002.png.result.jpg"
+          }
+        },
+        {
+          "text": "P666PO98",
+          "recognition_score": -0.011008190653228667,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_003",
+          "file": "artifacts\\independent_test\\ocr\\images\\003.png",
+          "source_entry": "test/img/P666PO98.png",
+          "expected": "P666PO98",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 9.473499958403409,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\003.png.result.jpg"
+          }
+        },
+        {
+          "text": "O616OO162",
+          "recognition_score": -0.16254633151984307,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_004",
+          "file": "artifacts\\independent_test\\ocr\\images\\004.png",
+          "source_entry": "test/img/O616OO62.png",
+          "expected": "O616OO62",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 10.152900009416044,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\004.png.result.jpg"
+          }
+        },
+        {
+          "text": "A305BX122",
+          "recognition_score": -0.00012820177438596956,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_005",
+          "file": "artifacts\\independent_test\\ocr\\images\\005.png",
+          "source_entry": "test/img/A305BX122.png",
+          "expected": "A305BX122",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 10.929099982604384,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\005.png.result.jpg"
+          }
+        },
+        {
+          "text": "H555OX54",
+          "recognition_score": -0.0031589495324624295,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_006",
+          "file": "artifacts\\independent_test\\ocr\\images\\006.png",
+          "source_entry": "test/img/H555OX54.png",
+          "expected": "H555OX54",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.24370002374053,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\006.png.result.jpg"
+          }
+        },
+        {
+          "text": "C480CT154",
+          "recognition_score": -0.05889623220312817,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_007",
+          "file": "artifacts\\independent_test\\ocr\\images\\007.png",
+          "source_entry": "test/img/C480CT154.png",
+          "expected": "C480CT154",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.68209998589009,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\007.png.result.jpg"
+          }
+        },
+        {
+          "text": "O843XM74",
+          "recognition_score": -0.18559594250691588,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_008",
+          "file": "artifacts\\independent_test\\ocr\\images\\008.png",
+          "source_entry": "test/img/O843XM74.png",
+          "expected": "O843XM74",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.480100077576935,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\008.png.result.jpg"
+          }
+        },
+        {
+          "text": "A227YA186",
+          "recognition_score": -9.211985161527991e-05,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_009",
+          "file": "artifacts\\independent_test\\ocr\\images\\009.png",
+          "source_entry": "test/img/A227YA186.png",
+          "expected": "A227YA186",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.301000110805035,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\009.png.result.jpg"
+          }
+        },
+        {
+          "text": "O015PT333",
+          "recognition_score": -0.03717565380065303,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_010",
+          "file": "artifacts\\independent_test\\ocr\\images\\010.png",
+          "source_entry": "test/img/O015PT33.png",
+          "expected": "O015PT33",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 8.51930002681911,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\010.png.result.jpg"
+          }
+        },
+        {
+          "text": "E215PC77",
+          "recognition_score": -0.0021369810062310535,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_011",
+          "file": "artifacts\\independent_test\\ocr\\images\\011.png",
+          "source_entry": "test/img/E215PC77.png",
+          "expected": "E215PC77",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.077300037257373,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\011.png.result.jpg"
+          }
+        },
+        {
+          "text": "A489KE14",
+          "recognition_score": -0.0008017613270681068,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_012",
+          "file": "artifacts\\independent_test\\ocr\\images\\012.png",
+          "source_entry": "test/img/A489KE14.png",
+          "expected": "A489KE14",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.098099962808192,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\012.png.result.jpg"
+          }
+        },
+        {
+          "text": "A658HB156",
+          "recognition_score": -0.0007001393867590701,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_013",
+          "file": "artifacts\\independent_test\\ocr\\images\\013.png",
+          "source_entry": "test/img/A658HB156.png",
+          "expected": "A658HB156",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.015199982561171,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\013.png.result.jpg"
+          }
+        },
+        {
+          "text": "B553OK28",
+          "recognition_score": -0.06798487599007785,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_014",
+          "file": "artifacts\\independent_test\\ocr\\images\\014.png",
+          "source_entry": "test/img/B553OK28.png",
+          "expected": "B553OK28",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.907999981194735,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\014.png.result.jpg"
+          }
+        },
+        {
+          "text": "M813KK31",
+          "recognition_score": -0.0007974957803753568,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_015",
+          "file": "artifacts\\independent_test\\ocr\\images\\015.png",
+          "source_entry": "test/img/M813KK31.png",
+          "expected": "M813KK31",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.769100087694824,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\015.png.result.jpg"
+          }
+        },
+        {
+          "text": "O111OO18",
+          "recognition_score": -0.00031549718448786734,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_016",
+          "file": "artifacts\\independent_test\\ocr\\images\\016.png",
+          "source_entry": "test/img/O111OO18.png",
+          "expected": "O111OO18",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.93420004285872,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\016.png.result.jpg"
+          }
+        },
+        {
+          "text": "X723YA02",
+          "recognition_score": -0.30409728692029603,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_017",
+          "file": "artifacts\\independent_test\\ocr\\images\\017.png",
+          "source_entry": "test/img/X723YA52.png",
+          "expected": "X723YA52",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 6.760800024494529,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\017.png.result.jpg"
+          }
+        },
+        {
+          "text": "K931OP116",
+          "recognition_score": -0.03629989673693975,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_018",
+          "file": "artifacts\\independent_test\\ocr\\images\\018.png",
+          "source_entry": "test/img/K931OP116.png",
+          "expected": "K931OP116",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.595100021921098,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\018.png.result.jpg"
+          }
+        },
+        {
+          "text": "A455EC702",
+          "recognition_score": -0.08446831781899139,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_019",
+          "file": "artifacts\\independent_test\\ocr\\images\\019.png",
+          "source_entry": "test/img/A455EC702.png",
+          "expected": "A455EC702",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 9.57389990799129,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\019.png.result.jpg"
+          }
+        },
+        {
+          "text": "B088CC26",
+          "recognition_score": -0.0006684346949441533,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_020",
+          "file": "artifacts\\independent_test\\ocr\\images\\020.png",
+          "source_entry": "test/img/B088CC26.png",
+          "expected": "B088CC26",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.401200011372566,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\020.png.result.jpg"
+          }
+        },
+        {
+          "text": "O078TT00",
+          "recognition_score": -0.5630344115197659,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_021",
+          "file": "artifacts\\independent_test\\ocr\\images\\021.png",
+          "source_entry": "test/img/P938TY54.png",
+          "expected": "P938TY54",
+          "correct": false,
+          "edit_distance": 6,
+          "inference_ms": 8.043899899348617,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\021.png.result.jpg"
+          }
+        },
+        {
+          "text": "A505AA178",
+          "recognition_score": -0.0034493737711171787,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_022",
+          "file": "artifacts\\independent_test\\ocr\\images\\022.png",
+          "source_entry": "test/img/A505AA178.png",
+          "expected": "A505AA178",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.349600015208125,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\022.png.result.jpg"
+          }
+        },
+        {
+          "text": "K604XA197",
+          "recognition_score": -0.005938516752394207,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_023",
+          "file": "artifacts\\independent_test\\ocr\\images\\023.png",
+          "source_entry": "test/img/K604XA197.png",
+          "expected": "K604XA197",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 9.466400020755827,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\023.png.result.jpg"
+          }
+        },
+        {
+          "text": "K008PE196",
+          "recognition_score": -0.04356152036052663,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_024",
+          "file": "artifacts\\independent_test\\ocr\\images\\024.png",
+          "source_entry": "test/img/K008PE196.png",
+          "expected": "K008PE196",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.874999941326678,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\024.png.result.jpg"
+          }
+        },
+        {
+          "text": "E313HP29",
+          "recognition_score": -0.00039935838264426593,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_025",
+          "file": "artifacts\\independent_test\\ocr\\images\\025.png",
+          "source_entry": "test/img/E313HP29.png",
+          "expected": "E313HP29",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.988100056536496,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\025.png.result.jpg"
+          }
+        },
+        {
+          "text": "E142BA96",
+          "recognition_score": -0.04646494367989362,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_026",
+          "file": "artifacts\\independent_test\\ocr\\images\\026.png",
+          "source_entry": "test/img/E142BA96.png",
+          "expected": "E142BA96",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.643399992957711,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\026.png.result.jpg"
+          }
+        },
+        {
+          "text": "P998AO70",
+          "recognition_score": -0.036737731665198226,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_027",
+          "file": "artifacts\\independent_test\\ocr\\images\\027.png",
+          "source_entry": "test/img/P998AO70.png",
+          "expected": "P998AO70",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.069400046020746,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\027.png.result.jpg"
+          }
+        },
+        {
+          "text": "O222PE38",
+          "recognition_score": -0.2113119534763115,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_028",
+          "file": "artifacts\\independent_test\\ocr\\images\\028.png",
+          "source_entry": "test/img/C222PE38.png",
+          "expected": "C222PE38",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 8.535599918104708,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\028.png.result.jpg"
+          }
+        },
+        {
+          "text": "C706AC777",
+          "recognition_score": -0.0046334397464104565,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_029",
+          "file": "artifacts\\independent_test\\ocr\\images\\029.png",
+          "source_entry": "test/img/C706AC777.png",
+          "expected": "C706AC777",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 9.57699993159622,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\029.png.result.jpg"
+          }
+        },
+        {
+          "text": "A032KH70",
+          "recognition_score": -0.25846391916275024,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_030",
+          "file": "artifacts\\independent_test\\ocr\\images\\030.png",
+          "source_entry": "test/img/A132KH21.png",
+          "expected": "A132KH21",
+          "correct": false,
+          "edit_distance": 3,
+          "inference_ms": 6.8697999231517315,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\030.png.result.jpg"
+          }
+        },
+        {
+          "text": "M681OO31",
+          "recognition_score": -0.0015397922479678527,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_031",
+          "file": "artifacts\\independent_test\\ocr\\images\\031.png",
+          "source_entry": "test/img/M681OO31.png",
+          "expected": "M681OO31",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 5.8593000285327435,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\031.png.result.jpg"
+          }
+        },
+        {
+          "text": "K606MP967",
+          "recognition_score": -0.5789420345358344,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_032",
+          "file": "artifacts\\independent_test\\ocr\\images\\032.png",
+          "source_entry": "test/img/X606BO36.png",
+          "expected": "X606BO36",
+          "correct": false,
+          "edit_distance": 5,
+          "inference_ms": 7.7000000746920705,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\032.png.result.jpg"
+          }
+        },
+        {
+          "text": "O648KX799",
+          "recognition_score": -0.0021542559501944603,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_033",
+          "file": "artifacts\\independent_test\\ocr\\images\\033.png",
+          "source_entry": "test/img/O648KX799.png",
+          "expected": "O648KX799",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.293300004675984,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\033.png.result.jpg"
+          }
+        },
+        {
+          "text": "E117OX16",
+          "recognition_score": -0.5620053225720767,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_034",
+          "file": "artifacts\\independent_test\\ocr\\images\\034.png",
+          "source_entry": "test/img/C670AX96.png",
+          "expected": "C670AX96",
+          "correct": false,
+          "edit_distance": 6,
+          "inference_ms": 4.561499925330281,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\034.png.result.jpg"
+          }
+        },
+        {
+          "text": "B190EB164",
+          "recognition_score": -0.3048460107432523,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_035",
+          "file": "artifacts\\independent_test\\ocr\\images\\035.png",
+          "source_entry": "test/img/B190EB64.png",
+          "expected": "B190EB64",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 6.9694999838247895,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\035.png.result.jpg"
+          }
+        },
+        {
+          "text": "A447PO76",
+          "recognition_score": -0.005031241694268829,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_036",
+          "file": "artifacts\\independent_test\\ocr\\images\\036.png",
+          "source_entry": "test/img/A447PO76.png",
+          "expected": "A447PO76",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.183199981227517,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\036.png.result.jpg"
+          }
+        },
+        {
+          "text": "B567BB164",
+          "recognition_score": -0.012742770635264201,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_037",
+          "file": "artifacts\\independent_test\\ocr\\images\\037.png",
+          "source_entry": "test/img/B567BB164.png",
+          "expected": "B567BB164",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.777199964039028,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\037.png.result.jpg"
+          }
+        },
+        {
+          "text": "K682AA153",
+          "recognition_score": -0.035436942673841704,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_038",
+          "file": "artifacts\\independent_test\\ocr\\images\\038.png",
+          "source_entry": "test/img/K682AA152.png",
+          "expected": "K682AA152",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 8.087099995464087,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\038.png.result.jpg"
+          }
+        },
+        {
+          "text": "K429KP159",
+          "recognition_score": -0.08314810395758185,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_039",
+          "file": "artifacts\\independent_test\\ocr\\images\\039.png",
+          "source_entry": "test/img/K429KP159.png",
+          "expected": "K429KP159",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.763999979943037,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\039.png.result.jpg"
+          }
+        },
+        {
+          "text": "A886BP92",
+          "recognition_score": -0.06923232962435577,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_040",
+          "file": "artifacts\\independent_test\\ocr\\images\\040.png",
+          "source_entry": "test/img/A886BP92.png",
+          "expected": "A886BP92",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.055499940179288,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\040.png.result.jpg"
+          }
+        },
+        {
+          "text": "O035OT67",
+          "recognition_score": -0.6484902465788764,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_041",
+          "file": "artifacts\\independent_test\\ocr\\images\\041.png",
+          "source_entry": "test/img/O035OO36.png",
+          "expected": "O035OO36",
+          "correct": false,
+          "edit_distance": 3,
+          "inference_ms": 5.903600016608834,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\041.png.result.jpg"
+          }
+        },
+        {
+          "text": "C790OK720",
+          "recognition_score": -0.5670816315700196,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_042",
+          "file": "artifacts\\independent_test\\ocr\\images\\042.png",
+          "source_entry": "test/img/C795OK72.png",
+          "expected": "C795OK72",
+          "correct": false,
+          "edit_distance": 2,
+          "inference_ms": 6.697200005874038,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\042.png.result.jpg"
+          }
+        },
+        {
+          "text": "E050OX799",
+          "recognition_score": -0.06476299926806758,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_043",
+          "file": "artifacts\\independent_test\\ocr\\images\\043.png",
+          "source_entry": "test/img/E050OX799.png",
+          "expected": "E050OX799",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 5.681299953721464,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\043.png.result.jpg"
+          }
+        },
+        {
+          "text": "P804AX152",
+          "recognition_score": -0.033837848646524234,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_044",
+          "file": "artifacts\\independent_test\\ocr\\images\\044.png",
+          "source_entry": "test/img/P804AX152.png",
+          "expected": "P804AX152",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 9.621699922718108,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\044.png.result.jpg"
+          }
+        },
+        {
+          "text": "K444KC35",
+          "recognition_score": -0.0012139926498058173,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_045",
+          "file": "artifacts\\independent_test\\ocr\\images\\045.png",
+          "source_entry": "test/img/K444KC35.png",
+          "expected": "K444KC35",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 8.196399896405637,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\045.png.result.jpg"
+          }
+        },
+        {
+          "text": "H342BC89",
+          "recognition_score": -0.0016587657995046357,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_046",
+          "file": "artifacts\\independent_test\\ocr\\images\\046.png",
+          "source_entry": "test/img/H342BC89.png",
+          "expected": "H342BC89",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.749599986709654,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\046.png.result.jpg"
+          }
+        },
+        {
+          "text": "A888EH198",
+          "recognition_score": -0.00809606852231405,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_047",
+          "file": "artifacts\\independent_test\\ocr\\images\\047.png",
+          "source_entry": "test/img/A888EH198.png",
+          "expected": "A888EH198",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.5267000356689095,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\047.png.result.jpg"
+          }
+        },
+        {
+          "text": "X263PP54",
+          "recognition_score": -0.17826424746308475,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_048",
+          "file": "artifacts\\independent_test\\ocr\\images\\048.png",
+          "source_entry": "test/img/X263PP54.png",
+          "expected": "X263PP54",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.771899992600083,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\048.png.result.jpg"
+          }
+        },
+        {
+          "text": "B099TE009",
+          "recognition_score": -0.4791454535896062,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_049",
+          "file": "artifacts\\independent_test\\ocr\\images\\049.png",
+          "source_entry": "test/img/B099TC799.png",
+          "expected": "B099TC799",
+          "correct": false,
+          "edit_distance": 3,
+          "inference_ms": 8.4080999949947,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\049.png.result.jpg"
+          }
+        },
+        {
+          "text": "Y966AK50",
+          "recognition_score": -0.00019316943560454547,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_050",
+          "file": "artifacts\\independent_test\\ocr\\images\\050.png",
+          "source_entry": "test/img/Y966AK50.png",
+          "expected": "Y966AK50",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 10.18620003014803,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\050.png.result.jpg"
+          }
+        },
+        {
+          "text": "T012EC161",
+          "recognition_score": -1.7301880264300153e-06,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_051",
+          "file": "artifacts\\independent_test\\ocr\\images\\051.png",
+          "source_entry": "test/img/T012EC161.png",
+          "expected": "T012EC161",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 10.463099926710129,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\051.png.result.jpg"
+          }
+        },
+        {
+          "text": "X753AT174",
+          "recognition_score": -0.15363660148448413,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_052",
+          "file": "artifacts\\independent_test\\ocr\\images\\052.png",
+          "source_entry": "test/img/X753AT174.png",
+          "expected": "X753AT174",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.678399979136884,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\052.png.result.jpg"
+          }
+        },
+        {
+          "text": "P172KC72",
+          "recognition_score": -0.15035124388710272,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_053",
+          "file": "artifacts\\independent_test\\ocr\\images\\053.png",
+          "source_entry": "test/img/P172KC72.png",
+          "expected": "P172KC72",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.908999919891357,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\053.png.result.jpg"
+          }
+        },
+        {
+          "text": "K097PT51",
+          "recognition_score": -1.0392255303436742,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_054",
+          "file": "artifacts\\independent_test\\ocr\\images\\054.png",
+          "source_entry": "test/img/X209YP123.png",
+          "expected": "X209YP123",
+          "correct": false,
+          "edit_distance": 6,
+          "inference_ms": 6.723000085912645,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\054.png.result.jpg"
+          }
+        },
+        {
+          "text": "X139HK099",
+          "recognition_score": -0.3575871256697509,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_055",
+          "file": "artifacts\\independent_test\\ocr\\images\\055.png",
+          "source_entry": "test/img/X139HK199.png",
+          "expected": "X139HK199",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 7.089100079610944,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\055.png.result.jpg"
+          }
+        },
+        {
+          "text": "M009PT134",
+          "recognition_score": -0.3015901061890569,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_056",
+          "file": "artifacts\\independent_test\\ocr\\images\\056.png",
+          "source_entry": "test/img/M009PT34.png",
+          "expected": "M009PT34",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 5.218400037847459,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\056.png.result.jpg"
+          }
+        },
+        {
+          "text": "A293YO199",
+          "recognition_score": -0.00020449591546720412,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_057",
+          "file": "artifacts\\independent_test\\ocr\\images\\057.png",
+          "source_entry": "test/img/A293YO199.png",
+          "expected": "A293YO199",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.995300111360848,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\057.png.result.jpg"
+          }
+        },
+        {
+          "text": "T015PH77",
+          "recognition_score": -0.0003455517654051832,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_058",
+          "file": "artifacts\\independent_test\\ocr\\images\\058.png",
+          "source_entry": "test/img/T015PH77.png",
+          "expected": "T015PH77",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.1373000498861074,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\058.png.result.jpg"
+          }
+        },
+        {
+          "text": "A020AA06",
+          "recognition_score": -1.0723329864958941e-05,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_059",
+          "file": "artifacts\\independent_test\\ocr\\images\\059.png",
+          "source_entry": "test/img/A020AA06.png",
+          "expected": "A020AA06",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 4.872199962846935,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\059.png.result.jpg"
+          }
+        },
+        {
+          "text": "A537YB152",
+          "recognition_score": -0.0013638250565956393,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_060",
+          "file": "artifacts\\independent_test\\ocr\\images\\060.png",
+          "source_entry": "test/img/A537YB152.png",
+          "expected": "A537YB152",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.047699997201562,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\060.png.result.jpg"
+          }
+        },
+        {
+          "text": "",
+          "recognition_score": -100.0,
+          "polygon": null,
+          "detected": false,
+          "id": "ocr_061",
+          "file": "artifacts\\independent_test\\ocr\\images\\061.png",
+          "source_entry": "test/img/B504OP93.png",
+          "expected": "B504OP93",
+          "correct": false,
+          "edit_distance": 8,
+          "inference_ms": 1.1668999213725328,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\061.png.result.jpg"
+          }
+        },
+        {
+          "text": "",
+          "recognition_score": -100.0,
+          "polygon": null,
+          "detected": false,
+          "id": "ocr_062",
+          "file": "artifacts\\independent_test\\ocr\\images\\062.png",
+          "source_entry": "test/img/T417AA136.png",
+          "expected": "T417AA136",
+          "correct": false,
+          "edit_distance": 9,
+          "inference_ms": 1.8995999125763774,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\062.png.result.jpg"
+          }
+        },
+        {
+          "text": "O140AB84",
+          "recognition_score": -1.6823827238753437,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_063",
+          "file": "artifacts\\independent_test\\ocr\\images\\063.png",
+          "source_entry": "test/img/Y403BH14.png",
+          "expected": "Y403BH14",
+          "correct": false,
+          "edit_distance": 5,
+          "inference_ms": 4.382399958558381,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\063.png.result.jpg"
+          }
+        },
+        {
+          "text": "O500HO70",
+          "recognition_score": -0.001793210710729909,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_064",
+          "file": "artifacts\\independent_test\\ocr\\images\\064.png",
+          "source_entry": "test/img/O500HO70.png",
+          "expected": "O500HO70",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.080900017172098,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\064.png.result.jpg"
+          }
+        },
+        {
+          "text": "A783HB122",
+          "recognition_score": -0.000123722138634245,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_065",
+          "file": "artifacts\\independent_test\\ocr\\images\\065.png",
+          "source_entry": "test/img/A783HB122.png",
+          "expected": "A783HB122",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.517099915072322,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\065.png.result.jpg"
+          }
+        },
+        {
+          "text": "E970PH154",
+          "recognition_score": -6.737892409900168e-05,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_066",
+          "file": "artifacts\\independent_test\\ocr\\images\\066.png",
+          "source_entry": "test/img/H349YT154.png",
+          "expected": "H349YT154",
+          "correct": false,
+          "edit_distance": 6,
+          "inference_ms": 6.995500065386295,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\066.png.result.jpg"
+          }
+        },
+        {
+          "text": "H652BC32",
+          "recognition_score": -0.15470186048642062,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_067",
+          "file": "artifacts\\independent_test\\ocr\\images\\067.png",
+          "source_entry": "test/img/H652BC32.png",
+          "expected": "H652BC32",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 4.8368999268859625,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\067.png.result.jpg"
+          }
+        },
+        {
+          "text": "H959OO77",
+          "recognition_score": -0.5735385377287457,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_068",
+          "file": "artifacts\\independent_test\\ocr\\images\\068.png",
+          "source_entry": "test/img/H959ET102.png",
+          "expected": "H959ET102",
+          "correct": false,
+          "edit_distance": 5,
+          "inference_ms": 3.867099992930889,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\068.png.result.jpg"
+          }
+        },
+        {
+          "text": "M305MO39",
+          "recognition_score": -0.004147717895648384,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_069",
+          "file": "artifacts\\independent_test\\ocr\\images\\069.png",
+          "source_entry": "test/img/M305MO39.png",
+          "expected": "M305MO39",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.526299985125661,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\069.png.result.jpg"
+          }
+        },
+        {
+          "text": "E001TH82",
+          "recognition_score": -0.001172194160176332,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_070",
+          "file": "artifacts\\independent_test\\ocr\\images\\070.png",
+          "source_entry": "test/img/E001TH82.png",
+          "expected": "E001TH82",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.1443999875336885,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\070.png.result.jpg"
+          }
+        },
+        {
+          "text": "O768HC05",
+          "recognition_score": -0.10153790649201255,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_071",
+          "file": "artifacts\\independent_test\\ocr\\images\\071.png",
+          "source_entry": "test/img/O768HC05.png",
+          "expected": "O768HC05",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 4.43900004029274,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\071.png.result.jpg"
+          }
+        },
+        {
+          "text": "T663CC42",
+          "recognition_score": -7.85680163772895e-05,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_072",
+          "file": "artifacts\\independent_test\\ocr\\images\\072.png",
+          "source_entry": "test/img/T663CC42.png",
+          "expected": "T663CC42",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.167299976572394,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\072.png.result.jpg"
+          }
+        },
+        {
+          "text": "K898YO97",
+          "recognition_score": -0.0020419143547769636,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_073",
+          "file": "artifacts\\independent_test\\ocr\\images\\073.png",
+          "source_entry": "test/img/K898YO97.png",
+          "expected": "K898YO97",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 5.759999970905483,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\073.png.result.jpg"
+          }
+        },
+        {
+          "text": "C944YE47",
+          "recognition_score": -6.317474154116098e-05,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_074",
+          "file": "artifacts\\independent_test\\ocr\\images\\074.png",
+          "source_entry": "test/img/C944YE47.png",
+          "expected": "C944YE47",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 4.484199918806553,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\074.png.result.jpg"
+          }
+        },
+        {
+          "text": "B284OX763",
+          "recognition_score": -0.002024701396294404,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_075",
+          "file": "artifacts\\independent_test\\ocr\\images\\075.png",
+          "source_entry": "test/img/B284OX763.png",
+          "expected": "B284OX763",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.132200011052191,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\075.png.result.jpg"
+          }
+        },
+        {
+          "text": "O762YH98",
+          "recognition_score": -0.0033763971293865325,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_076",
+          "file": "artifacts\\independent_test\\ocr\\images\\076.png",
+          "source_entry": "test/img/O762YH98.png",
+          "expected": "O762YH98",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.004299968481064,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\076.png.result.jpg"
+          }
+        },
+        {
+          "text": "A579HX36",
+          "recognition_score": -0.2342027637511137,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_077",
+          "file": "artifacts\\independent_test\\ocr\\images\\077.png",
+          "source_entry": "test/img/A579HX35.png",
+          "expected": "A579HX35",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 8.10289999935776,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\077.png.result.jpg"
+          }
+        },
+        {
+          "text": "C695BA142",
+          "recognition_score": -0.004629786729411636,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_078",
+          "file": "artifacts\\independent_test\\ocr\\images\\078.png",
+          "source_entry": "test/img/C695BA142.png",
+          "expected": "C695BA142",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 5.805099965073168,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\078.png.result.jpg"
+          }
+        },
+        {
+          "text": "Y042OB799",
+          "recognition_score": -6.398367160108541e-05,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_079",
+          "file": "artifacts\\independent_test\\ocr\\images\\079.png",
+          "source_entry": "test/img/Y042OB799.png",
+          "expected": "Y042OB799",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.755099981091917,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\079.png.result.jpg"
+          }
+        },
+        {
+          "text": "P889HE39",
+          "recognition_score": -0.0005168795192105335,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_080",
+          "file": "artifacts\\independent_test\\ocr\\images\\080.png",
+          "source_entry": "test/img/P889HE39.png",
+          "expected": "P889HE39",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.070600007660687,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\080.png.result.jpg"
+          }
+        },
+        {
+          "text": "H154XM54",
+          "recognition_score": -0.01088336409884505,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_081",
+          "file": "artifacts\\independent_test\\ocr\\images\\081.png",
+          "source_entry": "test/img/H154XM54.png",
+          "expected": "H154XM54",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 4.711900022812188,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\081.png.result.jpg"
+          }
+        },
+        {
+          "text": "E732XT71",
+          "recognition_score": -0.0005190092124394141,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_082",
+          "file": "artifacts\\independent_test\\ocr\\images\\082.png",
+          "source_entry": "test/img/E732XT71.png",
+          "expected": "E732XT71",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.742900004610419,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\082.png.result.jpg"
+          }
+        },
+        {
+          "text": "K700PX46",
+          "recognition_score": -0.18178184609860182,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_083",
+          "file": "artifacts\\independent_test\\ocr\\images\\083.png",
+          "source_entry": "test/img/K700OX46.png",
+          "expected": "K700OX46",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 5.1810999866575,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\083.png.result.jpg"
+          }
+        },
+        {
+          "text": "P963PK62",
+          "recognition_score": -0.06399392476305366,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_084",
+          "file": "artifacts\\independent_test\\ocr\\images\\084.png",
+          "source_entry": "test/img/P963PK62.png",
+          "expected": "P963PK62",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.239700062200427,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\084.png.result.jpg"
+          }
+        },
+        {
+          "text": "X293PM34",
+          "recognition_score": -0.0005882261517058396,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_085",
+          "file": "artifacts\\independent_test\\ocr\\images\\085.png",
+          "source_entry": "test/img/X293PM34.png",
+          "expected": "X293PM34",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 5.75020001269877,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\085.png.result.jpg"
+          }
+        },
+        {
+          "text": "A582TM13",
+          "recognition_score": -0.06964473845437169,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_086",
+          "file": "artifacts\\independent_test\\ocr\\images\\086.png",
+          "source_entry": "test/img/A582TM13.png",
+          "expected": "A582TM13",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.094599957577884,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\086.png.result.jpg"
+          }
+        },
+        {
+          "text": "H577YC68",
+          "recognition_score": -0.15171321441291638,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_087",
+          "file": "artifacts\\independent_test\\ocr\\images\\087.png",
+          "source_entry": "test/img/H577YC68.png",
+          "expected": "H577YC68",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 9.079799987375736,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\087.png.result.jpg"
+          }
+        },
+        {
+          "text": "",
+          "recognition_score": -100.0,
+          "polygon": null,
+          "detected": false,
+          "id": "ocr_088",
+          "file": "artifacts\\independent_test\\ocr\\images\\088.png",
+          "source_entry": "test/img/P916CK71.png",
+          "expected": "P916CK71",
+          "correct": false,
+          "edit_distance": 8,
+          "inference_ms": 0.7434999570250511,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\088.png.result.jpg"
+          }
+        },
+        {
+          "text": "",
+          "recognition_score": -100.0,
+          "polygon": null,
+          "detected": false,
+          "id": "ocr_089",
+          "file": "artifacts\\independent_test\\ocr\\images\\089.png",
+          "source_entry": "test/img/E488AK164.png",
+          "expected": "E488AK164",
+          "correct": false,
+          "edit_distance": 9,
+          "inference_ms": 1.3889999827370048,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\089.png.result.jpg"
+          }
+        },
+        {
+          "text": "E354YB161",
+          "recognition_score": -0.013918415255223712,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_090",
+          "file": "artifacts\\independent_test\\ocr\\images\\090.png",
+          "source_entry": "test/img/E354YB161.png",
+          "expected": "E354YB161",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.785499979741871,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\090.png.result.jpg"
+          }
+        },
+        {
+          "text": "B819CH198",
+          "recognition_score": -0.0012473131281720068,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_091",
+          "file": "artifacts\\independent_test\\ocr\\images\\091.png",
+          "source_entry": "test/img/B819CH198.png",
+          "expected": "B819CH198",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.826800061389804,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\091.png.result.jpg"
+          }
+        },
+        {
+          "text": "M559PH05",
+          "recognition_score": -0.5391748092788475,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_092",
+          "file": "artifacts\\independent_test\\ocr\\images\\092.png",
+          "source_entry": "test/img/B552PH05.png",
+          "expected": "B552PH05",
+          "correct": false,
+          "edit_distance": 2,
+          "inference_ms": 5.0604999996721745,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\092.png.result.jpg"
+          }
+        },
+        {
+          "text": "A298MP97",
+          "recognition_score": -0.26795715882908555,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_093",
+          "file": "artifacts\\independent_test\\ocr\\images\\093.png",
+          "source_entry": "test/img/A298MP97.png",
+          "expected": "A298MP97",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 7.683400064706802,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\093.png.result.jpg"
+          }
+        },
+        {
+          "text": "E707EE77",
+          "recognition_score": -0.1530724146954526,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_094",
+          "file": "artifacts\\independent_test\\ocr\\images\\094.png",
+          "source_entry": "test/img/E707EE777.png",
+          "expected": "E707EE777",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 6.0307999374344945,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\094.png.result.jpg"
+          }
+        },
+        {
+          "text": "",
+          "recognition_score": -100.0,
+          "polygon": null,
+          "detected": false,
+          "id": "ocr_095",
+          "file": "artifacts\\independent_test\\ocr\\images\\095.png",
+          "source_entry": "test/img/C499KA39.png",
+          "expected": "C499KA39",
+          "correct": false,
+          "edit_distance": 8,
+          "inference_ms": 0.981199904344976,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\095.png.result.jpg"
+          }
+        },
+        {
+          "text": "E434BH82",
+          "recognition_score": -0.016251819464741857,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_096",
+          "file": "artifacts\\independent_test\\ocr\\images\\096.png",
+          "source_entry": "test/img/E434BH82.png",
+          "expected": "E434BH82",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 4.554699989967048,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\096.png.result.jpg"
+          }
+        },
+        {
+          "text": "C478BC163",
+          "recognition_score": -0.3646684944901305,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_097",
+          "file": "artifacts\\independent_test\\ocr\\images\\097.png",
+          "source_entry": "test/img/C478BC163.png",
+          "expected": "C478BC163",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 5.594799993559718,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\097.png.result.jpg"
+          }
+        },
+        {
+          "text": "K080TA30",
+          "recognition_score": -0.09555942407132534,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_098",
+          "file": "artifacts\\independent_test\\ocr\\images\\098.png",
+          "source_entry": "test/img/K080TA31.png",
+          "expected": "K080TA31",
+          "correct": false,
+          "edit_distance": 1,
+          "inference_ms": 8.35919997189194,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\098.png.result.jpg"
+          }
+        },
+        {
+          "text": "A787AA61",
+          "recognition_score": -0.009902319630782586,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_099",
+          "file": "artifacts\\independent_test\\ocr\\images\\099.png",
+          "source_entry": "test/img/A787AA61.png",
+          "expected": "A787AA61",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.819100002758205,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\099.png.result.jpg"
+          }
+        },
+        {
+          "text": "O333OB199",
+          "recognition_score": -0.01726856477196432,
+          "polygon": null,
+          "detected": true,
+          "id": "ocr_100",
+          "file": "artifacts\\independent_test\\ocr\\images\\100.png",
+          "source_entry": "test/img/O333OB199.png",
+          "expected": "O333OB199",
+          "correct": true,
+          "edit_distance": 0,
+          "inference_ms": 6.808999925851822,
+          "visualization": {
+            "image": "artifacts\\independent_test\\visualizations\\ocr\\100.png.result.jpg"
+          }
+        }
+      ],
+      "visualizations": {
+        "directory": "artifacts\\independent_test\\visualizations\\ocr",
+        "gallery": "artifacts\\independent_test\\visualizations\\ocr\\index.html",
+        "summary": "artifacts\\independent_test\\visualizations\\ocr\\summary.jpg"
+      }
+    }
+  },
+  "training_performed": false,
+  "tuning_performed": false,
+  "finished_at_utc": "2026-11-17T11:47:23.897186+00:00",
+  "frozen_checks_passed_after_inference": true
+}

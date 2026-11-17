@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "model_version": "v5",
+  "architecture": "attention-glyph-ensemble",
+  "files": {
+    "characters.pt": "17407401d4b1ce1e0480d9d9dc756d59baaca2e0d6c46e79584f9427789e405f",
+    "characters_aux.pt": "2d0637297126a3c5b6fa727c711e7dfb669d8365b6569110d24e8a7b8b3884a0",
+    "detector.pt": "85336d8ac54f4411ee708cf42692f1e1558852386de3c690a9349867b2989f2b",
+    "pipeline.json": "16e0480830e74df53eb934b22fad9588a85797167739464ac99549edaa153432",
+    "sequence.pt": "e1adfb2027ef6787773c14edd7b08b23d076a888ccd54ea6dd4c384136e101e9",
+    "sequence_aux.pt": "ee09205d916802db8b2e9027555d9f9f7ee851e74bd7efa8cd18299ac6556f08"
+  },
+  "evaluation": {
+    "images": 50,
+    "correct": 42,
+    "exact_accuracy": 0.84,
+    "character_error_rate": 0.06038647342995169
+  }
+}

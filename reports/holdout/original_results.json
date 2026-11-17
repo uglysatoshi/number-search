@@ -1,0 +1,1849 @@
+{
+  "independent_holdout": true,
+  "images": 50,
+  "correct": 42,
+  "exact_accuracy": 0.84,
+  "character_error_rate": 0.06038647342995169,
+  "wilson_95_interval": [
+    0.7148551903823401,
+    0.9166267863791231
+  ],
+  "started_at_utc": "2026-11-17T12:32:55.731722+00:00",
+  "finished_at_utc": "2026-11-17T12:33:00.997231+00:00",
+  "frozen_pipeline": {
+    "frozen_at_utc": "2026-11-17T12:32:54.200592+00:00",
+    "model_dir": "artifacts\\generalization_v5\\final_models",
+    "sha256": {
+      "plates.py": "d1664d5adc89f7cdb97c4232a01e753de60fc5cea00e37c6bad4c1cc6a899047",
+      "characters.py": "d384c8ad60c829b33a38d6746c618ef6d24f5fd3d0641e11834716c70ff140b5",
+      "attention_reader.py": "5da2e68d3217aa372f8f7000a5fe5e3703d52fcd6609393c7d700966f7ac6538",
+      "sequence_reader.py": "36fa8c98fa77e5ebfcf710ac9ecb169b93aec81a3d6ae86b0b43c4abac86da4c",
+      "artifacts\\generalization_v5\\final_models\\characters.pt": "17407401d4b1ce1e0480d9d9dc756d59baaca2e0d6c46e79584f9427789e405f",
+      "artifacts\\generalization_v5\\final_models\\characters_aux.pt": "2d0637297126a3c5b6fa727c711e7dfb669d8365b6569110d24e8a7b8b3884a0",
+      "artifacts\\generalization_v5\\final_models\\detector.pt": "85336d8ac54f4411ee708cf42692f1e1558852386de3c690a9349867b2989f2b",
+      "artifacts\\generalization_v5\\final_models\\sequence.pt": "e1adfb2027ef6787773c14edd7b08b23d076a888ccd54ea6dd4c384136e101e9",
+      "artifacts\\generalization_v5\\final_models\\sequence_aux.pt": "ee09205d916802db8b2e9027555d9f9f7ee851e74bd7efa8cd18299ac6556f08",
+      "artifacts\\generalization_v5\\final_models\\pipeline.json": "03f80b87bfea966b3fb9fbbb6a6612142a0cd0524c4c79b8989996bc150e1d93"
+    },
+    "holdout_lock": {
+      "sha256": "d4a39b96514f97112caec8f7c0285a9dc02b905ca34027a28b15da95b3887c13",
+      "frozen_at_utc": "2026-11-17T12:02:59.812197+00:00",
+      "selected": 50,
+      "rule": "No model inference on holdout before final pipeline/model freeze; do not tune after evaluation."
+    },
+    "training_manifest_sha256": "11d1f9ae8364c0d997d2c985f8b1cac3a37b4e446fbe2b9fdc4e8d9195917944",
+    "note": "No predictions on new holdout before this freeze. Earlier external set is development data."
+  },
+  "predictions": [
+    {
+      "text": "E722AE11",
+      "detected": true,
+      "detection_score": 0.9144432544708252,
+      "recognition_score": -0.3266044557094574,
+      "polygon": [
+        [
+          881.22998046875,
+          602.0800170898438
+        ],
+        [
+          1034.9200439453125,
+          594.5800170898438
+        ],
+        [
+          1037.489990234375,
+          682.4299926757812
+        ],
+        [
+          883.7999877929688,
+          689.9299926757812
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.4399062344858985,
+      "supporting_views": 2,
+      "recovery": "tile_search",
+      "id": 1,
+      "file": "artifacts\\generalization_v5\\holdout\\001.jpg",
+      "expected": "X576AE123",
+      "correct": false,
+      "source_entry": "test/images/14044.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\001.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\001.jpg.crop.png"
+      }
+    },
+    {
+      "text": "C319ET197",
+      "detected": true,
+      "detection_score": 0.9621320366859436,
+      "recognition_score": -0.11527618765830994,
+      "polygon": [
+        [
+          486.010009765625,
+          263.32000732421875
+        ],
+        [
+          598.8099975585938,
+          263.32000732421875
+        ],
+        [
+          598.8099975585938,
+          300.94000244140625
+        ],
+        [
+          486.010009765625,
+          300.94000244140625
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.17801215376063384,
+      "supporting_views": 2,
+      "id": 2,
+      "file": "artifacts\\generalization_v5\\holdout\\002.jpg",
+      "expected": "C319ET199",
+      "correct": false,
+      "source_entry": "test/images/10296.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\002.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\002.jpg.crop.png"
+      }
+    },
+    {
+      "text": "C840BE197",
+      "detected": true,
+      "detection_score": 0.9649481773376465,
+      "recognition_score": -0.003567667445167899,
+      "polygon": [
+        [
+          523.0,
+          699.0
+        ],
+        [
+          808.0,
+          697.0
+        ],
+        [
+          809.0,
+          761.0
+        ],
+        [
+          524.0,
+          762.0
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.003928685721515156,
+      "supporting_views": 3,
+      "id": 3,
+      "file": "artifacts\\generalization_v5\\holdout\\003.jpg",
+      "expected": "C840BE197",
+      "correct": true,
+      "source_entry": "test/images/279.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\003.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\003.jpg.crop.png"
+      }
+    },
+    {
+      "text": "M411HO174",
+      "detected": true,
+      "detection_score": 0.97260582447052,
+      "recognition_score": -0.002839217893779278,
+      "polygon": [
+        [
+          418.75,
+          441.07000732421875
+        ],
+        [
+          806.25,
+          441.07000732421875
+        ],
+        [
+          806.25,
+          541.969970703125
+        ],
+        [
+          418.75,
+          541.969970703125
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.003322584248217803,
+      "supporting_views": 3,
+      "id": 4,
+      "file": "artifacts\\generalization_v5\\holdout\\004.jpg",
+      "expected": "M411HO174",
+      "correct": true,
+      "source_entry": "test/images/1914.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\004.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\004.jpg.crop.png"
+      }
+    },
+    {
+      "text": "M569MM64",
+      "detected": true,
+      "detection_score": 0.9706032276153564,
+      "recognition_score": -0.0025419879239052534,
+      "polygon": [
+        [
+          1097.989990234375,
+          954.02001953125
+        ],
+        [
+          1486.31005859375,
+          927.1699829101562
+        ],
+        [
+          1495.3800048828125,
+          1058.9000244140625
+        ],
+        [
+          1107.050048828125,
+          1085.739990234375
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.008095179462920099,
+      "supporting_views": 3,
+      "id": 5,
+      "file": "artifacts\\generalization_v5\\holdout\\005.jpg",
+      "expected": "M569MM64",
+      "correct": true,
+      "source_entry": "test/images/16808.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\005.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\005.jpg.crop.png"
+      }
+    },
+    {
+      "text": "X777AT190",
+      "detected": true,
+      "detection_score": 0.9175145626068115,
+      "recognition_score": -0.0017066978616639972,
+      "polygon": [
+        [
+          381.0,
+          983.0
+        ],
+        [
+          663.0,
+          1047.0
+        ],
+        [
+          673.0,
+          1124.0
+        ],
+        [
+          399.0,
+          1050.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.0026361133088133037,
+      "supporting_views": 3,
+      "id": 6,
+      "file": "artifacts\\generalization_v5\\holdout\\006.jpg",
+      "expected": "X777AT190",
+      "correct": true,
+      "source_entry": "test/images/22529.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\006.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\006.jpg.crop.png"
+      }
+    },
+    {
+      "text": "T201OH21",
+      "detected": true,
+      "detection_score": 0.9223303198814392,
+      "recognition_score": -0.7470009326934814,
+      "polygon": [
+        [
+          991.96,
+          738.07
+        ],
+        [
+          1170.94,
+          702.4
+        ],
+        [
+          1185.51,
+          759.92
+        ],
+        [
+          1006.54,
+          795.59
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.8843274687769952,
+      "supporting_views": 1,
+      "recovery": "roi_redetection",
+      "id": 7,
+      "file": "artifacts\\generalization_v5\\holdout\\007.jpg",
+      "expected": "K747BH16",
+      "correct": false,
+      "source_entry": "test/images/11119.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\007.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\007.jpg.crop.png"
+      }
+    },
+    {
+      "text": "B557OK70",
+      "detected": true,
+      "detection_score": 0.9610849022865295,
+      "recognition_score": -0.3346095383167267,
+      "polygon": [
+        [
+          194.83999633789062,
+          441.92999267578125
+        ],
+        [
+          414.6099853515625,
+          461.9100036621094
+        ],
+        [
+          406.8500061035156,
+          547.280029296875
+        ],
+        [
+          187.0800018310547,
+          527.3099975585938
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.47193607440024044,
+      "supporting_views": 1,
+      "id": 8,
+      "file": "artifacts\\generalization_v5\\holdout\\008.jpg",
+      "expected": "B657OK70",
+      "correct": false,
+      "source_entry": "test/images/18361.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\008.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\008.jpg.crop.png"
+      }
+    },
+    {
+      "text": "C445OM69",
+      "detected": true,
+      "detection_score": 0.9707310795783997,
+      "recognition_score": -0.0032129802275449038,
+      "polygon": [
+        [
+          397.0,
+          619.0
+        ],
+        [
+          595.0,
+          669.0
+        ],
+        [
+          593.0,
+          720.0
+        ],
+        [
+          398.0,
+          665.0
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.003972116799438569,
+      "supporting_views": 3,
+      "id": 10,
+      "file": "artifacts\\generalization_v5\\holdout\\010.jpg",
+      "expected": "C445OM69",
+      "correct": true,
+      "source_entry": "test/images/1131.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\010.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\010.jpg.crop.png"
+      }
+    },
+    {
+      "text": "K639BK29",
+      "detected": true,
+      "detection_score": 0.9616814255714417,
+      "recognition_score": -0.02013501338660717,
+      "polygon": [
+        [
+          1009.8800048828125,
+          609.3599853515625
+        ],
+        [
+          1217.2900390625,
+          601.9199829101562
+        ],
+        [
+          1219.8900146484375,
+          667.510009765625
+        ],
+        [
+          1012.489990234375,
+          674.9600219726562
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.0822620805981502,
+      "supporting_views": 2,
+      "id": 11,
+      "file": "artifacts\\generalization_v5\\holdout\\011.jpg",
+      "expected": "K639BK29",
+      "correct": true,
+      "source_entry": "test/images/11439.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\011.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\011.jpg.crop.png"
+      }
+    },
+    {
+      "text": "M041YX72",
+      "detected": true,
+      "detection_score": 0.9506922364234924,
+      "recognition_score": -0.12528055906295776,
+      "polygon": [
+        [
+          987.5900268554688,
+          624.760009765625
+        ],
+        [
+          1230.3900146484375,
+          636.1400146484375
+        ],
+        [
+          1223.1199951171875,
+          723.4000244140625
+        ],
+        [
+          980.3099975585938,
+          712.02001953125
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.1791733564173585,
+      "supporting_views": 2,
+      "id": 12,
+      "file": "artifacts\\generalization_v5\\holdout\\012.jpg",
+      "expected": "M041YX72",
+      "correct": true,
+      "source_entry": "test/images/13713.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\012.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\012.jpg.crop.png"
+      }
+    },
+    {
+      "text": "B666YM102",
+      "detected": true,
+      "detection_score": 0.9679084420204163,
+      "recognition_score": -0.0020852615125477314,
+      "polygon": [
+        [
+          842.3599853515625,
+          736.0800170898438
+        ],
+        [
+          1409.199951171875,
+          730.9400024414062
+        ],
+        [
+          1410.47998046875,
+          879.530029296875
+        ],
+        [
+          843.6400146484375,
+          884.6699829101562
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.006291187491919419,
+      "supporting_views": 3,
+      "id": 13,
+      "file": "artifacts\\generalization_v5\\holdout\\013.jpg",
+      "expected": "B666YM102",
+      "correct": true,
+      "source_entry": "test/images/6703.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\013.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\013.jpg.crop.png"
+      }
+    },
+    {
+      "text": "K281EE40",
+      "detected": true,
+      "detection_score": 0.9567490220069885,
+      "recognition_score": -0.0034410394728183746,
+      "polygon": [
+        [
+          226.0,
+          718.0
+        ],
+        [
+          425.0,
+          761.0
+        ],
+        [
+          428.0,
+          816.0
+        ],
+        [
+          230.0,
+          770.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.003581730937395028,
+      "supporting_views": 3,
+      "id": 14,
+      "file": "artifacts\\generalization_v5\\holdout\\014.jpg",
+      "expected": "K281EE40",
+      "correct": true,
+      "source_entry": "test/images/11626.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\014.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\014.jpg.crop.png"
+      }
+    },
+    {
+      "text": "H998EC77",
+      "detected": true,
+      "detection_score": 0.9681497812271118,
+      "recognition_score": -0.00686845974996686,
+      "polygon": [
+        [
+          279.9700012207031,
+          525.0900268554688
+        ],
+        [
+          465.8900146484375,
+          533.3900146484375
+        ],
+        [
+          470.0400085449219,
+          568.25
+        ],
+        [
+          287.44000244140625,
+          559.1199951171875
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.012692286415556836,
+      "supporting_views": 3,
+      "id": 15,
+      "file": "artifacts\\generalization_v5\\holdout\\015.jpg",
+      "expected": "H998EC77",
+      "correct": true,
+      "source_entry": "test/images/5664.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\015.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\015.jpg.crop.png"
+      }
+    },
+    {
+      "text": "T412AB123",
+      "detected": true,
+      "detection_score": 0.9625822901725769,
+      "recognition_score": -0.0035255802795290947,
+      "polygon": [
+        [
+          630.0,
+          641.0
+        ],
+        [
+          810.0,
+          614.0
+        ],
+        [
+          812.0,
+          663.0
+        ],
+        [
+          633.0,
+          682.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.01059551255276503,
+      "supporting_views": 3,
+      "id": 16,
+      "file": "artifacts\\generalization_v5\\holdout\\016.jpg",
+      "expected": "T412AB123",
+      "correct": true,
+      "source_entry": "test/images/3562.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\016.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\016.jpg.crop.png"
+      }
+    },
+    {
+      "text": "K511AK21",
+      "detected": true,
+      "detection_score": 0.9696744680404663,
+      "recognition_score": -0.0017426835838705301,
+      "polygon": [
+        [
+          932.719970703125,
+          566.530029296875
+        ],
+        [
+          1288.3599853515625,
+          553.8800048828125
+        ],
+        [
+          1291.9599609375,
+          656.9500122070312
+        ],
+        [
+          936.3200073242188,
+          669.5999755859375
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.00563335911595822,
+      "supporting_views": 3,
+      "id": 17,
+      "file": "artifacts\\generalization_v5\\holdout\\017.jpg",
+      "expected": "K511AK21",
+      "correct": true,
+      "source_entry": "test/images/13333.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\017.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\017.jpg.crop.png"
+      }
+    },
+    {
+      "text": "H090MX29",
+      "detected": true,
+      "detection_score": 0.9710489511489868,
+      "recognition_score": -0.01621684618294239,
+      "polygon": [
+        [
+          498.44000244140625,
+          334.3800048828125
+        ],
+        [
+          671.8800048828125,
+          334.3800048828125
+        ],
+        [
+          671.8800048828125,
+          381.25
+        ],
+        [
+          498.44000244140625,
+          381.25
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.07639809075556034,
+      "supporting_views": 2,
+      "id": 18,
+      "file": "artifacts\\generalization_v5\\holdout\\018.jpg",
+      "expected": "H090MX29",
+      "correct": true,
+      "source_entry": "test/images/16583.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\018.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\018.jpg.crop.png"
+      }
+    },
+    {
+      "text": "K609HO63",
+      "detected": true,
+      "detection_score": 0.9414182901382446,
+      "recognition_score": -0.024597197771072388,
+      "polygon": [
+        [
+          673.739990234375,
+          1001.9199829101562
+        ],
+        [
+          794.3400268554688,
+          1012.8800048828125
+        ],
+        [
+          791.0499877929688,
+          1049.06005859375
+        ],
+        [
+          670.4500122070312,
+          1038.0999755859375
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.07549694522578951,
+      "supporting_views": 3,
+      "id": 19,
+      "file": "artifacts\\generalization_v5\\holdout\\019.jpg",
+      "expected": "K609HO63",
+      "correct": true,
+      "source_entry": "test/images/9848.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\019.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\019.jpg.crop.png"
+      }
+    },
+    {
+      "text": "T444XX35",
+      "detected": true,
+      "detection_score": 0.9534791707992554,
+      "recognition_score": -0.09233279526233673,
+      "polygon": [
+        [
+          64.12000274658203,
+          359.0400085449219
+        ],
+        [
+          142.83999633789062,
+          384.9599914550781
+        ],
+        [
+          142.83999633789062,
+          405.1199951171875
+        ],
+        [
+          64.12000274658203,
+          382.0799865722656
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.22965933134585045,
+      "supporting_views": 1,
+      "id": 20,
+      "file": "artifacts\\generalization_v5\\holdout\\020.jpg",
+      "expected": "T444XX35",
+      "correct": true,
+      "source_entry": "test/images/23716.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\020.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\020.jpg.crop.png"
+      }
+    },
+    {
+      "text": "H199TK61",
+      "detected": true,
+      "detection_score": 0.9292259812355042,
+      "recognition_score": -0.47056251764297485,
+      "polygon": [
+        [
+          779.75,
+          814.0999755859375
+        ],
+        [
+          855.3499755859375,
+          811.4000244140625
+        ],
+        [
+          852.6500244140625,
+          826.25
+        ],
+        [
+          777.5,
+          828.5
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.6078890537264886,
+      "supporting_views": 1,
+      "recovery": "tile_search",
+      "id": 21,
+      "file": "artifacts\\generalization_v5\\holdout\\021.jpg",
+      "expected": "H199TK61",
+      "correct": true,
+      "source_entry": "test/images/11123.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\021.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\021.jpg.crop.png"
+      }
+    },
+    {
+      "text": "A010XC13",
+      "detected": true,
+      "detection_score": 0.9517791867256165,
+      "recognition_score": -0.009917219169437885,
+      "polygon": [
+        [
+          629.0,
+          606.0
+        ],
+        [
+          791.0,
+          581.0
+        ],
+        [
+          783.0,
+          619.0
+        ],
+        [
+          625.0,
+          645.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.011224616720491548,
+      "supporting_views": 3,
+      "id": 22,
+      "file": "artifacts\\generalization_v5\\holdout\\022.jpg",
+      "expected": "A010XC13",
+      "correct": true,
+      "source_entry": "test/images/12321.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\022.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\022.jpg.crop.png"
+      }
+    },
+    {
+      "text": "M123AX32",
+      "detected": true,
+      "detection_score": 0.9637949466705322,
+      "recognition_score": -0.005068640690296888,
+      "polygon": [
+        [
+          228.8000030517578,
+          554.8400268554688
+        ],
+        [
+          364.5199890136719,
+          559.52001953125
+        ],
+        [
+          349.70001220703125,
+          594.6199951171875
+        ],
+        [
+          221.77999877929688,
+          583.7000122070312
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.029520115560140447,
+      "supporting_views": 3,
+      "id": 23,
+      "file": "artifacts\\generalization_v5\\holdout\\023.jpg",
+      "expected": "M123AX32",
+      "correct": true,
+      "source_entry": "test/images/22246.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\023.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\023.jpg.crop.png"
+      }
+    },
+    {
+      "text": "O755OO99",
+      "detected": true,
+      "detection_score": 0.9601669311523438,
+      "recognition_score": -0.002457407768815756,
+      "polygon": [
+        [
+          120.0,
+          716.0
+        ],
+        [
+          253.0,
+          765.0
+        ],
+        [
+          251.0,
+          824.0
+        ],
+        [
+          117.0,
+          770.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.0024955219469173506,
+      "supporting_views": 3,
+      "id": 24,
+      "file": "artifacts\\generalization_v5\\holdout\\024.jpg",
+      "expected": "O755OO99",
+      "correct": true,
+      "source_entry": "test/images/19756.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\024.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\024.jpg.crop.png"
+      }
+    },
+    {
+      "text": "C900CC36",
+      "detected": true,
+      "detection_score": 0.7934474349021912,
+      "recognition_score": -0.19403499364852905,
+      "polygon": [
+        [
+          239.0,
+          484.0899963378906
+        ],
+        [
+          287.42999267578125,
+          483.79998779296875
+        ],
+        [
+          287.42999267578125,
+          505.260009765625
+        ],
+        [
+          239.0,
+          504.67999267578125
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.3313615297320428,
+      "supporting_views": 1,
+      "id": 25,
+      "file": "artifacts\\generalization_v5\\holdout\\025.jpg",
+      "expected": "C940CC36",
+      "correct": false,
+      "source_entry": "test/images/10518.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\025.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\025.jpg.crop.png"
+      }
+    },
+    {
+      "text": "M430HY102",
+      "detected": true,
+      "detection_score": 0.9617549777030945,
+      "recognition_score": -0.0009443929884582758,
+      "polygon": [
+        [
+          845.0,
+          534.0
+        ],
+        [
+          1046.0,
+          527.0
+        ],
+        [
+          1044.0,
+          583.0
+        ],
+        [
+          839.0,
+          594.0
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.001040895240067637,
+      "supporting_views": 3,
+      "id": 26,
+      "file": "artifacts\\generalization_v5\\holdout\\026.jpg",
+      "expected": "M430HY102",
+      "correct": true,
+      "source_entry": "test/images/24323.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\026.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\026.jpg.crop.png"
+      }
+    },
+    {
+      "text": "K736AX32",
+      "detected": true,
+      "detection_score": 0.9628270268440247,
+      "recognition_score": -0.004398206248879433,
+      "polygon": [
+        [
+          203.0,
+          750.0
+        ],
+        [
+          390.0,
+          797.0
+        ],
+        [
+          390.0,
+          861.0
+        ],
+        [
+          217.0,
+          811.0
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.011178116978618285,
+      "supporting_views": 3,
+      "id": 27,
+      "file": "artifacts\\generalization_v5\\holdout\\027.jpg",
+      "expected": "K736AX32",
+      "correct": true,
+      "source_entry": "test/images/23224.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\027.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\027.jpg.crop.png"
+      }
+    },
+    {
+      "text": "X771TT16",
+      "detected": true,
+      "detection_score": 0.9636226892471313,
+      "recognition_score": -0.26782867312431335,
+      "polygon": [
+        [
+          254.0,
+          782.0
+        ],
+        [
+          467.0,
+          843.0
+        ],
+        [
+          475.0,
+          919.0
+        ],
+        [
+          267.0,
+          852.0
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.4051552092078271,
+      "supporting_views": 1,
+      "id": 28,
+      "file": "artifacts\\generalization_v5\\holdout\\028.jpg",
+      "expected": "X718TO199",
+      "correct": false,
+      "source_entry": "test/images/13681.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\028.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\028.jpg.crop.png"
+      }
+    },
+    {
+      "text": "O787HH70",
+      "detected": true,
+      "detection_score": 0.9502533674240112,
+      "recognition_score": -0.004181277938187122,
+      "polygon": [
+        [
+          1456.0,
+          950.0
+        ],
+        [
+          1577.0,
+          930.0
+        ],
+        [
+          1572.0,
+          972.0
+        ],
+        [
+          1450.0,
+          995.0
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.006371926117751697,
+      "supporting_views": 3,
+      "id": 29,
+      "file": "artifacts\\generalization_v5\\holdout\\029.jpg",
+      "expected": "O787HH70",
+      "correct": true,
+      "source_entry": "test/images/2724.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\029.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\029.jpg.crop.png"
+      }
+    },
+    {
+      "text": "T002EP197",
+      "detected": true,
+      "detection_score": 0.9652327299118042,
+      "recognition_score": -0.003099455963820219,
+      "polygon": [
+        [
+          597.9199829101562,
+          931.5399780273438
+        ],
+        [
+          945.739990234375,
+          926.0399780273438
+        ],
+        [
+          946.6900024414062,
+          1015.02001953125
+        ],
+        [
+          598.8699951171875,
+          1020.52001953125
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.0033721500664468046,
+      "supporting_views": 3,
+      "id": 30,
+      "file": "artifacts\\generalization_v5\\holdout\\030.jpg",
+      "expected": "T002EP197",
+      "correct": true,
+      "source_entry": "test/images/6280.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\030.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\030.jpg.crop.png"
+      }
+    },
+    {
+      "text": "O942TM64",
+      "detected": true,
+      "detection_score": 0.9503595232963562,
+      "recognition_score": -0.02339315041899681,
+      "polygon": [
+        [
+          229.6300048828125,
+          243.33999633789062
+        ],
+        [
+          339.1400146484375,
+          246.27999877929688
+        ],
+        [
+          338.6099853515625,
+          270.489990234375
+        ],
+        [
+          229.08999633789062,
+          267.55999755859375
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.03694054613083496,
+      "supporting_views": 3,
+      "id": 31,
+      "file": "artifacts\\generalization_v5\\holdout\\031.jpg",
+      "expected": "O942TM64",
+      "correct": true,
+      "source_entry": "test/images/23126.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\031.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\031.jpg.crop.png"
+      }
+    },
+    {
+      "text": "K208TX52",
+      "detected": true,
+      "detection_score": 0.9474239945411682,
+      "recognition_score": -0.0859597846865654,
+      "polygon": [
+        [
+          440.1700134277344,
+          742.8800048828125
+        ],
+        [
+          606.3900146484375,
+          742.8800048828125
+        ],
+        [
+          606.3900146484375,
+          787.0900268554688
+        ],
+        [
+          440.1700134277344,
+          787.0900268554688
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.1556873497085981,
+      "supporting_views": 2,
+      "id": 33,
+      "file": "artifacts\\generalization_v5\\holdout\\033.jpg",
+      "expected": "K208TX52",
+      "correct": true,
+      "source_entry": "test/images/4117.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\033.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\033.jpg.crop.png"
+      }
+    },
+    {
+      "text": "O917TK96",
+      "detected": true,
+      "detection_score": 0.9620529413223267,
+      "recognition_score": -0.005389674566686153,
+      "polygon": [
+        [
+          352.0,
+          620.0
+        ],
+        [
+          595.0,
+          606.0
+        ],
+        [
+          595.0,
+          651.0
+        ],
+        [
+          355.0,
+          667.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.008352741527737573,
+      "supporting_views": 3,
+      "id": 34,
+      "file": "artifacts\\generalization_v5\\holdout\\034.jpg",
+      "expected": "O917TK96",
+      "correct": true,
+      "source_entry": "test/images/5240.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\034.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\034.jpg.crop.png"
+      }
+    },
+    {
+      "text": "B232TM76",
+      "detected": true,
+      "detection_score": 0.9649331569671631,
+      "recognition_score": -0.0035145047586411238,
+      "polygon": [
+        [
+          478.2300109863281,
+          547.719970703125
+        ],
+        [
+          723.9099731445312,
+          550.6599731445312
+        ],
+        [
+          722.5399780273438,
+          626.530029296875
+        ],
+        [
+          476.8599853515625,
+          623.5900268554688
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.020517000679890318,
+      "supporting_views": 3,
+      "id": 35,
+      "file": "artifacts\\generalization_v5\\holdout\\035.jpg",
+      "expected": "B232TM76",
+      "correct": true,
+      "source_entry": "test/images/2271.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\035.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\035.jpg.crop.png"
+      }
+    },
+    {
+      "text": "E300AB78",
+      "detected": true,
+      "detection_score": 0.9678018689155579,
+      "recognition_score": -0.1919683963060379,
+      "polygon": [
+        [
+          172.92999267578125,
+          634.1199951171875
+        ],
+        [
+          350.55999755859375,
+          643.2999877929688
+        ],
+        [
+          346.9100036621094,
+          713.97998046875
+        ],
+        [
+          169.27999877929688,
+          704.7899780273438
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.3119788758162097,
+      "supporting_views": 2,
+      "id": 36,
+      "file": "artifacts\\generalization_v5\\holdout\\036.jpg",
+      "expected": "E530HB78",
+      "correct": false,
+      "source_entry": "test/images/7300.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\036.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\036.jpg.crop.png"
+      }
+    },
+    {
+      "text": "O004HB197",
+      "detected": true,
+      "detection_score": 0.9528254866600037,
+      "recognition_score": -0.0599990077316761,
+      "polygon": [
+        [
+          324.260009765625,
+          590.239990234375
+        ],
+        [
+          699.3300170898438,
+          653.6300048828125
+        ],
+        [
+          668.27001953125,
+          837.4199829101562
+        ],
+        [
+          293.20001220703125,
+          774.030029296875
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.09012122644903099,
+      "supporting_views": 3,
+      "id": 37,
+      "file": "artifacts\\generalization_v5\\holdout\\037.jpg",
+      "expected": "O004HB197",
+      "correct": true,
+      "source_entry": "test/images/23636.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\037.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\037.jpg.crop.png"
+      }
+    },
+    {
+      "text": "O649PT150",
+      "detected": true,
+      "detection_score": 0.967802107334137,
+      "recognition_score": -0.0027471112553030252,
+      "polygon": [
+        [
+          203.35000610351562,
+          397.8599853515625
+        ],
+        [
+          332.3900146484375,
+          404.5400085449219
+        ],
+        [
+          330.2200012207031,
+          446.42999267578125
+        ],
+        [
+          201.19000244140625,
+          439.75
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.003966142802945284,
+      "supporting_views": 3,
+      "id": 38,
+      "file": "artifacts\\generalization_v5\\holdout\\038.jpg",
+      "expected": "O649PT150",
+      "correct": true,
+      "source_entry": "test/images/12031.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\038.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\038.jpg.crop.png"
+      }
+    },
+    {
+      "text": "Y180BM54",
+      "detected": true,
+      "detection_score": 0.9676847457885742,
+      "recognition_score": -0.002433542162179947,
+      "polygon": [
+        [
+          226.0,
+          281.32000732421875
+        ],
+        [
+          472.0,
+          281.32000732421875
+        ],
+        [
+          472.0,
+          345.510009765625
+        ],
+        [
+          226.0,
+          345.510009765625
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.0034079465137721587,
+      "supporting_views": 3,
+      "id": 39,
+      "file": "artifacts\\generalization_v5\\holdout\\039.jpg",
+      "expected": "Y180BM54",
+      "correct": true,
+      "source_entry": "test/images/10978.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\039.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\039.jpg.crop.png"
+      }
+    },
+    {
+      "text": "T526TT71",
+      "detected": true,
+      "detection_score": 0.9609812498092651,
+      "recognition_score": -0.0015298394719138741,
+      "polygon": [
+        [
+          466.0,
+          355.0
+        ],
+        [
+          709.0,
+          355.0
+        ],
+        [
+          712.0,
+          414.0
+        ],
+        [
+          468.0,
+          415.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.01318100232483918,
+      "supporting_views": 3,
+      "id": 40,
+      "file": "artifacts\\generalization_v5\\holdout\\040.jpg",
+      "expected": "T526TT71",
+      "correct": true,
+      "source_entry": "test/images/17406.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\040.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\040.jpg.crop.png"
+      }
+    },
+    {
+      "text": "P050MC43",
+      "detected": true,
+      "detection_score": 0.9647179841995239,
+      "recognition_score": -0.005415273830294609,
+      "polygon": [
+        [
+          928.5999755859375,
+          288.20001220703125
+        ],
+        [
+          1038.4000244140625,
+          286.3999938964844
+        ],
+        [
+          1046.199951171875,
+          319.3999938964844
+        ],
+        [
+          934.0,
+          324.79998779296875
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.01969632625296089,
+      "supporting_views": 3,
+      "id": 42,
+      "file": "artifacts\\generalization_v5\\holdout\\042.jpg",
+      "expected": "P050MC43",
+      "correct": true,
+      "source_entry": "test/images/11050.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\042.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\042.jpg.crop.png"
+      }
+    },
+    {
+      "text": "H519AO197",
+      "detected": true,
+      "detection_score": 0.9667778611183167,
+      "recognition_score": -0.08282877504825592,
+      "polygon": [
+        [
+          203.69000244140625,
+          268.2799987792969
+        ],
+        [
+          269.9200134277344,
+          263.32000732421875
+        ],
+        [
+          270.5899963378906,
+          281.6099853515625
+        ],
+        [
+          204.3699951171875,
+          286.57000732421875
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.09892107298881618,
+      "supporting_views": 3,
+      "id": 43,
+      "file": "artifacts\\generalization_v5\\holdout\\043.jpg",
+      "expected": "H519AO197",
+      "correct": true,
+      "source_entry": "test/images/23734.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\043.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\043.jpg.crop.png"
+      }
+    },
+    {
+      "text": "M444EE44",
+      "detected": true,
+      "detection_score": 0.9548661708831787,
+      "recognition_score": -0.08981487154960632,
+      "polygon": [
+        [
+          667.2999877929688,
+          1035.7099609375
+        ],
+        [
+          885.8300170898438,
+          1035.7099609375
+        ],
+        [
+          885.8300170898438,
+          1089.81005859375
+        ],
+        [
+          667.2999877929688,
+          1089.81005859375
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.14456111703377747,
+      "supporting_views": 3,
+      "id": 44,
+      "file": "artifacts\\generalization_v5\\holdout\\044.jpg",
+      "expected": "M444EE44",
+      "correct": true,
+      "source_entry": "test/images/15276.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\044.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\044.jpg.crop.png"
+      }
+    },
+    {
+      "text": "O879OO59",
+      "detected": true,
+      "detection_score": 0.9646743535995483,
+      "recognition_score": -0.019481325522065163,
+      "polygon": [
+        [
+          834.3800048828125,
+          556.25
+        ],
+        [
+          1143.75,
+          556.25
+        ],
+        [
+          1143.75,
+          640.6199951171875
+        ],
+        [
+          834.3800048828125,
+          640.6199951171875
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.03324399798700432,
+      "supporting_views": 3,
+      "id": 45,
+      "file": "artifacts\\generalization_v5\\holdout\\045.jpg",
+      "expected": "O879OO59",
+      "correct": true,
+      "source_entry": "test/images/10727.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\045.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\045.jpg.crop.png"
+      }
+    },
+    {
+      "text": "Y249CX54",
+      "detected": true,
+      "detection_score": 0.9577933549880981,
+      "recognition_score": -0.014517520554363728,
+      "polygon": [
+        [
+          447.0,
+          475.0
+        ],
+        [
+          724.0,
+          475.0
+        ],
+        [
+          726.0,
+          533.0
+        ],
+        [
+          449.0,
+          535.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.04008535465608473,
+      "supporting_views": 3,
+      "id": 46,
+      "file": "artifacts\\generalization_v5\\holdout\\046.jpg",
+      "expected": "Y249CX54",
+      "correct": true,
+      "source_entry": "test/images/11917.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\046.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\046.jpg.crop.png"
+      }
+    },
+    {
+      "text": "Y515YY72",
+      "detected": true,
+      "detection_score": 0.9643622636795044,
+      "recognition_score": -0.02673746831715107,
+      "polygon": [
+        [
+          632.0,
+          582.0
+        ],
+        [
+          879.0,
+          554.0
+        ],
+        [
+          856.0,
+          610.0
+        ],
+        [
+          630.0,
+          630.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.0535816886727689,
+      "supporting_views": 3,
+      "id": 47,
+      "file": "artifacts\\generalization_v5\\holdout\\047.jpg",
+      "expected": "Y515YY72",
+      "correct": true,
+      "source_entry": "test/images/8598.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\047.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\047.jpg.crop.png"
+      }
+    },
+    {
+      "text": "X290BO21",
+      "detected": true,
+      "detection_score": 0.9752342104911804,
+      "recognition_score": -0.0028462272603064775,
+      "polygon": [
+        [
+          810.0,
+          577.0
+        ],
+        [
+          1025.0,
+          568.0
+        ],
+        [
+          1022.0,
+          621.0
+        ],
+        [
+          810.0,
+          633.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.0034322360347912306,
+      "supporting_views": 3,
+      "id": 48,
+      "file": "artifacts\\generalization_v5\\holdout\\048.jpg",
+      "expected": "X290BO21",
+      "correct": true,
+      "source_entry": "test/images/186.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\048.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\048.jpg.crop.png"
+      }
+    },
+    {
+      "text": "C222EY22",
+      "detected": true,
+      "detection_score": 0.9161657691001892,
+      "recognition_score": -0.24806758761405945,
+      "polygon": [
+        [
+          350.0,
+          938.0
+        ],
+        [
+          564.0,
+          1036.0
+        ],
+        [
+          563.0,
+          1111.0
+        ],
+        [
+          354.0,
+          1009.0
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.3853941236975732,
+      "supporting_views": 1,
+      "recovery": "roi_redetection",
+      "id": 49,
+      "file": "artifacts\\generalization_v5\\holdout\\049.jpg",
+      "expected": "C222EY26",
+      "correct": false,
+      "source_entry": "test/images/18445.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\049.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\049.jpg.crop.png"
+      }
+    },
+    {
+      "text": "M359HP69",
+      "detected": true,
+      "detection_score": 0.9657521843910217,
+      "recognition_score": -0.004231344908475876,
+      "polygon": [
+        [
+          219.14999389648438,
+          272.80999755859375
+        ],
+        [
+          355.6700134277344,
+          274.70001220703125
+        ],
+        [
+          355.3500061035156,
+          308.69000244140625
+        ],
+        [
+          218.83999633789062,
+          306.7900085449219
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.006388159727083814,
+      "supporting_views": 3,
+      "id": 50,
+      "file": "artifacts\\generalization_v5\\holdout\\050.jpg",
+      "expected": "M359HP69",
+      "correct": true,
+      "source_entry": "test/images/15906.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\050.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\050.jpg.crop.png"
+      }
+    },
+    {
+      "text": "P906AB123",
+      "detected": true,
+      "detection_score": 0.9671683311462402,
+      "recognition_score": -0.006277400068938732,
+      "polygon": [
+        [
+          671.0,
+          477.0
+        ],
+        [
+          833.0,
+          469.0
+        ],
+        [
+          835.0,
+          512.0
+        ],
+        [
+          675.0,
+          522.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.013452832880640166,
+      "supporting_views": 3,
+      "id": 51,
+      "file": "artifacts\\generalization_v5\\holdout\\051.jpg",
+      "expected": "P906AB123",
+      "correct": true,
+      "source_entry": "test/images/8297.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\051.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\051.jpg.crop.png"
+      }
+    },
+    {
+      "text": "M036AY58",
+      "detected": true,
+      "detection_score": 0.9651632905006409,
+      "recognition_score": -0.017482584342360497,
+      "polygon": [
+        [
+          294.54998779296875,
+          607.4000244140625
+        ],
+        [
+          556.6099853515625,
+          611.3499755859375
+        ],
+        [
+          555.280029296875,
+          681.0599975585938
+        ],
+        [
+          293.2200012207031,
+          677.1099853515625
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.05157587758981853,
+      "supporting_views": 3,
+      "id": 52,
+      "file": "artifacts\\generalization_v5\\holdout\\052.jpg",
+      "expected": "M036AY58",
+      "correct": true,
+      "source_entry": "test/images/3142.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\052.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\052.jpg.crop.png"
+      }
+    },
+    {
+      "text": "X684TH54",
+      "detected": true,
+      "detection_score": 0.9672972559928894,
+      "recognition_score": -0.031920403242111206,
+      "polygon": [
+        [
+          288.0,
+          605.0
+        ],
+        [
+          504.0,
+          604.0
+        ],
+        [
+          502.0,
+          651.0
+        ],
+        [
+          284.0,
+          650.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.04318150111677416,
+      "supporting_views": 3,
+      "id": 53,
+      "file": "artifacts\\generalization_v5\\holdout\\053.jpg",
+      "expected": "X684TH54",
+      "correct": true,
+      "source_entry": "test/images/11981.jpg",
+      "visualization": {
+        "image": "artifacts\\generalization_v5\\holdout_visualizations\\053.jpg.result.jpg",
+        "crop": "artifacts\\generalization_v5\\holdout_visualizations\\053.jpg.crop.png"
+      }
+    }
+  ],
+  "annotation_used_for_inference": false,
+  "visualizations": {
+    "directory": "artifacts\\generalization_v5\\holdout_visualizations",
+    "gallery": "artifacts\\generalization_v5\\holdout_visualizations\\index.html",
+    "summary": "artifacts\\generalization_v5\\holdout_visualizations\\summary.jpg"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "frozen_at_utc": "2026-11-17T12:32:54.200592+00:00",
+  "model_dir": "artifacts\\generalization_v5\\final_models",
+  "sha256": {
+    "plates.py": "d1664d5adc89f7cdb97c4232a01e753de60fc5cea00e37c6bad4c1cc6a899047",
+    "characters.py": "d384c8ad60c829b33a38d6746c618ef6d24f5fd3d0641e11834716c70ff140b5",
+    "attention_reader.py": "5da2e68d3217aa372f8f7000a5fe5e3703d52fcd6609393c7d700966f7ac6538",
+    "sequence_reader.py": "36fa8c98fa77e5ebfcf710ac9ecb169b93aec81a3d6ae86b0b43c4abac86da4c",
+    "artifacts\\generalization_v5\\final_models\\characters.pt": "17407401d4b1ce1e0480d9d9dc756d59baaca2e0d6c46e79584f9427789e405f",
+    "artifacts\\generalization_v5\\final_models\\characters_aux.pt": "2d0637297126a3c5b6fa727c711e7dfb669d8365b6569110d24e8a7b8b3884a0",
+    "artifacts\\generalization_v5\\final_models\\detector.pt": "85336d8ac54f4411ee708cf42692f1e1558852386de3c690a9349867b2989f2b",
+    "artifacts\\generalization_v5\\final_models\\sequence.pt": "e1adfb2027ef6787773c14edd7b08b23d076a888ccd54ea6dd4c384136e101e9",
+    "artifacts\\generalization_v5\\final_models\\sequence_aux.pt": "ee09205d916802db8b2e9027555d9f9f7ee851e74bd7efa8cd18299ac6556f08",
+    "artifacts\\generalization_v5\\final_models\\pipeline.json": "03f80b87bfea966b3fb9fbbb6a6612142a0cd0524c4c79b8989996bc150e1d93"
+  },
+  "holdout_lock": {
+    "sha256": "d4a39b96514f97112caec8f7c0285a9dc02b905ca34027a28b15da95b3887c13",
+    "frozen_at_utc": "2026-11-17T12:02:59.812197+00:00",
+    "selected": 50,
+    "rule": "No model inference on holdout before final pipeline/model freeze; do not tune after evaluation."
+  },
+  "training_manifest_sha256": "11d1f9ae8364c0d997d2c985f8b1cac3a37b4e446fbe2b9fdc4e8d9195917944",
+  "note": "No predictions on new holdout before this freeze. Earlier external set is development data."
+}

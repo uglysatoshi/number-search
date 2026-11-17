@@ -1,0 +1,10 @@
+{
+  "same_holdout_images": 50,
+  "v4_correct": 24,
+  "v5_correct": 42,
+  "v4_accuracy": 0.48,
+  "v5_accuracy": 0.84,
+  "target_accuracy": 0.9,
+  "target_reached": false,
+  "post_holdout_tuning": false
+}

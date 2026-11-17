@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "name": "external-holdout-v5",
+  "sources": {
+    "scenes": {
+      "repo": "AY000554/Car_plate_detecting_dataset",
+      "revision": "f1a57c262cad86e3541bc0a3d951fc021527743c",
+      "url": "https://huggingface.co/datasets/AY000554/Car_plate_detecting_dataset",
+      "archive_bytes": 566170665
+    },
+    "ocr": {
+      "repo": "adasdaadadad/Car_plate_OCR_dataset",
+      "revision": "d620cadf26ec824194c3aeeb7a94bef42101d8e0",
+      "url": "https://huggingface.co/datasets/adasdaadadad/Car_plate_OCR_dataset",
+      "archive_bytes": 72436786
+    }
+  },
+  "original_lock": {
+    "sha256": "d4a39b96514f97112caec8f7c0285a9dc02b905ca34027a28b15da95b3887c13",
+    "frozen_at_utc": "2026-11-17T12:02:59.812197+00:00",
+    "selected": 50,
+    "rule": "No model inference on holdout before final pipeline/model freeze; do not tune after evaluation."
+  },
+  "samples": [
+    {
+      "id": "1",
+      "image": "images/001.jpg",
+      "expected": "X576AE123",
+      "sha256": "40922ec2471f877551730cd9f444cf6f4a189c5f6503a3957d76f6737547f635",
+      "source_entry": "test/images/14044.jpg"
+    },
+    {
+      "id": "2",
+      "image": "images/002.jpg",
+      "expected": "C319ET199",
+      "sha256": "840a77c03368a34df80a656698a0c4c5f22d8ec21bd00b10659fbda460e51242",
+      "source_entry": "test/images/10296.jpg"
+    },
+    {
+      "id": "3",
+      "image": "images/003.jpg",
+      "expected": "C840BE197",
+      "sha256": "1cdf3da50bcc21ea810793190d2bc2d9ef95658434306ee04899182ec5ac9b68",
+      "source_entry": "test/images/279.jpg"
+    },
+    {
+      "id": "4",
+      "image": "images/004.jpg",
+      "expected": "M411HO174",
+      "sha256": "274125760aeb618a0c4f7aa640e7dc5fbec7cfa298ef2ee7c02d5d14eb9e2d57",
+      "source_entry": "test/images/1914.jpg"
+    },
+    {
+      "id": "5",
+      "image": "images/005.jpg",
+      "expected": "M569MM64",
+      "sha256": "9aebb37255cf58b66cde1d65f60b755782d243f7c9540e8f4d67f66b701dca9a",
+      "source_entry": "test/images/16808.jpg"
+    },
+    {
+      "id": "6",
+      "image": "images/006.jpg",
+      "expected": "X777AT190",
+      "sha256": "b8c73f24c9c9840ddc065c1a12930714d831b03617e47d42b1daedfa0cbaf409",
+      "source_entry": "test/images/22529.jpg"
+    },
+    {
+      "id": "7",
+      "image": "images/007.jpg",
+      "expected": "K747BH16",
+      "sha256": "1b07b5da112827c0e7987a4312b5674f6ac2959a058dd8d2e711c6e4cf0ae8ae",
+      "source_entry": "test/images/11119.jpg"
+    },
+    {
+      "id": "8",
+      "image": "images/008.jpg",
+      "expected": "B657OK70",
+      "sha256": "2880dcf4195a10d721cd3dc3e1317b839743ea76aea40cdd08b3bedf951a9c4a",
+      "source_entry": "test/images/18361.jpg"
+    },
+    {
+      "id": "10",
+      "image": "images/010.jpg",
+      "expected": "C445OM69",
+      "sha256": "671b0edf831cc3d33f592fe2b881d47772224c2b2eb3f39a81eceded67e044d5",
+      "source_entry": "test/images/1131.jpg"
+    },
+    {
+      "id": "11",
+      "image": "images/011.jpg",
+      "expected": "K639BK29",
+      "sha256": "602d3d2692b092bd3a9c759adb2d1ebd8f2e0b8da57a6ff2a8977629c3e87b6c",
+      "source_entry": "test/images/11439.jpg"
+    },
+    {
+      "id": "12",
+      "image": "images/012.jpg",
+      "expected": "M041YX72",
+      "sha256": "f18a12dc6f568e5b5c856b39f5042e276b7924338daedbe9bb95c1262409abfe",
+      "source_entry": "test/images/13713.jpg"
+    },
+    {
+      "id": "13",
+      "image": "images/013.jpg",
+      "expected": "B666YM102",
+      "sha256": "2488aca0e49e4db2b1d998296e88c742740c40cc760fbdecb3f68c7366c2c6a0",
+      "source_entry": "test/images/6703.jpg"
+    },
+    {
+      "id": "14",
+      "image": "images/014.jpg",
+      "expected": "K281EE40",
+      "sha256": "a5cf92d6bf74364f40785357a0eb230cf20d8f37d53fa3622b5cd08e1eeeec62",
+      "source_entry": "test/images/11626.jpg"
+    },
+    {
+      "id": "15",
+      "image": "images/015.jpg",
+      "expected": "H998EC77",
+      "sha256": "263b438e15a0cdd18b8f31c76b5017e266b211a3c11541bca6cdbfb62be4ad17",
+      "source_entry": "test/images/5664.jpg"
+    },
+    {
+      "id": "16",
+      "image": "images/016.jpg",
+      "expected": "T412AB123",
+      "sha256": "1a810870d4131b6b809d0cdd0e0f1d93db434e56f40dea7497c01abf2f48b9db",
+      "source_entry": "test/images/3562.jpg"
+    },
+    {
+      "id": "17",
+      "image": "images/017.jpg",
+      "expected": "K511AK21",
+      "sha256": "998da3b6ef74fad52832c0e8fc96e61f72576619b183fb3ce791bd84086faa19",
+      "source_entry": "test/images/13333.jpg"
+    },
+    {
+      "id": "18",
+      "image": "images/018.jpg",
+      "expected": "H090MX29",
+      "sha256": "7394a9c7ec14a143bcbf30bbc6646e09b3ddb7f7ba287a21b3cf12b2d298667a",
+      "source_entry": "test/images/16583.jpg"
+    },
+    {
+      "id": "19",
+      "image": "images/019.jpg",
+      "expected": "K609HO63",
+      "sha256": "28b7e7059f08ddd8ba1ec041095d61c5185d2cab09dec818e2effc3797423a6e",
+      "source_entry": "test/images/9848.jpg"
+    },
+    {
+      "id": "20",
+      "image": "images/020.jpg",
+      "expected": "T444XX35",
+      "sha256": "583016576f4e2aab03d54e492fe3c193034d1897cb3adfb78b657291b9af5bc7",
+      "source_entry": "test/images/23716.jpg"
+    },
+    {
+      "id": "21",
+      "image": "images/021.jpg",
+      "expected": "H199TK61",
+      "sha256": "5fd0672656beee0e494a62e38f6afe5bbc7f3aa001e847124a333b7bc8134b67",
+      "source_entry": "test/images/11123.jpg"
+    },
+    {
+      "id": "22",
+      "image": "images/022.jpg",
+      "expected": "A010XC13",
+      "sha256": "88c2af90de677b2dc35516a2fc799c1473c1252996277e5dc231955be5829e8d",
+      "source_entry": "test/images/12321.jpg"
+    },
+    {
+      "id": "23",
+      "image": "images/023.jpg",
+      "expected": "M123AX32",
+      "sha256": "00d8ee1bf9c6fc91d68c774787dc8444a698f1cfa96e5cec8b31ba0a1a328abf",
+      "source_entry": "test/images/22246.jpg"
+    },
+    {
+      "id": "24",
+      "image": "images/024.jpg",
+      "expected": "O755OO99",
+      "sha256": "3d58416737c8d0570bbd0b66b51dc2f13adcca0969f5a41309095f26e5635171",
+      "source_entry": "test/images/19756.jpg"
+    },
+    {
+      "id": "25",
+      "image": "images/025.jpg",
+      "expected": "C940CC36",
+      "sha256": "f633162a66a71577161fff1207401075af75b7f206618e7d62058026f7a3cc0a",
+      "source_entry": "test/images/10518.jpg"
+    },
+    {
+      "id": "26",
+      "image": "images/026.jpg",
+      "expected": "M430HY102",
+      "sha256": "3a668675eca6ac76fd3592e5ec0753f5e5a9e47c4e3fec5deb9a8c52892f0978",
+      "source_entry": "test/images/24323.jpg"
+    },
+    {
+      "id": "27",
+      "image": "images/027.jpg",
+      "expected": "K736AX32",
+      "sha256": "bef434ec387ab33125ecbe45bcf5e5962c0913b090cdb5c5f21bef6ccec6ecdf",
+      "source_entry": "test/images/23224.jpg"
+    },
+    {
+      "id": "28",
+      "image": "images/028.jpg",
+      "expected": "X718TO199",
+      "sha256": "74958fc7a4d6a26a0a8721662a849fc309d8d6ac6f9b8f387b4b81da9a5f1f38",
+      "source_entry": "test/images/13681.jpg"
+    },
+    {
+      "id": "29",
+      "image": "images/029.jpg",
+      "expected": "O787HH70",
+      "sha256": "b6cfd43c6726afe0e37f1a7d842f1832f6860b483570f47ec3fd6713c9e931b7",
+      "source_entry": "test/images/2724.jpg"
+    },
+    {
+      "id": "30",
+      "image": "images/030.jpg",
+      "expected": "T002EP197",
+      "sha256": "f15f7db1891cededf2382db662bff1521112adfd56f0bada5c0f98cf8a6fe94e",
+      "source_entry": "test/images/6280.jpg"
+    },
+    {
+      "id": "31",
+      "image": "images/031.jpg",
+      "expected": "O942TM64",
+      "sha256": "6a948247c613de982ff5de8c5cfddd8b720e67c4e79da7da521877816d721499",
+      "source_entry": "test/images/23126.jpg"
+    },
+    {
+      "id": "33",
+      "image": "images/033.jpg",
+      "expected": "K208TX52",
+      "sha256": "a5973dd544a3562dbd474fd7cd62f2dd29d9594d7d1e8c38c9d029df3e341c7f",
+      "source_entry": "test/images/4117.jpg"
+    },
+    {
+      "id": "34",
+      "image": "images/034.jpg",
+      "expected": "O917TK96",
+      "sha256": "6e3ff35040aad3665be313b6a4c60adc523f5f4a193105871b94498a1c12d93b",
+      "source_entry": "test/images/5240.jpg"
+    },
+    {
+      "id": "35",
+      "image": "images/035.jpg",
+      "expected": "B232TM76",
+      "sha256": "c3b216984168db1e6c7047a66d34bcc62a8a9cd141694f5efc3527cb09db6aa8",
+      "source_entry": "test/images/2271.jpg"
+    },
+    {
+      "id": "36",
+      "image": "images/036.jpg",
+      "expected": "E530HB78",
+      "sha256": "61fb3f9f63852a5a2cef4d54c6af12548ff776113bfd9c710eecfe5cee85f68d",
+      "source_entry": "test/images/7300.jpg"
+    },
+    {
+      "id": "37",
+      "image": "images/037.jpg",
+      "expected": "O004HB197",
+      "sha256": "638fde0b193d9b07a688e51e5ab2e935342ad7e13ed64d55f6683a60d6f0098f",
+      "source_entry": "test/images/23636.jpg"
+    },
+    {
+      "id": "38",
+      "image": "images/038.jpg",
+      "expected": "O649PT150",
+      "sha256": "3e7977dafb65214e98dad3b92b862ddfa4e9ba8d256a0110fcbe776173d0472a",
+      "source_entry": "test/images/12031.jpg"
+    },
+    {
+      "id": "39",
+      "image": "images/039.jpg",
+      "expected": "Y180BM54",
+      "sha256": "e6352b4f63eea9feb035e0069f85697fd3f4d961729605951c8f5b1c9558e26c",
+      "source_entry": "test/images/10978.jpg"
+    },
+    {
+      "id": "40",
+      "image": "images/040.jpg",
+      "expected": "T526TT71",
+      "sha256": "43b74f34634c640b5494f922201bc35fca7d38b64bd48cd00042ecb0bb4ee3b7",
+      "source_entry": "test/images/17406.jpg"
+    },
+    {
+      "id": "42",
+      "image": "images/042.jpg",
+      "expected": "P050MC43",
+      "sha256": "c3fb9579a093a1532a171c8c7cce3f02deb2ab9132d78fd7c0bb84e9d980b95d",
+      "source_entry": "test/images/11050.jpg"
+    },
+    {
+      "id": "43",
+      "image": "images/043.jpg",
+      "expected": "H519AO197",
+      "sha256": "6290e5fbd1732872532385a1ff2f603dc0e39a30baf8acb9217d0bf07a283f95",
+      "source_entry": "test/images/23734.jpg"
+    },
+    {
+      "id": "44",
+      "image": "images/044.jpg",
+      "expected": "M444EE44",
+      "sha256": "cee35ab667cd09632071a9be346987e82db549239f4f4034a30bb654ae9042ab",
+      "source_entry": "test/images/15276.jpg"
+    },
+    {
+      "id": "45",
+      "image": "images/045.jpg",
+      "expected": "O879OO59",
+      "sha256": "bda674e51d0d0fd78da826105a59ea5a3a31d2deec460cc31b4c68313da72a38",
+      "source_entry": "test/images/10727.jpg"
+    },
+    {
+      "id": "46",
+      "image": "images/046.jpg",
+      "expected": "Y249CX54",
+      "sha256": "3be063b477a323a7d5fb164ec66fc2d66b511c9a735e1e1942898fde537d5f56",
+      "source_entry": "test/images/11917.jpg"
+    },
+    {
+      "id": "47",
+      "image": "images/047.jpg",
+      "expected": "Y515YY72",
+      "sha256": "ce3f95134ab7b73c22eb5637fde67dd858ccce0cf3d3a8387e90170003bb4e0c",
+      "source_entry": "test/images/8598.jpg"
+    },
+    {
+      "id": "48",
+      "image": "images/048.jpg",
+      "expected": "X290BO21",
+      "sha256": "c360874507720bad878d8c6e865f78ae17f2255269066395f2785c4d37575a9f",
+      "source_entry": "test/images/186.jpg"
+    },
+    {
+      "id": "49",
+      "image": "images/049.jpg",
+      "expected": "C222EY26",
+      "sha256": "79eaab568d6f2a24c5addfdc2b672b8aef00c81c873eab7309482b18ee49566e",
+      "source_entry": "test/images/18445.jpg"
+    },
+    {
+      "id": "50",
+      "image": "images/050.jpg",
+      "expected": "M359HP69",
+      "sha256": "5c47fed8afbea0a755f58d6d57ef376b099d75c901074770ef860d969e463c8c",
+      "source_entry": "test/images/15906.jpg"
+    },
+    {
+      "id": "51",
+      "image": "images/051.jpg",
+      "expected": "P906AB123",
+      "sha256": "b26fa2178caa31180a92c64d75a2c899bb0ea7cf0fa496832373dd2b0731705c",
+      "source_entry": "test/images/8297.jpg"
+    },
+    {
+      "id": "52",
+      "image": "images/052.jpg",
+      "expected": "M036AY58",
+      "sha256": "b2323602f544814b8cae554044797bf8bd51124bd0c3bee5b232eba27ec223be",
+      "source_entry": "test/images/3142.jpg"
+    },
+    {
+      "id": "53",
+      "image": "images/053.jpg",
+      "expected": "X684TH54",
+      "sha256": "faefb21691ceb6d0979e00eaa703d351719fd174d5a67f78d8e348683a6789ce",
+      "source_entry": "test/images/11981.jpg"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": 9,
+      "source_entry": "test/images/12659.jpg",
+      "reason": "multiple source plates"
+    },
+    {
+      "id": 32,
+      "source_entry": "test/images/1050.jpg",
+      "reason": "text/region not reliably legible before inference"
+    },
+    {
+      "id": 41,
+      "source_entry": "test/images/20315.jpg",
+      "reason": "text/region not reliably legible before inference"
+    },
+    {
+      "id": 54,
+      "source_entry": "test/images/4297.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 55,
+      "source_entry": "test/images/3857.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 56,
+      "source_entry": "test/images/11330.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 57,
+      "source_entry": "test/images/10196.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 58,
+      "source_entry": "test/images/19740.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 59,
+      "source_entry": "test/images/16256.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 60,
+      "source_entry": "test/images/11012.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 61,
+      "source_entry": "test/images/4881.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 62,
+      "source_entry": "test/images/17248.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 63,
+      "source_entry": "test/images/1513.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 64,
+      "source_entry": "test/images/14771.jpg",
+      "reason": "beyond first 50 eligible scenes"
+    },
+    {
+      "id": 65,
+      "source_entry": "test/images/3444.jpg",
+      "reason": "multiple source plates"
+    }
+  ]
+}

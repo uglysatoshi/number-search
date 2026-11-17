@@ -1,0 +1,11 @@
+{
+  "frozen_at_utc": "2026-11-17T11:42:03.431292+00:00",
+  "sha256": {
+    "plates.py": "d92783f5e2a5649167b94b3da88bb2fe9dcfe9ea4755c2c98724e06ae533b35d",
+    "characters.py": "25bd5ebe491dd4bd12890f6ba5a61f81fcb10482a60c47c64e6403c863961e71",
+    "artifacts/plates/detector.pt": "49a0fbca957035e206ea3dcb532f7baf401b243347ae0cf9974ccd19bc5e9d48",
+    "artifacts/plates/characters.pt": "17407401d4b1ce1e0480d9d9dc756d59baaca2e0d6c46e79584f9427789e405f",
+    "artifacts/plates/characters_aux.pt": "2d0637297126a3c5b6fa727c711e7dfb669d8365b6569110d24e8a7b8b3884a0"
+  },
+  "inference_started": false
+}

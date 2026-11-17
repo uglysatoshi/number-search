@@ -1,0 +1,15 @@
+{
+  "temperatures": [
+    1.3,
+    1.3
+  ],
+  "character_fallback": true,
+  "glyph_fusion_weight": 0.25,
+  "weak_character_fallback": false,
+  "recovery_log_score": -0.3,
+  "tile_recovery": true,
+  "detector_size": [
+    512,
+    384
+  ]
+}

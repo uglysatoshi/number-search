@@ -1,0 +1,6 @@
+{
+  "sha256": "d4a39b96514f97112caec8f7c0285a9dc02b905ca34027a28b15da95b3887c13",
+  "frozen_at_utc": "2026-11-17T12:02:59.812197+00:00",
+  "selected": 50,
+  "rule": "No model inference on holdout before final pipeline/model freeze; do not tune after evaluation."
+}

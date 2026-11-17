@@ -1,0 +1,14 @@
+{
+  "detector_size": [
+    512,
+    384
+  ],
+  "temperatures": [
+    1.3,
+    1.3
+  ],
+  "glyph_fusion_weight": 0.25,
+  "recovery_log_score": -0.3,
+  "tile_recovery": true,
+  "schema_version": 1
+}

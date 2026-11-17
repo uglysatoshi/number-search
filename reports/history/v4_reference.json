@@ -1,0 +1,1261 @@
+{
+  "fixed_v4_reference": true,
+  "same_50_images": true,
+  "correct": 24,
+  "images": 50,
+  "exact_accuracy": 0.48,
+  "cer": 0.37922705314009664,
+  "not_used_for_v5_selection": true,
+  "predictions": [
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 1,
+      "expected": "X576AE123",
+      "correct": false
+    },
+    {
+      "text": "O319MT17",
+      "detected": true,
+      "detection_score": 0.9106806516647339,
+      "recognition_score": -0.26155596680837334,
+      "polygon": [
+        [
+          481.8299865722656,
+          267.5
+        ],
+        [
+          576.530029296875,
+          267.5
+        ],
+        [
+          576.530029296875,
+          303.7200012207031
+        ],
+        [
+          481.8299865722656,
+          303.7200012207031
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.3988825028918871,
+      "supporting_views": 1,
+      "id": 2,
+      "expected": "C319ET199",
+      "correct": false
+    },
+    {
+      "text": "C840BE197",
+      "detected": true,
+      "detection_score": 0.9713444113731384,
+      "recognition_score": -0.0015328913719309235,
+      "polygon": [
+        [
+          523.0,
+          699.0
+        ],
+        [
+          808.0,
+          697.0
+        ],
+        [
+          809.0,
+          761.0
+        ],
+        [
+          524.0,
+          762.0
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.0031240027257192584,
+      "supporting_views": 3,
+      "id": 3,
+      "expected": "C840BE197",
+      "correct": true
+    },
+    {
+      "text": "M411HO174",
+      "detected": true,
+      "detection_score": 0.9640805721282959,
+      "recognition_score": -0.0018802018932749182,
+      "polygon": [
+        [
+          418.75,
+          443.95001220703125
+        ],
+        [
+          806.25,
+          443.95001220703125
+        ],
+        [
+          806.25,
+          547.72998046875
+        ],
+        [
+          418.75,
+          547.72998046875
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.0027975393508178716,
+      "supporting_views": 3,
+      "id": 4,
+      "expected": "M411HO174",
+      "correct": true
+    },
+    {
+      "text": "M569MM64",
+      "detected": true,
+      "detection_score": 0.9559824466705322,
+      "recognition_score": -4.324100348185311e-05,
+      "polygon": [
+        [
+          1089.18994140625,
+          973.239990234375
+        ],
+        [
+          1479.3499755859375,
+          923.0999755859375
+        ],
+        [
+          1494.8199462890625,
+          1044.06005859375
+        ],
+        [
+          1104.6600341796875,
+          1094.199951171875
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.05074414478058906,
+      "supporting_views": 2,
+      "id": 5,
+      "expected": "M569MM64",
+      "correct": true
+    },
+    {
+      "text": "X777AT190",
+      "detected": true,
+      "detection_score": 0.9572628140449524,
+      "recognition_score": -0.0027325999231809167,
+      "polygon": [
+        [
+          381.0,
+          983.0
+        ],
+        [
+          663.0,
+          1047.0
+        ],
+        [
+          674.0,
+          1121.0
+        ],
+        [
+          399.0,
+          1050.0
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.003995440261241557,
+      "supporting_views": 3,
+      "id": 6,
+      "expected": "X777AT190",
+      "correct": true
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 7,
+      "expected": "K747BH16",
+      "correct": false
+    },
+    {
+      "text": "K170YM36",
+      "detected": true,
+      "detection_score": 0.9387861490249634,
+      "recognition_score": -0.940286939998623,
+      "polygon": [
+        [
+          149.5500030517578,
+          429.0400085449219
+        ],
+        [
+          450.260009765625,
+          483.7099914550781
+        ],
+        [
+          434.739990234375,
+          569.0999755859375
+        ],
+        [
+          134.02000427246094,
+          514.4199829101562
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -1.0776134760821368,
+      "supporting_views": 1,
+      "id": 8,
+      "expected": "B657OK70",
+      "correct": false
+    },
+    {
+      "text": "C445OM69",
+      "detected": true,
+      "detection_score": 0.8639088869094849,
+      "recognition_score": -0.003365731455005516,
+      "polygon": [
+        [
+          398.0,
+          619.0
+        ],
+        [
+          595.0,
+          670.0
+        ],
+        [
+          593.0,
+          720.0
+        ],
+        [
+          397.0,
+          664.0
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.00395487483944762,
+      "supporting_views": 3,
+      "id": 10,
+      "expected": "C445OM69",
+      "correct": true
+    },
+    {
+      "text": "E639BO291",
+      "detected": true,
+      "detection_score": 0.9387231469154358,
+      "recognition_score": -0.7172364913754993,
+      "polygon": [
+        [
+          956.5700073242188,
+          607.1199951171875
+        ],
+        [
+          1212.780029296875,
+          596.52001953125
+        ],
+        [
+          1217.4100341796875,
+          697.8400268554688
+        ],
+        [
+          961.2000122070312,
+          708.4400024414062
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.8393045234497337,
+      "supporting_views": 1,
+      "id": 11,
+      "expected": "K639BK29",
+      "correct": false
+    },
+    {
+      "text": "M047YX72",
+      "detected": true,
+      "detection_score": 0.9286768436431885,
+      "recognition_score": -0.16038096651391243,
+      "polygon": [
+        [
+          979.4400024414062,
+          653.7000122070312
+        ],
+        [
+          1220.1099853515625,
+          636.510009765625
+        ],
+        [
+          1228.4000244140625,
+          701.77001953125
+        ],
+        [
+          987.719970703125,
+          718.9600219726562
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.22173414516060586,
+      "supporting_views": 2,
+      "id": 12,
+      "expected": "M041YX72",
+      "correct": false
+    },
+    {
+      "text": "B666YM102",
+      "detected": true,
+      "detection_score": 0.9768477082252502,
+      "recognition_score": -1.9443742426498527e-05,
+      "polygon": [
+        [
+          832.7000122070312,
+          736.4000244140625
+        ],
+        [
+          1412.93994140625,
+          723.75
+        ],
+        [
+          1416.18994140625,
+          880.6199951171875
+        ],
+        [
+          835.9600219726562,
+          893.27001953125
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -5.299870609778681e-05,
+      "supporting_views": 3,
+      "id": 13,
+      "expected": "B666YM102",
+      "correct": true
+    },
+    {
+      "text": "O188AO11",
+      "detected": true,
+      "detection_score": 0.7567144632339478,
+      "recognition_score": -4.808032668381202,
+      "polygon": [
+        [
+          298.0,
+          733.4000244140625
+        ],
+        [
+          425.8900146484375,
+          761.239990234375
+        ],
+        [
+          427.6300048828125,
+          802.1300048828125
+        ],
+        [
+          298.0,
+          787.3400268554688
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -4.945359204464715,
+      "supporting_views": 1,
+      "id": 14,
+      "expected": "K281EE40",
+      "correct": false
+    },
+    {
+      "text": "H998EC77",
+      "detected": true,
+      "detection_score": 0.9112908840179443,
+      "recognition_score": -0.03873614002429804,
+      "polygon": [
+        [
+          279.7900085449219,
+          525.0700073242188
+        ],
+        [
+          463.67999267578125,
+          532.8800048828125
+        ],
+        [
+          470.07000732421875,
+          568.3800048828125
+        ],
+        [
+          286.8900146484375,
+          559.1500244140625
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.04303716240113399,
+      "supporting_views": 3,
+      "id": 15,
+      "expected": "H998EC77",
+      "correct": true
+    },
+    {
+      "text": "T412AB123",
+      "detected": true,
+      "detection_score": 0.9354111552238464,
+      "recognition_score": -0.011945445552959831,
+      "polygon": [
+        [
+          630.0,
+          641.0
+        ],
+        [
+          810.0,
+          614.0
+        ],
+        [
+          812.0,
+          663.0
+        ],
+        [
+          633.0,
+          682.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.045449262766363296,
+      "supporting_views": 3,
+      "id": 16,
+      "expected": "T412AB123",
+      "correct": true
+    },
+    {
+      "text": "K511AK21",
+      "detected": true,
+      "detection_score": 0.9597294926643372,
+      "recognition_score": -0.00019156469178227553,
+      "polygon": [
+        [
+          930.22998046875,
+          555.8300170898438
+        ],
+        [
+          1302.3299560546875,
+          555.8300170898438
+        ],
+        [
+          1302.3299560546875,
+          667.0
+        ],
+        [
+          930.22998046875,
+          667.0
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.0003893294747660814,
+      "supporting_views": 3,
+      "id": 17,
+      "expected": "K511AK21",
+      "correct": true
+    },
+    {
+      "text": "H090MX29",
+      "detected": true,
+      "detection_score": 0.9523546099662781,
+      "recognition_score": -0.015282170854789001,
+      "polygon": [
+        [
+          478.239990234375,
+          336.1400146484375
+        ],
+        [
+          666.0999755859375,
+          340.9599914550781
+        ],
+        [
+          664.9099731445312,
+          387.32000732421875
+        ],
+        [
+          477.04998779296875,
+          382.5
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.10099588194731543,
+      "supporting_views": 3,
+      "id": 18,
+      "expected": "H090MX29",
+      "correct": true
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 19,
+      "expected": "K609HO63",
+      "correct": false
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 20,
+      "expected": "T444XX35",
+      "correct": false
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 21,
+      "expected": "H199TK61",
+      "correct": false
+    },
+    {
+      "text": "A010XC03",
+      "detected": true,
+      "detection_score": 0.9218839406967163,
+      "recognition_score": -0.19452505230856332,
+      "polygon": [
+        [
+          629.0,
+          606.0
+        ],
+        [
+          791.0,
+          581.0
+        ],
+        [
+          783.0,
+          619.0
+        ],
+        [
+          625.0,
+          645.0
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.217465419943708,
+      "supporting_views": 3,
+      "id": 22,
+      "expected": "A010XC13",
+      "correct": false
+    },
+    {
+      "text": "M123AX132",
+      "detected": true,
+      "detection_score": 0.8299621343612671,
+      "recognition_score": -0.0970416439485133,
+      "polygon": [
+        [
+          229.80999755859375,
+          554.760009765625
+        ],
+        [
+          364.6199951171875,
+          559.6400146484375
+        ],
+        [
+          353.0299987792969,
+          594.4099731445312
+        ],
+        [
+          217.0,
+          588.9199829101562
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.14897811464561134,
+      "supporting_views": 3,
+      "id": 23,
+      "expected": "M123AX32",
+      "correct": false
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 24,
+      "expected": "O755OO99",
+      "correct": false
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 25,
+      "expected": "C940CC36",
+      "correct": false
+    },
+    {
+      "text": "M430HY102",
+      "detected": true,
+      "detection_score": 0.9328254461288452,
+      "recognition_score": -3.364528622679725e-05,
+      "polygon": [
+        [
+          845.0,
+          535.0
+        ],
+        [
+          1046.0,
+          528.0
+        ],
+        [
+          1043.0,
+          583.0
+        ],
+        [
+          840.0,
+          594.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.026328019525310695,
+      "supporting_views": 3,
+      "id": 26,
+      "expected": "M430HY102",
+      "correct": true
+    },
+    {
+      "text": "K736AX32",
+      "detected": true,
+      "detection_score": 0.9451650977134705,
+      "recognition_score": -0.0012115436084059183,
+      "polygon": [
+        [
+          203.0,
+          750.0
+        ],
+        [
+          390.0,
+          797.0
+        ],
+        [
+          390.0,
+          861.0
+        ],
+        [
+          215.0,
+          811.0
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.0013187839624546893,
+      "supporting_views": 3,
+      "id": 27,
+      "expected": "K736AX32",
+      "correct": true
+    },
+    {
+      "text": "M880TM83",
+      "detected": true,
+      "detection_score": 0.9425904154777527,
+      "recognition_score": -1.0571045396471164,
+      "polygon": [
+        [
+          275.8999938964844,
+          774.8099975585938
+        ],
+        [
+          593.4000244140625,
+          857.77001953125
+        ],
+        [
+          563.3300170898438,
+          954.02001953125
+        ],
+        [
+          245.8300018310547,
+          871.0599975585938
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -1.19443107573063,
+      "supporting_views": 1,
+      "id": 28,
+      "expected": "X718TO199",
+      "correct": false
+    },
+    {
+      "text": "M610KM11",
+      "detected": true,
+      "detection_score": 0.9016847610473633,
+      "recognition_score": -1.6922962216776796,
+      "polygon": [
+        [
+          1421.19,
+          940.27
+        ],
+        [
+          1515.57,
+          941.55
+        ],
+        [
+          1514.32,
+          962.45
+        ],
+        [
+          1419.94,
+          961.16
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -1.8296227577611932,
+      "supporting_views": 1,
+      "recovery": "roi_redetection",
+      "id": 29,
+      "expected": "O787HH70",
+      "correct": false
+    },
+    {
+      "text": "T002EP197",
+      "detected": true,
+      "detection_score": 0.9571630954742432,
+      "recognition_score": -0.0076030269438989405,
+      "polygon": [
+        [
+          605.6199951171875,
+          928.0800170898438
+        ],
+        [
+          945.8499755859375,
+          928.0800170898438
+        ],
+        [
+          945.8499755859375,
+          1027.52001953125
+        ],
+        [
+          605.6199951171875,
+          1027.52001953125
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.00977679459499492,
+      "supporting_views": 3,
+      "id": 30,
+      "expected": "T002EP197",
+      "correct": true
+    },
+    {
+      "text": "O942TM01",
+      "detected": true,
+      "detection_score": 0.9066144824028015,
+      "recognition_score": -0.366650281861439,
+      "polygon": [
+        [
+          229.4600067138672,
+          240.1199951171875
+        ],
+        [
+          345.2699890136719,
+          240.1199951171875
+        ],
+        [
+          345.2699890136719,
+          270.7300109863281
+        ],
+        [
+          229.4600067138672,
+          270.7300109863281
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.5039768179449527,
+      "supporting_views": 1,
+      "id": 31,
+      "expected": "O942TM64",
+      "correct": false
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 33,
+      "expected": "K208TX52",
+      "correct": false
+    },
+    {
+      "text": "O917TK96",
+      "detected": true,
+      "detection_score": 0.9514637589454651,
+      "recognition_score": -0.001958135753739043,
+      "polygon": [
+        [
+          347.5,
+          613.7999877929688
+        ],
+        [
+          592.6900024414062,
+          590.6400146484375
+        ],
+        [
+          599.3400268554688,
+          662.0499877929688
+        ],
+        [
+          354.1499938964844,
+          685.2100219726562
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.004449634177333822,
+      "supporting_views": 3,
+      "id": 34,
+      "expected": "O917TK96",
+      "correct": true
+    },
+    {
+      "text": "B232TM76",
+      "detected": true,
+      "detection_score": 0.9384483098983765,
+      "recognition_score": -0.01615854719784693,
+      "polygon": [
+        [
+          480.04998779296875,
+          562.52001953125
+        ],
+        [
+          708.9199829101562,
+          562.52001953125
+        ],
+        [
+          708.9199829101562,
+          621.489990234375
+        ],
+        [
+          480.04998779296875,
+          621.489990234375
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.11983272274276671,
+      "supporting_views": 3,
+      "id": 35,
+      "expected": "B232TM76",
+      "correct": true
+    },
+    {
+      "text": "O530HB78",
+      "detected": true,
+      "detection_score": 0.9297536015510559,
+      "recognition_score": -0.1400145833094939,
+      "polygon": [
+        [
+          174.0,
+          636.0
+        ],
+        [
+          341.0,
+          659.0
+        ],
+        [
+          347.0,
+          708.0
+        ],
+        [
+          182.0,
+          682.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.2291819336087224,
+      "supporting_views": 3,
+      "id": 36,
+      "expected": "E530HB78",
+      "correct": false
+    },
+    {
+      "text": "T097AA07",
+      "detected": true,
+      "detection_score": 0.9260659217834473,
+      "recognition_score": -1.3133985546417535,
+      "polygon": [
+        [
+          891.0,
+          841.0
+        ],
+        [
+          1089.0,
+          860.0
+        ],
+        [
+          1161.0,
+          915.0
+        ],
+        [
+          827.0,
+          911.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -1.4507250907252671,
+      "supporting_views": 1,
+      "id": 37,
+      "expected": "O004HB197",
+      "correct": false
+    },
+    {
+      "text": "O700YK510",
+      "detected": true,
+      "detection_score": 0.9141556620597839,
+      "recognition_score": -2.892369851469956,
+      "polygon": [
+        [
+          249.73,
+          407.53
+        ],
+        [
+          323.17,
+          407.16
+        ],
+        [
+          323.47,
+          428.24
+        ],
+        [
+          250.03,
+          428.61
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -3.0144378835441903,
+      "supporting_views": 1,
+      "recovery": "roi_redetection",
+      "id": 38,
+      "expected": "O649PT150",
+      "correct": false
+    },
+    {
+      "text": "Y180BM54",
+      "detected": true,
+      "detection_score": 0.9792883992195129,
+      "recognition_score": -0.002066155134514247,
+      "polygon": [
+        [
+          235.0,
+          291.0
+        ],
+        [
+          468.0,
+          287.0
+        ],
+        [
+          459.0,
+          343.0
+        ],
+        [
+          230.0,
+          338.0
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.0037626280847035953,
+      "supporting_views": 3,
+      "id": 39,
+      "expected": "Y180BM54",
+      "correct": true
+    },
+    {
+      "text": "T526TT71",
+      "detected": true,
+      "detection_score": 0.9725421071052551,
+      "recognition_score": -0.00017048531842789316,
+      "polygon": [
+        [
+          463.239990234375,
+          348.0
+        ],
+        [
+          718.4199829101562,
+          348.0
+        ],
+        [
+          718.4199829101562,
+          420.0
+        ],
+        [
+          463.239990234375,
+          420.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.0007537139788752201,
+      "supporting_views": 3,
+      "id": 40,
+      "expected": "T526TT71",
+      "correct": true
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 42,
+      "expected": "P050MC43",
+      "correct": false
+    },
+    {
+      "text": "H519AO077",
+      "detected": true,
+      "detection_score": 0.903241753578186,
+      "recognition_score": -0.25157111750579336,
+      "polygon": [
+        [
+          207.27999877929688,
+          265.8900146484375
+        ],
+        [
+          268.5199890136719,
+          265.8900146484375
+        ],
+        [
+          268.5199890136719,
+          286.0
+        ],
+        [
+          207.27999877929688,
+          286.0
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.3736391495800278,
+      "supporting_views": 1,
+      "id": 43,
+      "expected": "H519AO197",
+      "correct": false
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 44,
+      "expected": "M444EE44",
+      "correct": false
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 45,
+      "expected": "O879OO59",
+      "correct": false
+    },
+    {
+      "text": "Y249CX54",
+      "detected": true,
+      "detection_score": 0.9458954930305481,
+      "recognition_score": -0.05801468163554091,
+      "polygon": [
+        [
+          446.0,
+          474.0
+        ],
+        [
+          724.0,
+          473.0
+        ],
+        [
+          727.0,
+          535.0
+        ],
+        [
+          450.0,
+          536.0
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.059830177864501,
+      "supporting_views": 3,
+      "id": 46,
+      "expected": "Y249CX54",
+      "correct": true
+    },
+    {
+      "text": "Y515YY72",
+      "detected": true,
+      "detection_score": 0.9535204768180847,
+      "recognition_score": -0.10108901799412706,
+      "polygon": [
+        [
+          632.0,
+          582.0
+        ],
+        [
+          879.0,
+          554.0
+        ],
+        [
+          856.0,
+          610.0
+        ],
+        [
+          630.0,
+          630.0
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.15316760628678677,
+      "supporting_views": 2,
+      "id": 47,
+      "expected": "Y515YY72",
+      "correct": true
+    },
+    {
+      "text": "X290BO21",
+      "detected": true,
+      "detection_score": 0.9472740888595581,
+      "recognition_score": -0.001332810696609954,
+      "polygon": [
+        [
+          810.0,
+          577.0
+        ],
+        [
+          1025.0,
+          568.0
+        ],
+        [
+          1022.0,
+          621.0
+        ],
+        [
+          810.0,
+          633.0
+        ]
+      ],
+      "crop_margin": 1.0,
+      "selection_score": -0.004901057058877584,
+      "supporting_views": 3,
+      "id": 48,
+      "expected": "X290BO21",
+      "correct": true
+    },
+    {
+      "text": "",
+      "detected": false,
+      "detection_score": 0.0,
+      "polygon": null,
+      "id": 49,
+      "expected": "C222EY26",
+      "correct": false
+    },
+    {
+      "text": "M359HP69",
+      "detected": true,
+      "detection_score": 0.9582062363624573,
+      "recognition_score": -0.01647301393654743,
+      "polygon": [
+        [
+          215.5399932861328,
+          271.79998779296875
+        ],
+        [
+          357.70001220703125,
+          271.79998779296875
+        ],
+        [
+          357.70001220703125,
+          311.0299987792969
+        ],
+        [
+          215.5399932861328,
+          311.0299987792969
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.04254140444930732,
+      "supporting_views": 3,
+      "id": 50,
+      "expected": "M359HP69",
+      "correct": true
+    },
+    {
+      "text": "P906AB123",
+      "detected": true,
+      "detection_score": 0.9665585160255432,
+      "recognition_score": -0.027441421306219935,
+      "polygon": [
+        [
+          658.0700073242188,
+          465.0899963378906
+        ],
+        [
+          849.9099731445312,
+          459.05999755859375
+        ],
+        [
+          852.2899780273438,
+          522.030029296875
+        ],
+        [
+          660.4500122070312,
+          528.0599975585938
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.03304478438780281,
+      "supporting_views": 3,
+      "id": 51,
+      "expected": "P906AB123",
+      "correct": true
+    },
+    {
+      "text": "M036AY58",
+      "detected": true,
+      "detection_score": 0.913842499256134,
+      "recognition_score": -0.0015346448053605855,
+      "polygon": [
+        [
+          260.0,
+          587.0
+        ],
+        [
+          565.0,
+          604.0
+        ],
+        [
+          543.0,
+          700.0
+        ],
+        [
+          254.0,
+          675.0
+        ]
+      ],
+      "crop_margin": 1.1,
+      "selection_score": -0.041574445934359244,
+      "supporting_views": 3,
+      "id": 52,
+      "expected": "M036AY58",
+      "correct": true
+    },
+    {
+      "text": "X684TH54",
+      "detected": true,
+      "detection_score": 0.8385705351829529,
+      "recognition_score": -0.3757831105962396,
+      "polygon": [
+        [
+          310.2300109863281,
+          613.9199829101562
+        ],
+        [
+          485.760009765625,
+          613.9199829101562
+        ],
+        [
+          485.760009765625,
+          658.0800170898438
+        ],
+        [
+          310.2300109863281,
+          658.0800170898438
+        ]
+      ],
+      "crop_margin": 1.22,
+      "selection_score": -0.4347680613915298,
+      "supporting_views": 2,
+      "id": 53,
+      "expected": "X684TH54",
+      "correct": true
+    }
+  ]
+}
